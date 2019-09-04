@@ -44,4 +44,8 @@ public class Empresa {
     	return 1d;
     }
 
+    
+    public Double getRetencionesTotales() {
+    	return 1d;
+    }
 }
