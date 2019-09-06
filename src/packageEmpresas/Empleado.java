@@ -3,11 +3,11 @@ package packageEmpresas;
 import java.util.Date;
 
 public abstract class Empleado {
-    private String nombre;
-    private String direccion;
-    private Boolean estaCasado;
-    private Date fechaNacimiento;
-    private Double sueldoBasico;
+	protected String nombre;
+	protected String direccion;
+    protected Boolean estaCasado;
+    protected Date fechaNacimiento;
+    protected  Double sueldoBasico;
 
     //Getters y Setters
 
@@ -61,11 +61,14 @@ public abstract class Empleado {
     }
 
     // Protocolos  y Procedimientos
-    public Date getEdad() {
-        return fechaNacimiento; //todo:calcular edad
+    public Integer getEdad() {
+        return 0; //todo:calcular edad
     }
     public abstract Double getSueldoBruto();
     public abstract Double getRetenciones();
-    public abstract Double getSueldoNeto();
+    
+    public  Double getSueldoNeto() {
+		return this.getSueldoBruto() - this.getRetenciones();
+    }
 
 }

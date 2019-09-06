@@ -1,4 +1,4 @@
-package packageLaCajaMercadoCentral;
+package packageCajaMercadoCentral;
 
 public class ProductoCooperativo extends Producto {
 
