@@ -1,4 +1,4 @@
-package packegeTpEjerciciosObjetos2;
+package packageIntroduccionAJava;
 
 import java.util.ArrayList;
 

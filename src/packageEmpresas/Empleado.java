@@ -3,11 +3,11 @@ package packageEmpresas;
 import java.util.Date;
 
 public abstract class Empleado {
-    private String nombre;
-    private String direccion;
-    private Boolean estaCasado;
-    private Date fechaNacimiento;
-    private Double sueldoBasico;
+	protected String nombre;
+	protected String direccion;
+    protected Boolean estaCasado;
+    protected Date fechaNacimiento;
+    protected  Double sueldoBasico;
 
     //Getters y Setters
 
