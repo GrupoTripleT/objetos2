@@ -7,7 +7,6 @@ public class EmpleadoPermanente extends Empleado {
 	public EmpleadoPermanente(String nombre, String direccion, Boolean estaCasado, Date fechaNacimiento,
 			Double sueldoBasico) {
 		super(nombre, direccion, estaCasado, fechaNacimiento, sueldoBasico);
-		// TODO Auto-generated constructor stub
 	}
 
 	private Integer cantHijos;
@@ -54,14 +53,13 @@ public class EmpleadoPermanente extends Empleado {
 
 	@Override
 	public Double getRetenciones() {
-		//this.getSueldoBurto() + 1;
-		return null;
+		return (double) this.getObraSocial() + (this.getCantHijos() + 20) + (this.getSueldoBruto() * 0.15 );
+	}
+	
+
+	private Double getObraSocial() {
+		return this.getSueldoBruto() * 0.10 ;
 	}
 
-	@Override
-	public Double getSueldoNeto() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }

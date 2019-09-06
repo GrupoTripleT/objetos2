@@ -61,11 +61,14 @@ public abstract class Empleado {
     }
 
     // Protocolos  y Procedimientos
-    public Date getEdad() {
-        return fechaNacimiento; //todo:calcular edad
+    public Integer getEdad() {
+        return 0; //todo:calcular edad
     }
     public abstract Double getSueldoBruto();
     public abstract Double getRetenciones();
-    public abstract Double getSueldoNeto();
+    
+    public  Double getSueldoNeto() {
+		return this.getSueldoBruto() - this.getRetenciones();
+    }
 
 }
