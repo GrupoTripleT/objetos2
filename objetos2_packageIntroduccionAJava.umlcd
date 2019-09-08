@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_9fNUMNJCEemgTpta_q8W2g">
+  <modelElement href="objetos2.uml#_8LgQoNJCEemgTpta_q8W2g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_CNlH0NJDEemgTpta_q8W2g" source="_CNlu4NJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8wzWENJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_CNzxUNJDEemgTpta_q8W2g" position="110.0,110.0"/>
+    <stereotypes xmi:id="_CNlH0dJDEemgTpta_q8W2g" name="Reference">
+      <modelElement href="objetos2.uml#_8wz9INJCEemgTpta_q8W2g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_CNlH0tJDEemgTpta_q8W2g" text=""/>
+    <sourceRole xmi:id="_CNlH09JDEemgTpta_q8W2g" aggregationKind="NONE" name="">
+      <modelElement href="objetos2.uml#_8wzWEdJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNlH1NJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNlH1dJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_CNlH1tJDEemgTpta_q8W2g" aggregationKind="NONE" name="arrayList" navigable="true">
+      <modelElement href="objetos2.uml#_8vl1INJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNlH19JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNlH2NJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_CNrOcNJDEemgTpta_q8W2g" source="_CNuRwNJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8w0kMNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_CN0_cNJDEemgTpta_q8W2g" position="130.0,130.0"/>
+    <stereotypes xmi:id="_CNtDodJDEemgTpta_q8W2g" name="Reference">
+      <modelElement href="objetos2.uml#_8w1LQNJCEemgTpta_q8W2g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_CNsckNJDEemgTpta_q8W2g" text=""/>
+    <sourceRole xmi:id="_CNsckdJDEemgTpta_q8W2g" aggregationKind="NONE" name="">
+      <modelElement href="objetos2.uml#_8w0kMdJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNtDo9JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNtDotJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_CNtDoNJDEemgTpta_q8W2g" aggregationKind="NONE" name="arrayList" navigable="true">
+      <modelElement href="objetos2.uml#_8vtJ4NJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNtqsdJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNtqsNJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CNlu4NJDEemgTpta_q8W2g" name="Counter" associationsOut="_CNlH0NJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8ba78NJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_CNlu4dJDEemgTpta_q8W2g" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_CNlu4tJDEemgTpta_q8W2g" label="+"/>
+    <attributes xmi:id="_CNlu49JDEemgTpta_q8W2g" defaultValue="new ArrayList&lt;Integer>()" name="arrayList">
+      <modelElement href="objetos2.uml#_8vl1INJCEemgTpta_q8W2g"/>
+      <stereotypes xmi:id="_CNlu5NJDEemgTpta_q8W2g" name="Generics">
+        <modelElement href="objetos2.uml#_8vqtoNJCEemgTpta_q8W2g"/>
+      </stereotypes>
+      <visibility xmi:id="_CNlu5dJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNlu5tJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <type xmi:id="_CNlu59JDEemgTpta_q8W2g" name="ArrayList">
+        <modelElement href="objetos2.uml#_8qJ7gNJCEemgTpta_q8W2g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_CNlu6NJDEemgTpta_q8W2g" name="addNumber">
+      <modelElement href="objetos2.uml#_8bemUNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNlu6dJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNlu6tJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_CNlu69JDEemgTpta_q8W2g" name="num">
+        <modelElement href="objetos2.uml#_8bf0cNJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_CNlu7NJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_CNlu7dJDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_CNlu7tJDEemgTpta_q8W2g" name="getCantPares">
+      <modelElement href="objetos2.uml#_8bhCkNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNlu79JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNlu8NJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNlu8dJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8bhpoNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNlu8tJDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CNlu89JDEemgTpta_q8W2g" name="getCantImpares">
+      <modelElement href="objetos2.uml#_8biQsNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNlu9NJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNlu9dJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNlu9tJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8bi3wNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNlu99JDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CNlu-NJDEemgTpta_q8W2g" name="getCantMultiplosNumero">
+      <modelElement href="objetos2.uml#_8bi3wdJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNlu-dJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNlu-tJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNlu-9JDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8bje0dJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNlu_NJDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_CNlu_dJDEemgTpta_q8W2g" name="num">
+        <modelElement href="objetos2.uml#_8bje0NJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_CNlu_tJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_CNlu_9JDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_CNlvANJDEemgTpta_q8W2g" name="Counter">
+      <modelElement href="objetos2.uml#_8ub-kNJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_CNlvAdJDEemgTpta_q8W2g" keyword="create"/>
+      <visibility xmi:id="_CNlvAtJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNlvA9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNlvBNJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8uclodJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNlvBdJDEemgTpta_q8W2g" name="Counter">
+          <modelElement href="objetos2.uml#_8ba78NJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_CNlvBtJDEemgTpta_q8W2g" name="arrayList">
+        <modelElement href="objetos2.uml#_8ub-kdJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_CNlvB9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_CNlvCNJDEemgTpta_q8W2g" name="ArrayList">
+          <modelElement href="objetos2.uml#_8qJ7gNJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CNuRwNJDEemgTpta_q8W2g" name="Multioperador" associationsOut="_CNrOcNJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8blUANJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_CNuRwdJDEemgTpta_q8W2g" position="438.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_CNuRwtJDEemgTpta_q8W2g" label="+"/>
+    <attributes xmi:id="_CNuRw9JDEemgTpta_q8W2g" defaultValue="new ArrayList&lt;Integer>()" name="arrayList">
+      <modelElement href="objetos2.uml#_8vtJ4NJCEemgTpta_q8W2g"/>
+      <stereotypes xmi:id="_CNuRxNJDEemgTpta_q8W2g" name="Generics">
+        <modelElement href="objetos2.uml#_8vuYANJCEemgTpta_q8W2g"/>
+      </stereotypes>
+      <visibility xmi:id="_CNuRxdJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNuRxtJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <type xmi:id="_CNuRx9JDEemgTpta_q8W2g" name="ArrayList">
+        <modelElement href="objetos2.uml#_8qJ7gNJCEemgTpta_q8W2g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_CNuRyNJDEemgTpta_q8W2g" name="addNumber">
+      <modelElement href="objetos2.uml#_8bqzkNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNuRydJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNuRytJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_CNuRy9JDEemgTpta_q8W2g" name="num">
+        <modelElement href="objetos2.uml#_8bqzkdJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_CNuRzNJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_CNuRzdJDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_CNuRztJDEemgTpta_q8W2g" name="getSumaTotal">
+      <modelElement href="objetos2.uml#_8bsowNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNuRz9JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNuR0NJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNuR0dJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8bsowdJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNuR0tJDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CNuR09JDEemgTpta_q8W2g" name="getRestaTotal">
+      <modelElement href="objetos2.uml#_8btP0NJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNuR1NJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNuR1dJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNuR1tJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8bt24NJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNuR19JDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CNuR2NJDEemgTpta_q8W2g" name="getMultiplicacionTotal">
+      <modelElement href="objetos2.uml#_8bud8NJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_CNuR2dJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNuR2tJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNuR29JDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8bud8dJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNuR3NJDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CNuR3dJDEemgTpta_q8W2g" name="Multioperador">
+      <modelElement href="objetos2.uml#_8urPINJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_CNuR3tJDEemgTpta_q8W2g" keyword="create"/>
+      <visibility xmi:id="_CNuR39JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNuR4NJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNuR4dJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8uuScNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNuR4tJDEemgTpta_q8W2g" name="Multioperador">
+          <modelElement href="objetos2.uml#_8blUANJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_CNuR49JDEemgTpta_q8W2g" name="arrayList">
+        <modelElement href="objetos2.uml#_8ur2MNJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_CNuR5NJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_CNuR5dJDEemgTpta_q8W2g" name="ArrayList">
+          <modelElement href="objetos2.uml#_8qJ7gNJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CNyjMNJDEemgTpta_q8W2g" name="Point">
+    <modelElement href="objetos2.uml#_8b_jsNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_CNyjMdJDEemgTpta_q8W2g" position="-159.0,152.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_CNyjMtJDEemgTpta_q8W2g" label="+"/>
+    <operations xmi:id="_CNyjM9JDEemgTpta_q8W2g" name="Point">
+      <modelElement href="objetos2.uml#_8cBY4NJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_CNyjNNJDEemgTpta_q8W2g" keyword="create"/>
+      <stereotypes xmi:id="_CNyjNdJDEemgTpta_q8W2g" name="LegacyStyledElement">
+        <modelElement href="objetos2.uml#_8cqSENJCEemgTpta_q8W2g"/>
+      </stereotypes>
+      <visibility xmi:id="_CNyjNtJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_CNyjN9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CNyjONJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8cq5INJCEemgTpta_q8W2g"/>
+        <type xmi:id="_CNyjOdJDEemgTpta_q8W2g" name="Point">
+          <modelElement href="objetos2.uml#_8b_jsNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

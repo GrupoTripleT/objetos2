@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_9cpIYNJCEemgTpta_q8W2g">
+  <modelElement href="objetos2.uml#_8GAsoNJCEemgTpta_q8W2g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AboCANJDEemgTpta_q8W2g" sourceAnchor="308.0,26.0" targetAnchor="36.0,25.0" superClass="_AbdC4NJDEemgTpta_q8W2g" subClass="_Abs6gNJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8ocEQNJCEemgTpta_q8W2g"/>
+    <bendpoints xmi:id="_Atq0QNJDEemgTpta_q8W2g" sourceX="90" targetY="81"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AbHEoNJDEemgTpta_q8W2g" name="Caja">
+    <modelElement href="objetos2.uml#_8QYJkNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_AbHEodJDEemgTpta_q8W2g" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AbHEotJDEemgTpta_q8W2g" label="+"/>
+    <operations xmi:id="_AbHEo9JDEemgTpta_q8W2g" name="Caja">
+      <modelElement href="objetos2.uml#_8RgK8NJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_AbHrsNJDEemgTpta_q8W2g" keyword="create"/>
+      <visibility xmi:id="_AbHrsdJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_AbHrstJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AbISwNJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8RjOQNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_AbISwdJDEemgTpta_q8W2g" name="Caja">
+          <modelElement href="objetos2.uml#_8QYJkNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AbdC4NJDEemgTpta_q8W2g" name="Producto" subclassedBy="_AboCANJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8RlDcNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_AbdC4dJDEemgTpta_q8W2g" position="29.0,-105.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AbdC4tJDEemgTpta_q8W2g" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Abs6gNJDEemgTpta_q8W2g" name="ProductoCooperativo" generalizations="_AboCANJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8RoGwNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_Abs6gdJDEemgTpta_q8W2g" position="-333.0,-25.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Abs6gtJDEemgTpta_q8W2g" label="+"/>
+    <operations xmi:id="_Abs6g9JDEemgTpta_q8W2g" name="ProductoCooperativo">
+      <modelElement href="objetos2.uml#_8RqjANJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_Abs6hNJDEemgTpta_q8W2g" keyword="create"/>
+      <visibility xmi:id="_Abs6hdJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_Abs6htJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AbthkNJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8RrxItJCEemgTpta_q8W2g"/>
+        <type xmi:id="_AbthkdJDEemgTpta_q8W2g" name="ProductoCooperativo">
+          <modelElement href="objetos2.uml#_8RoGwNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
