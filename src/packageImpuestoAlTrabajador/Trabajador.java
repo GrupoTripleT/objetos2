@@ -6,18 +6,39 @@ public class Trabajador {
 		
 	private ArrayList <Ingreso> ingresos;
 	
+	
+	
+	public Trabajador() {
+		super();
+		this.ingresos = new ArrayList <Ingreso> ();
+	}
+
 	//Metodos
 	
-	public Double getTotalPersibido() {
-		return null;
+	public void addIngreso(Ingreso ingreso) {
+		this.getIngresos().add(ingreso);
+	}
+	
+	public Double getTotalPercibido() {
+		return this.getIngresos().stream().mapToDouble(ingreso -> ingreso.getMontoPercibido()).sum();
 	}
 	
 	public Double getMontoImponible() {
-		return null;
+		return this.getIngresos().stream().mapToDouble(ingreso -> ingreso.getMontoImponible()).sum();
 	}
 	
 	public Double getImpuestoAPagar() {
-		return null;
+		return (this.getMontoImponible() * 0.98);
 	}
+
+	public ArrayList <Ingreso> getIngresos() {
+		return ingresos;
+	}
+
+	public void setIngresos(ArrayList <Ingreso> ingresos) {
+		this.ingresos = ingresos;
+	}
+	
+	
 	
 }
