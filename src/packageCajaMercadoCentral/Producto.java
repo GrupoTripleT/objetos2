@@ -1,5 +1,5 @@
 package packageCajaMercadoCentral;
 
-public class Producto {
+public abstract class Producto {
 	//producto
 }
