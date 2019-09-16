@@ -42,10 +42,7 @@
         <ownedParameter xmi:id="_Ya-GYtZ9EemaLOAPzJ9izA" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_eFCtQNZ9EemaLOAPzJ9izA" name="registar" visibility="public">
-        <ownedParameter xmi:id="_eFCtQdZ9EemaLOAPzJ9izA" direction="return"/>
-        <ownedParameter xmi:id="_eFCtQtZ9EemaLOAPzJ9izA" name="registrable" type="_oAAhkNZ9EemaLOAPzJ9izA"/>
+        <ownedParameter xmi:id="_IwM_0NiwEembI8_8--E_NA" name="registrables" type="_oAAhkNZ9EemaLOAPzJ9izA"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ThcBENZ8EemaLOAPzJ9izA" name="Producto">
