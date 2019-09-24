@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Iy2dkNSyEemW17DARodPpg">
+  <modelElement href="objetos2.uml#_JFNY4NSyEemW17DARodPpg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_JyVkoNSyEemW17DARodPpg" sourceAnchor="725.0,0.0" targetAnchor="378.0,192.0" superClass="_JxvHsNSyEemW17DARodPpg" subClass="_JyZPANSyEemW17DARodPpg">
+    <modelElement href="objetos2.uml#_JPJ_ENSyEemW17DARodPpg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Jy-d0NSyEemW17DARodPpg" source="_Jy_E6NSyEemW17DARodPpg">
+    <modelElement href="objetos2.uml#_JQElENSyEemW17DARodPpg"/>
+    <stereotypes xmi:id="_Jy_E4NSyEemW17DARodPpg" name="Reference">
+      <modelElement href="objetos2.uml#_JQFzMNSyEemW17DARodPpg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Jy_E4dSyEemW17DARodPpg" text=""/>
+    <sourceRole xmi:id="_Jy_E4tSyEemW17DARodPpg" aggregationKind="NONE" name="">
+      <modelElement href="objetos2.uml#_JQElEdSyEemW17DARodPpg"/>
+      <visibility xmi:id="_Jy_E49SyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_Jy_E5NSyEemW17DARodPpg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Jy_E5dSyEemW17DARodPpg" aggregationKind="NONE" name="ingresos" navigable="true">
+      <modelElement href="objetos2.uml#_JPsxoNSyEemW17DARodPpg"/>
+      <stereotypes xmi:id="_MVXiENSyEemW17DARodPpg" name="Generics">
+        <modelElement href="objetos2.uml#_JPt_wNSyEemW17DARodPpg"/>
+      </stereotypes>
+      <visibility xmi:id="_Jy_E5tSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_Jy_E59SyEemW17DARodPpg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0aXksNS1EemW17DARodPpg" sourceAnchor="308.0,95.0" targetAnchor="0.0,66.0" target="_JxvHsNSyEemW17DARodPpg" source="_Jy_E6NSyEemW17DARodPpg">
+    <modelElement href="objetos2.uml#_0aTTQNS1EemW17DARodPpg"/>
+    <visualProperties xmi:id="_0aXksdS1EemW17DARodPpg"/>
+    <nameVisual xmi:id="_0aXkstS1EemW17DARodPpg" text="">
+      <visualProperties xmi:id="_0cXv0NS1EemW17DARodPpg" position="35.44444444444443,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0aXks9S1EemW17DARodPpg" aggregationKind="NONE" name="trabajador" navigable="true">
+      <modelElement href="objetos2.uml#_0aT6UNS1EemW17DARodPpg"/>
+      <visualProperties xmi:id="_0cWhsNS1EemW17DARodPpg" position="1.0,41.0"/>
+      <visibility xmi:id="_0aXktNS1EemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_0aXktdS1EemW17DARodPpg" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0aXkttS1EemW17DARodPpg" aggregationKind="NONE" name="ingreso1" navigable="true">
+      <modelElement href="objetos2.uml#_0aT6U9S1EemW17DARodPpg"/>
+      <visualProperties xmi:id="_0cXv0dS1EemW17DARodPpg" position="-87.0,-105.99999999999999"/>
+      <visibility xmi:id="_0aXkt9S1EemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_0aXkuNS1EemW17DARodPpg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JyZPANSyEemW17DARodPpg" name="IngresoXHoraExtra" generalizations="_JyVkoNSyEemW17DARodPpg">
+    <modelElement href="objetos2.uml#_JGH-4NSyEemW17DARodPpg"/>
+    <visualProperties xmi:id="_JyZPAdSyEemW17DARodPpg" position="-171.0,277.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JyZPAtSyEemW17DARodPpg" label="+"/>
+    <attributes xmi:id="_JyZPA9SyEemW17DARodPpg" name="cantDeHorasExtras">
+      <modelElement href="objetos2.uml#_JPrjgNSyEemW17DARodPpg"/>
+      <visibility xmi:id="_JyZPBNSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_JyZPBdSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_JyZPBtSyEemW17DARodPpg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JyZPB9SyEemW17DARodPpg" name="getMontoImponible">
+      <modelElement href="objetos2.uml#_JGLCMNSyEemW17DARodPpg"/>
+      <visibility xmi:id="_JyZPCNSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_JyZPCdSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JyZPCtSyEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_JPhygNSyEemW17DARodPpg"/>
+        <type xmi:id="_JyZPC9SyEemW17DARodPpg" name="Double">
+          <modelElement href="objetos2.uml#_JPYokdSyEemW17DARodPpg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JyZPDNSyEemW17DARodPpg" name="IngresoXHoraExtra">
+      <modelElement href="objetos2.uml#_JPfWQNSyEemW17DARodPpg"/>
+      <keywords xmi:id="_JyZPDdSyEemW17DARodPpg" keyword="create"/>
+      <visibility xmi:id="_JyZPDtSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_JyZPD9SyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JyZPENSyEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_JPgkY9SyEemW17DARodPpg"/>
+        <type xmi:id="_JyZPEdSyEemW17DARodPpg" name="IngresoXHoraExtra">
+          <modelElement href="objetos2.uml#_JGH-4NSyEemW17DARodPpg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JyZPEtSyEemW17DARodPpg" name="mesDePersepcion">
+        <modelElement href="objetos2.uml#_JPf9UNSyEemW17DARodPpg"/>
+        <cardinality xmi:id="_JyZPE9SyEemW17DARodPpg" label="1" max="1" min="1"/>
+        <type xmi:id="_JyZPFNSyEemW17DARodPpg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JyZ2ENSyEemW17DARodPpg" name="concepto">
+        <modelElement href="objetos2.uml#_JPf9UdSyEemW17DARodPpg"/>
+        <cardinality xmi:id="_JyZ2EdSyEemW17DARodPpg" label="1" max="1" min="1"/>
+        <type xmi:id="_JyZ2EtSyEemW17DARodPpg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JyZ2E9SyEemW17DARodPpg" name="montoPercibido">
+        <modelElement href="objetos2.uml#_JPf9UtSyEemW17DARodPpg"/>
+        <cardinality xmi:id="_JyZ2FNSyEemW17DARodPpg" label="1" max="1" min="1"/>
+        <type xmi:id="_JyZ2FdSyEemW17DARodPpg" name="Double">
+          <modelElement href="objetos2.uml#_JPYokdSyEemW17DARodPpg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JyZ2FtSyEemW17DARodPpg" name="cantDeHorasExtras">
+        <modelElement href="objetos2.uml#_JPgkYNSyEemW17DARodPpg"/>
+        <cardinality xmi:id="_JyZ2F9SyEemW17DARodPpg" label="1" max="1" min="1"/>
+        <type xmi:id="_JyZ2GNSyEemW17DARodPpg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JxvHsNSyEemW17DARodPpg" name="Ingreso" associationsIn="_0aXksNS1EemW17DARodPpg" subclassedBy="_JyVkoNSyEemW17DARodPpg">
+    <modelElement href="objetos2.uml#_JF1D8NSyEemW17DARodPpg"/>
+    <visualProperties xmi:id="_JxvHsdSyEemW17DARodPpg" position="176.0,22.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JxvHstSyEemW17DARodPpg" label="+"/>
+    <attributes xmi:id="_JxvHs9SyEemW17DARodPpg" name="mesDePersepcion">
+      <modelElement href="objetos2.uml#_JPpHQNSyEemW17DARodPpg"/>
+      <visibility xmi:id="_JxvHtNSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_JxvHtdSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_JxvHttSyEemW17DARodPpg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JxvHt9SyEemW17DARodPpg" name="concepto">
+      <modelElement href="objetos2.uml#_JPqVYNSyEemW17DARodPpg"/>
+      <visibility xmi:id="_JxvHuNSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_JxvHudSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_JxvHutSyEemW17DARodPpg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JxvHu9SyEemW17DARodPpg" name="montoPercibido">
+      <modelElement href="objetos2.uml#_JPq8cNSyEemW17DARodPpg"/>
+      <visibility xmi:id="_JxvHvNSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_JxvHvdSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_JxvHvtSyEemW17DARodPpg" name="Double">
+        <modelElement href="objetos2.uml#_JPYokdSyEemW17DARodPpg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0aYy0NS1EemW17DARodPpg" name="trabajador">
+      <modelElement href="objetos2.uml#_0aT6UNS1EemW17DARodPpg"/>
+      <visibility xmi:id="_0aYy0dS1EemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_0aYy0tS1EemW17DARodPpg" label="*" max="-1"/>
+      <type xmi:id="_0aYy09S1EemW17DARodPpg" name="Trabajador">
+        <modelElement href="objetos2.uml#_JGPToNSyEemW17DARodPpg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JxvHv9SyEemW17DARodPpg" name="getMontoImponible">
+      <modelElement href="objetos2.uml#_JF-08NSyEemW17DARodPpg"/>
+      <visibility xmi:id="_JxvHwNSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_JxvHwdSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JxvHwtSyEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_JPc6ANSyEemW17DARodPpg"/>
+        <type xmi:id="_JxvHw9SyEemW17DARodPpg" name="Double">
+          <modelElement href="objetos2.uml#_JPYokdSyEemW17DARodPpg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JxvHxNSyEemW17DARodPpg" name="Ingreso">
+      <modelElement href="objetos2.uml#_JPbr4NSyEemW17DARodPpg"/>
+      <keywords xmi:id="_JxvHxdSyEemW17DARodPpg" keyword="create"/>
+      <visibility xmi:id="_JxvHxtSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_JxvHx9SyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JxvHyNSyEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_JPcS89SyEemW17DARodPpg"/>
+        <type xmi:id="_JxvHydSyEemW17DARodPpg" name="Ingreso">
+          <modelElement href="objetos2.uml#_JF1D8NSyEemW17DARodPpg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JxvHytSyEemW17DARodPpg" name="mesDePersepcion">
+        <modelElement href="objetos2.uml#_JPbr4dSyEemW17DARodPpg"/>
+        <cardinality xmi:id="_JxvHy9SyEemW17DARodPpg" label="1" max="1" min="1"/>
+        <type xmi:id="_JxvHzNSyEemW17DARodPpg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JxvHzdSyEemW17DARodPpg" name="concepto">
+        <modelElement href="objetos2.uml#_JPbr4tSyEemW17DARodPpg"/>
+        <cardinality xmi:id="_JxvHztSyEemW17DARodPpg" label="1" max="1" min="1"/>
+        <type xmi:id="_JxvHz9SyEemW17DARodPpg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JxvH0NSyEemW17DARodPpg" name="montoPercibido">
+        <modelElement href="objetos2.uml#_JPcS8NSyEemW17DARodPpg"/>
+        <cardinality xmi:id="_JxvH0dSyEemW17DARodPpg" label="1" max="1" min="1"/>
+        <type xmi:id="_JxvH0tSyEemW17DARodPpg" name="Double">
+          <modelElement href="objetos2.uml#_JPYokdSyEemW17DARodPpg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jy_E6NSyEemW17DARodPpg" name="Trabajador" associationsOut="_Jy-d0NSyEemW17DARodPpg _0aXksNS1EemW17DARodPpg">
+    <modelElement href="objetos2.uml#_JGPToNSyEemW17DARodPpg"/>
+    <visualProperties xmi:id="_Jy_r8NSyEemW17DARodPpg" position="-327.0,-7.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jy_r8dSyEemW17DARodPpg" label="+"/>
+    <attributes xmi:id="_Jy_r8tSyEemW17DARodPpg" name="ingresos">
+      <modelElement href="objetos2.uml#_JPsxoNSyEemW17DARodPpg"/>
+      <stereotypes xmi:id="_MVgE8NSyEemW17DARodPpg" name="Generics"/>
+      <stereotypes xmi:id="_MVhTENSyEemW17DARodPpg" name="Generics"/>
+      <stereotypes xmi:id="_MVk9cNSyEemW17DARodPpg" name="Generics"/>
+      <visibility xmi:id="_Jy_r9NSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_Jy_r9dSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_Jy_r9tSyEemW17DARodPpg" name="ArrayList">
+        <modelElement href="objetos2.uml#_JPNCYNSyEemW17DARodPpg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0aaoANS1EemW17DARodPpg" name="ingreso1">
+      <modelElement href="objetos2.uml#_0aT6U9S1EemW17DARodPpg"/>
+      <visibility xmi:id="_0aaoAdS1EemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_0aaoAtS1EemW17DARodPpg" label="*" max="-1"/>
+      <type xmi:id="_0aaoA9S1EemW17DARodPpg" name="Ingreso">
+        <modelElement href="objetos2.uml#_JF1D8NSyEemW17DARodPpg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jy_r99SyEemW17DARodPpg" name="Trabajador">
+      <modelElement href="objetos2.uml#_JGRI0NSyEemW17DARodPpg"/>
+      <keywords xmi:id="_Jy_r-NSyEemW17DARodPpg" keyword="create"/>
+      <visibility xmi:id="_Jy_r-dSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_Jy_r-tSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Jy_r-9SyEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_JGSW8NSyEemW17DARodPpg"/>
+        <type xmi:id="_Jy_r_NSyEemW17DARodPpg" name="Trabajador">
+          <modelElement href="objetos2.uml#_JGPToNSyEemW17DARodPpg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Jy_r_dSyEemW17DARodPpg" name="getTotalPercibido">
+      <modelElement href="objetos2.uml#_JGS-ANSyEemW17DARodPpg"/>
+      <visibility xmi:id="_Jy_r_tSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_Jy_r_9SyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Jy_sANSyEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_JPjAoNSyEemW17DARodPpg"/>
+        <type xmi:id="_Jy_sAdSyEemW17DARodPpg" name="Double">
+          <modelElement href="objetos2.uml#_JPYokdSyEemW17DARodPpg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Jy_sAtSyEemW17DARodPpg" name="getMontoImponible">
+      <modelElement href="objetos2.uml#_JGTlENSyEemW17DARodPpg"/>
+      <visibility xmi:id="_Jy_sA9SyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_Jy_sBNSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Jy_sBdSyEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_JPmrANSyEemW17DARodPpg"/>
+        <type xmi:id="_Jy_sBtSyEemW17DARodPpg" name="Double">
+          <modelElement href="objetos2.uml#_JPYokdSyEemW17DARodPpg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Jy_sB9SyEemW17DARodPpg" name="getImpuestoAPagar">
+      <modelElement href="objetos2.uml#_JGUMINSyEemW17DARodPpg"/>
+      <visibility xmi:id="_Jy_sCNSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_Jy_sCdSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Jy_sCtSyEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_JPnSENSyEemW17DARodPpg"/>
+        <type xmi:id="_Jy_sC9SyEemW17DARodPpg" name="Double">
+          <modelElement href="objetos2.uml#_JPYokdSyEemW17DARodPpg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Jy_sDNSyEemW17DARodPpg" name="addIngreso">
+      <modelElement href="objetos2.uml#_JPPeoNSyEemW17DARodPpg"/>
+      <visibility xmi:id="_Jy_sDdSyEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_Jy_sDtSyEemW17DARodPpg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Jy_sD9SyEemW17DARodPpg" name="ingreso">
+        <modelElement href="objetos2.uml#_JPQFsNSyEemW17DARodPpg"/>
+        <cardinality xmi:id="_Jy_sENSyEemW17DARodPpg" label="1" max="1" min="1"/>
+        <type xmi:id="_Jy_sEdSyEemW17DARodPpg" name="Ingreso">
+          <modelElement href="objetos2.uml#_JF1D8NSyEemW17DARodPpg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
