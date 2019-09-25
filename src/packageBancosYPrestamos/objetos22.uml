@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_S_s1sNZrEemaLOAPzJ9izA" name="objetos22">
+    <eAnnotations xmi:id="_TNbvsNZrEemaLOAPzJ9izA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_TNbvsdZrEemaLOAPzJ9izA" source="codegen">
+        <details xmi:id="_TNbvstZrEemaLOAPzJ9izA" key="codegenDirectory" value="/objetos2/src"/>
+        <details xmi:id="_ULGR0NZrEemaLOAPzJ9izA" key="AssociatedSourceCode" value="/objetos2/src/packageBancosYPrestamos/Banco.java;2665092496/1;/objetos2/src/packageBancosYPrestamos/PropiedadInmobiliaria.java;4093468811/1;/objetos2/src/packageBancosYPrestamos/Cliente.java;51992319/1;/objetos2/src/packageBancosYPrestamos/SolicitudPrestamo.java;1420378477/1;/objetos2/src/packageBancosYPrestamos/SolicitudPrestamoHipotecario.java;2322772049/1;/objetos2/src/packageBancosYPrestamos/SolicitudPrestamoPersonal.java;4252839872/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Te1BsNZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Te1owNZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Te1owdZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Te1owtZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Te2P0NZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Te2P0dZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Te2P0tZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Te2P09ZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Te3d8NZrEemaLOAPzJ9izA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Te89gNZrEemaLOAPzJ9izA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Te9kkNZrEemaLOAPzJ9izA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TiEi8NZrEemaLOAPzJ9izA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TiHmQNZrEemaLOAPzJ9izA" name="Optional"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_TieLkNZrEemaLOAPzJ9izA" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_TieLkdZrEemaLOAPzJ9izA" name="Double"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_TfGugNZrEemaLOAPzJ9izA" name="packageBancosYPrestamos">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Tfz5INZrEemaLOAPzJ9izA" name="Banco">
+        <ownedAttribute xmi:id="_TitcINZrEemaLOAPzJ9izA" name="clientes" visibility="private" type="_TiEi8NZrEemaLOAPzJ9izA" association="_TjVuQNZrEemaLOAPzJ9izA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qJjbQNZtEemaLOAPzJ9izA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Tiv4YdZrEemaLOAPzJ9izA" name="solicitudes" type="_TiEi8NZrEemaLOAPzJ9izA" isReadOnly="true" association="_TjW8YdZrEemaLOAPzJ9izA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjGdsNZrEemaLOAPzJ9izA" name="registrarSolicutud" specification="_TiKCgNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjGdsdZrEemaLOAPzJ9izA" name="solicitud" type="_TgToYNZrEemaLOAPzJ9izA"/>
+          <language>java</language>
+          <body>this.getSolicitudes().add(solicitud);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjKIENZrEemaLOAPzJ9izA" name="getSolicitudesAprobadas" specification="_Tf9qINZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjKIEdZrEemaLOAPzJ9izA" type="_TiEi8NZrEemaLOAPzJ9izA" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return (ArrayList&lt;SolicitudPrestamo>) this.getSolicitudes().stream().filter(solicitud -> solicitud.esAceptada());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjKIEtZrEemaLOAPzJ9izA" name="getSolicutudAprobadaDe" specification="_TiL3sNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjKIE9ZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjKIFNZrEemaLOAPzJ9izA" type="_TgToYNZrEemaLOAPzJ9izA" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return  this.getSolicitudesAprobadas().stream().filter(solicitud -> solicitud.getCliente() == cliente).findFirst().get();&#xD;
+				//null; // TODO: retorna la solicitud aprobada del cliente pasado como parametro&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjKvINZrEemaLOAPzJ9izA" name="getPrestamoDe" specification="_TiNF0NZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjKvIdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjKvItZrEemaLOAPzJ9izA" type="_TieLkdZrEemaLOAPzJ9izA" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.getSolicutudAprobadaDe(cliente).getMontoSolicitado();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Tf9qINZrEemaLOAPzJ9izA" name="getSolicitudesAprobadas" method="_TjKIENZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TidkgNZrEemaLOAPzJ9izA" type="_TiEi8NZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TiKCgNZrEemaLOAPzJ9izA" name="registrarSolicutud" method="_TjGdsNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TiKpkNZrEemaLOAPzJ9izA" name="solicitud" type="_TgToYNZrEemaLOAPzJ9izA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TiL3sNZrEemaLOAPzJ9izA" name="getSolicutudAprobadaDe" method="_TjKIEtZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TiL3sdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TiMewNZrEemaLOAPzJ9izA" type="_TgToYNZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TiNF0NZrEemaLOAPzJ9izA" name="getPrestamoDe" method="_TjKvINZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TiNF0dZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TigAwNZrEemaLOAPzJ9izA" type="_TieLkdZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TgJ3YNZrEemaLOAPzJ9izA" name="PropiedadInmobiliaria">
+        <ownedAttribute xmi:id="_Tiy7sNZrEemaLOAPzJ9izA" name="descripcion" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_TiziwdZrEemaLOAPzJ9izA" name="direccion" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Ti0w4NZrEemaLOAPzJ9izA" name="valorFiscal" type="_TieLkdZrEemaLOAPzJ9izA" isReadOnly="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TgMToNZrEemaLOAPzJ9izA" name="Cliente">
+        <ownedAttribute xmi:id="_Ti0w4dZrEemaLOAPzJ9izA" name="nombre" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Ti1_ANZrEemaLOAPzJ9izA" name="apellido" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Ti3NINZrEemaLOAPzJ9izA" name="edad" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Ti30MNZrEemaLOAPzJ9izA" name="sueldoNeto" type="_TieLkdZrEemaLOAPzJ9izA" isReadOnly="true"/>
+        <ownedAttribute xmi:id="_Ti4bQNZrEemaLOAPzJ9izA" name="propiedad" visibility="private" type="_TgJ3YNZrEemaLOAPzJ9izA" association="_TjYKgdZrEemaLOAPzJ9izA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjKvI9ZrEemaLOAPzJ9izA" name="sueldoNetoAnual" specification="_TgOI0NZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjKvJNZrEemaLOAPzJ9izA" type="_TieLkdZrEemaLOAPzJ9izA" direction="return"/>
+          <language>java</language>
+          <body>return this.getSueldoNeto() * 12;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjLWMNZrEemaLOAPzJ9izA" name="getPropiedadInmobiliaria" specification="_TgPW8NZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjLWMdZrEemaLOAPzJ9izA" type="_TgJ3YNZrEemaLOAPzJ9izA" direction="return"/>
+          <language>java</language>
+          <body>return this.propiedad;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjLWMtZrEemaLOAPzJ9izA" name="getValorFiscarDePropiedad" specification="_TgP-ANZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjLWM9ZrEemaLOAPzJ9izA" type="_TieLkdZrEemaLOAPzJ9izA" direction="return"/>
+          <language>java</language>
+          <body>return this.getPropiedadInmobiliaria().getValorFiscal();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TgOI0NZrEemaLOAPzJ9izA" name="sueldoNetoAnual" method="_TjKvI9ZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_Tih18NZrEemaLOAPzJ9izA" type="_TieLkdZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TgPW8NZrEemaLOAPzJ9izA" name="getPropiedadInmobiliaria" method="_TjLWMNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TiRXQNZrEemaLOAPzJ9izA" type="_TgJ3YNZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TgP-ANZrEemaLOAPzJ9izA" name="getValorFiscarDePropiedad" method="_TjLWMtZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TiidANZrEemaLOAPzJ9izA" type="_TieLkdZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TgToYNZrEemaLOAPzJ9izA" name="SolicitudPrestamo" isAbstract="true">
+        <ownedAttribute xmi:id="_Ti5pYNZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA" association="_TjQ1wNZrEemaLOAPzJ9izA"/>
+        <ownedAttribute xmi:id="_Ti6QcNZrEemaLOAPzJ9izA" name="montoSolicitado" type="_TieLkdZrEemaLOAPzJ9izA"/>
+        <ownedAttribute xmi:id="_Ti63gNZrEemaLOAPzJ9izA" name="plazoEnMeses">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjL9QNZrEemaLOAPzJ9izA" name="SolicitudPrestamo" specification="_TikSMNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjL9QdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjL9QtZrEemaLOAPzJ9izA" name="montoSolicitado" type="_TieLkdZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjL9Q9ZrEemaLOAPzJ9izA" name="plazoEnMeses">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TjL9RNZrEemaLOAPzJ9izA" type="_TgToYNZrEemaLOAPzJ9izA" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.cliente = cliente;&#xD;
+		this.montoSolicitado = montoSolicitado;&#xD;
+		this.plazoEnMeses = plazoEnMeses;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjL9RdZrEemaLOAPzJ9izA" name="getValorCuota" specification="_TgWrsNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjL9RtZrEemaLOAPzJ9izA" type="_TieLkdZrEemaLOAPzJ9izA" direction="return"/>
+          <language>java</language>
+          <body>return (double) this.getMontoSolicitado() / this.getPlazoEnMeses(); &#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TgWrsNZrEemaLOAPzJ9izA" name="getValorCuota" method="_TjL9RdZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TimHYdZrEemaLOAPzJ9izA" type="_TieLkdZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TgX50NZrEemaLOAPzJ9izA" name="esAceptada" isAbstract="true">
+          <ownedParameter xmi:id="_TgYg4NZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TikSMNZrEemaLOAPzJ9izA" name="SolicitudPrestamo" method="_TjL9QNZrEemaLOAPzJ9izA">
+          <eAnnotations xmi:id="_TilgUdZrEemaLOAPzJ9izA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_TilgUtZrEemaLOAPzJ9izA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_TikSMdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TikSMtZrEemaLOAPzJ9izA" name="montoSolicitado" type="_TieLkdZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TilgUNZrEemaLOAPzJ9izA" name="plazoEnMeses">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TimHYNZrEemaLOAPzJ9izA" type="_TgToYNZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TgcLQNZrEemaLOAPzJ9izA" name="SolicitudPrestamoHipotecario">
+        <generalization xmi:id="_TiXd4NZrEemaLOAPzJ9izA" general="_TgToYNZrEemaLOAPzJ9izA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjMkUNZrEemaLOAPzJ9izA" name="SolicitudPrestamoHipotecario" specification="_TipxwNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjMkUdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjMkUtZrEemaLOAPzJ9izA" name="montoSolicitado" type="_TieLkdZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjMkU9ZrEemaLOAPzJ9izA" name="plazoEnMeses">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TjMkVNZrEemaLOAPzJ9izA" type="_TgcLQNZrEemaLOAPzJ9izA" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(cliente, montoSolicitado, plazoEnMeses);&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjMkVdZrEemaLOAPzJ9izA" name="esAceptada" specification="_TgengNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjMkVtZrEemaLOAPzJ9izA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.laCuotaNoSuperaDeSusIngresos(50) &amp;&amp; this.montoSolicitadoNoSuperaValorFiscal(70)&#xD;
+				&amp;&amp; this.laPersonaNoSuperaLaEdadAlTermino(this.getCliente(),65);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjNLYNZrEemaLOAPzJ9izA" name="laCuotaNoSuperaDeSusIngresos" specification="_TgiR4NZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjNLYdZrEemaLOAPzJ9izA" name="porcentaje">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TjNLYtZrEemaLOAPzJ9izA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.getCliente().getSueldoNeto() &lt; (this.getCliente().getSueldoNeto()* porcentaje / 100);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjNLY9ZrEemaLOAPzJ9izA" name="montoSolicitadoNoSuperaValorFiscal" specification="_TgkHENZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjNLZNZrEemaLOAPzJ9izA" name="porcentaje">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TjNLZdZrEemaLOAPzJ9izA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return  this.getCliente().getValorFiscarDePropiedad() &lt; &#xD;
+				(this.getCliente().getValorFiscarDePropiedad()* porcentaje / 100);&#xD;
+		&#xD;
+		//this.getCliente().getPropiedadInmobiliaria().getValorFiscal()&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjNycNZrEemaLOAPzJ9izA" name="laPersonaNoSuperaLaEdadAlTermino" specification="_TiWPwNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjNycdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjNyctZrEemaLOAPzJ9izA" name="edadMaximaPrestamo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TjNyc9ZrEemaLOAPzJ9izA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.getCliente().getEdad() &#xD;
+				//(+ la edad que va a tener despues  de terminar de pagar el prestamo) &#xD;
+				&lt; edadMaximaPrestamo;&#xD;
+	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TgengNZrEemaLOAPzJ9izA" name="esAceptada" method="_TjMkVdZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TgengdZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TgiR4NZrEemaLOAPzJ9izA" name="laCuotaNoSuperaDeSusIngresos" method="_TjNLYNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TgiR4dZrEemaLOAPzJ9izA" name="porcentaje">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TgiR4tZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TgkHENZrEemaLOAPzJ9izA" name="montoSolicitadoNoSuperaValorFiscal" method="_TjNLY9ZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TgkHEdZrEemaLOAPzJ9izA" name="porcentaje">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TgkuINZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TiWPwNZrEemaLOAPzJ9izA" name="laPersonaNoSuperaLaEdadAlTermino" method="_TjNycNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TiWPwdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TiW20NZrEemaLOAPzJ9izA" name="edadMaximaPrestamo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TiW20dZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TipxwNZrEemaLOAPzJ9izA" name="SolicitudPrestamoHipotecario" method="_TjMkUNZrEemaLOAPzJ9izA">
+          <eAnnotations xmi:id="_TiqY0NZrEemaLOAPzJ9izA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_TiqY0dZrEemaLOAPzJ9izA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_TipxwdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TipxwtZrEemaLOAPzJ9izA" name="montoSolicitado" type="_TieLkdZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_Tipxw9ZrEemaLOAPzJ9izA" name="plazoEnMeses">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TiqY0tZrEemaLOAPzJ9izA" type="_TgcLQNZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TgnxcNZrEemaLOAPzJ9izA" name="SolicitudPrestamoPersonal">
+        <generalization xmi:id="_TiZTENZrEemaLOAPzJ9izA" general="_TgToYNZrEemaLOAPzJ9izA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjOZgNZrEemaLOAPzJ9izA" name="SolicitudPrestamoPersonal" specification="_Tirm8NZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjOZgdZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjOZgtZrEemaLOAPzJ9izA" name="montoSolicitado" type="_TieLkdZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_TjOZg9ZrEemaLOAPzJ9izA" name="plazoEnMeses">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TjOZhNZrEemaLOAPzJ9izA" type="_TgnxcNZrEemaLOAPzJ9izA" direction="return"/>
+          <language>java</language>
+          <body>super(cliente, montoSolicitado, plazoEnMeses);&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjOZhdZrEemaLOAPzJ9izA" name="esAceptada" specification="_TgpmoNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjOZhtZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return (this.getCliente().sueldoNetoAnual() >= 15000.00 ) &amp;&amp; this.laCuotaNoSuperaDeSusIngresos(70);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TjPAkNZrEemaLOAPzJ9izA" name="laCuotaNoSuperaDeSusIngresos" specification="_Tgq0wtZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TjPAkdZrEemaLOAPzJ9izA" name="porcentaje">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TjPAktZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.getCliente().getSueldoNeto() &lt; (this.getCliente().getSueldoNeto()* porcentaje / 100);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TgpmoNZrEemaLOAPzJ9izA" name="esAceptada" method="_TjOZhdZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_TgpmodZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Tgq0wtZrEemaLOAPzJ9izA" name="laCuotaNoSuperaDeSusIngresos" method="_TjPAkNZrEemaLOAPzJ9izA">
+          <ownedParameter xmi:id="_Tgsp8NZrEemaLOAPzJ9izA" name="porcentaje">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Tgsp8dZrEemaLOAPzJ9izA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Tirm8NZrEemaLOAPzJ9izA" name="SolicitudPrestamoPersonal" method="_TjOZgNZrEemaLOAPzJ9izA">
+          <eAnnotations xmi:id="_TisOANZrEemaLOAPzJ9izA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_TisOAdZrEemaLOAPzJ9izA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Tirm8dZrEemaLOAPzJ9izA" name="cliente" type="_TgMToNZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_Tirm8tZrEemaLOAPzJ9izA" name="montoSolicitado" type="_TieLkdZrEemaLOAPzJ9izA"/>
+          <ownedParameter xmi:id="_Tirm89ZrEemaLOAPzJ9izA" name="plazoEnMeses">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TisOAtZrEemaLOAPzJ9izA" type="_TgnxcNZrEemaLOAPzJ9izA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TjQ1wNZrEemaLOAPzJ9izA" name="" memberEnd="_Ti5pYNZrEemaLOAPzJ9izA _TjQ1wdZrEemaLOAPzJ9izA">
+        <ownedEnd xmi:id="_TjQ1wdZrEemaLOAPzJ9izA" name="" type="_TgToYNZrEemaLOAPzJ9izA" association="_TjQ1wNZrEemaLOAPzJ9izA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TjVuQNZrEemaLOAPzJ9izA" name="" memberEnd="_TjVuQdZrEemaLOAPzJ9izA _TitcINZrEemaLOAPzJ9izA">
+        <ownedEnd xmi:id="_TjVuQdZrEemaLOAPzJ9izA" name="" type="_Tfz5INZrEemaLOAPzJ9izA" association="_TjVuQNZrEemaLOAPzJ9izA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TjW8YdZrEemaLOAPzJ9izA" name="" memberEnd="_TjW8YtZrEemaLOAPzJ9izA _Tiv4YdZrEemaLOAPzJ9izA">
+        <ownedEnd xmi:id="_TjW8YtZrEemaLOAPzJ9izA" name="" type="_Tfz5INZrEemaLOAPzJ9izA" association="_TjW8YdZrEemaLOAPzJ9izA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TjYKgdZrEemaLOAPzJ9izA" name="" memberEnd="_TjYKgtZrEemaLOAPzJ9izA _Ti4bQNZrEemaLOAPzJ9izA">
+        <ownedEnd xmi:id="_TjYKgtZrEemaLOAPzJ9izA" name="" type="_TgMToNZrEemaLOAPzJ9izA" association="_TjYKgdZrEemaLOAPzJ9izA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_TNgBINZrEemaLOAPzJ9izA">
+      <eAnnotations xmi:id="_TNk5oNZrEemaLOAPzJ9izA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_TNsOYNZrEemaLOAPzJ9izA" base_Package="_S_s1sNZrEemaLOAPzJ9izA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_TgAtcNZrEemaLOAPzJ9izA" genericsValue="SolicitudPrestamo" base_Element="_Tf9qINZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TgfOkNZrEemaLOAPzJ9izA" base_Element="_TgengNZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Annotations xmi:id="_Tghq0NZrEemaLOAPzJ9izA" base_Element="_TgengNZrEemaLOAPzJ9izA">
+    <annotations xmi:id="_Tghq0dZrEemaLOAPzJ9izA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TgqNsNZrEemaLOAPzJ9izA" base_Element="_TgpmoNZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Annotations xmi:id="_Tgq0wNZrEemaLOAPzJ9izA" base_Element="_TgpmoNZrEemaLOAPzJ9izA">
+    <annotations xmi:id="_Tgq0wdZrEemaLOAPzJ9izA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_TiGYINZrEemaLOAPzJ9izA" base_Element="_TiEi8NZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Reference xmi:id="_TiI0YNZrEemaLOAPzJ9izA" base_Element="_TiHmQNZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Reference xmi:id="_TifZsNZrEemaLOAPzJ9izA" base_Element="_TieLkdZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Tiv4YNZrEemaLOAPzJ9izA" base_Element="_TitcINZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Generics xmi:id="_TiyUoNZrEemaLOAPzJ9izA" genericsValue="SolicitudPrestamo" base_Element="_Tiv4YdZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TiziwNZrEemaLOAPzJ9izA" base_Element="_Tiy7sNZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ti0J0NZrEemaLOAPzJ9izA" base_Element="_TiziwdZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ti1X8NZrEemaLOAPzJ9izA" base_Element="_Ti0w4dZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ti2mENZrEemaLOAPzJ9izA" base_Element="_Ti1_ANZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ti5CUNZrEemaLOAPzJ9izA" base_Element="_Ti4bQNZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Reference xmi:id="_TjW8YNZrEemaLOAPzJ9izA" base_Element="_TjVuQNZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Reference xmi:id="_TjYKgNZrEemaLOAPzJ9izA" base_Element="_TjW8YdZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Reference xmi:id="_TjYxkNZrEemaLOAPzJ9izA" base_Element="_TjYKgdZrEemaLOAPzJ9izA"/>
+  <UMLLabProfile:Generics xmi:id="_ryPQUNZtEemaLOAPzJ9izA" genericsValue="Cliente" base_Element="_TitcINZrEemaLOAPzJ9izA"/>
+</xmi:XMI>

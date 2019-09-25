@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Iwwy4NSyEemW17DARodPpg" name="objetos2">
+    <eAnnotations xmi:id="_I5R1sNSyEemW17DARodPpg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_I5R1sdSyEemW17DARodPpg" source="codegen">
+        <details xmi:id="_I5ScwNSyEemW17DARodPpg" key="codegenDirectory" value="/objetos2/src"/>
+        <details xmi:id="_JvWiENSyEemW17DARodPpg" key="AssociatedSourceCode" value="/objetos2/src/packageImpuestoAlTrabajador/Ingreso.java;126023973/1;/objetos2/src/packageImpuestoAlTrabajador/IngresoXHoraExtra.java;617633024/1;/objetos2/src/packageImpuestoAlTrabajador/Trabajador.java;1027926287/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_JE2MgNSyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_JE2zkNSyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_JE2zkdSyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_JE3aoNSyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_JE3aodSyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_JE3aotSyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_JE3ao9SyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_JE3apNSyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_JE4owNSyEemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JE9hQNSyEemW17DARodPpg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JE-IUNSyEemW17DARodPpg" name="sql">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_JPAOENSyEemW17DARodPpg" name="Date"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_JFlMUNSyEemW17DARodPpg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JPNCYNSyEemW17DARodPpg" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_JPYokNSyEemW17DARodPpg" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_JPYokdSyEemW17DARodPpg" name="Double"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JFNY4NSyEemW17DARodPpg" name="packageImpuestoAlTrabajador">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JF1D8NSyEemW17DARodPpg" name="Ingreso">
+        <ownedAttribute xmi:id="_JPpHQNSyEemW17DARodPpg" name="mesDePersepcion">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JPqVYNSyEemW17DARodPpg" name="concepto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JPq8cNSyEemW17DARodPpg" name="montoPercibido" type="_JPYokdSyEemW17DARodPpg"/>
+        <ownedAttribute xmi:id="_0aT6UNS1EemW17DARodPpg" name="trabajador" type="_JGPToNSyEemW17DARodPpg" association="_0aTTQNS1EemW17DARodPpg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0aT6UdS1EemW17DARodPpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0aT6UtS1EemW17DARodPpg" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JP5l8NSyEemW17DARodPpg" name="Ingreso" specification="_JPbr4NSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JP5l8dSyEemW17DARodPpg" name="mesDePersepcion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JP5l8tSyEemW17DARodPpg" name="concepto">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JP5l89SyEemW17DARodPpg" name="montoPercibido" type="_JPYokdSyEemW17DARodPpg"/>
+          <ownedParameter xmi:id="_JP5l9NSyEemW17DARodPpg" type="_JF1D8NSyEemW17DARodPpg" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.mesDePersepcion = mesDePersepcion;&#xD;
+		this.concepto = concepto;&#xD;
+		this.montoPercibido = montoPercibido;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JP93YNSyEemW17DARodPpg" name="getMontoImponible" specification="_JF-08NSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JP93YdSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+          <language>java</language>
+          <body>return  this.getMontoPercibido();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JF-08NSyEemW17DARodPpg" name="getMontoImponible" method="_JP93YNSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JPc6ANSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JPbr4NSyEemW17DARodPpg" name="Ingreso" method="_JP5l8NSyEemW17DARodPpg">
+          <eAnnotations xmi:id="_JPcS8dSyEemW17DARodPpg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JPcS8tSyEemW17DARodPpg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JPbr4dSyEemW17DARodPpg" name="mesDePersepcion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JPbr4tSyEemW17DARodPpg" name="concepto">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JPcS8NSyEemW17DARodPpg" name="montoPercibido" type="_JPYokdSyEemW17DARodPpg"/>
+          <ownedParameter xmi:id="_JPcS89SyEemW17DARodPpg" type="_JF1D8NSyEemW17DARodPpg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JGH-4NSyEemW17DARodPpg" name="IngresoXHoraExtra">
+        <generalization xmi:id="_JPJ_ENSyEemW17DARodPpg" general="_JF1D8NSyEemW17DARodPpg"/>
+        <ownedAttribute xmi:id="_JPrjgNSyEemW17DARodPpg" name="cantDeHorasExtras">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JP-ecNSyEemW17DARodPpg" name="IngresoXHoraExtra" specification="_JPfWQNSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JP-ecdSyEemW17DARodPpg" name="mesDePersepcion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JP-ectSyEemW17DARodPpg" name="concepto">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JP-ec9SyEemW17DARodPpg" name="montoPercibido" type="_JPYokdSyEemW17DARodPpg"/>
+          <ownedParameter xmi:id="_JP-edNSyEemW17DARodPpg" name="cantDeHorasExtras">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JP-eddSyEemW17DARodPpg" type="_JGH-4NSyEemW17DARodPpg" direction="return"/>
+          <language>java</language>
+          <body>super(mesDePersepcion, concepto, montoPercibido);&#xD;
+		this.cantDeHorasExtras = cantDeHorasExtras;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JP_FgNSyEemW17DARodPpg" name="getMontoImponible" specification="_JGLCMNSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JP_FgdSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+          <language>java</language>
+          <body>return  0d;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JGLCMNSyEemW17DARodPpg" name="getMontoImponible" method="_JP_FgNSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JPhygNSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JPfWQNSyEemW17DARodPpg" name="IngresoXHoraExtra" method="_JP-ecNSyEemW17DARodPpg">
+          <eAnnotations xmi:id="_JPgkYdSyEemW17DARodPpg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JPgkYtSyEemW17DARodPpg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JPf9UNSyEemW17DARodPpg" name="mesDePersepcion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JPf9UdSyEemW17DARodPpg" name="concepto">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JPf9UtSyEemW17DARodPpg" name="montoPercibido" type="_JPYokdSyEemW17DARodPpg"/>
+          <ownedParameter xmi:id="_JPgkYNSyEemW17DARodPpg" name="cantDeHorasExtras">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JPgkY9SyEemW17DARodPpg" type="_JGH-4NSyEemW17DARodPpg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JGPToNSyEemW17DARodPpg" name="Trabajador">
+        <ownedAttribute xmi:id="_JPsxoNSyEemW17DARodPpg" name="ingresos" type="_JPNCYNSyEemW17DARodPpg" association="_JQElENSyEemW17DARodPpg"/>
+        <ownedAttribute xmi:id="_0aT6U9S1EemW17DARodPpg" name="ingreso1" type="_JF1D8NSyEemW17DARodPpg" association="_0aTTQNS1EemW17DARodPpg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0aT6VNS1EemW17DARodPpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0aUhYNS1EemW17DARodPpg" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JP_skNSyEemW17DARodPpg" name="Trabajador" specification="_JGRI0NSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JP_skdSyEemW17DARodPpg" type="_JGPToNSyEemW17DARodPpg" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+		this.ingresos = new ArrayList &lt;Ingreso> ();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JP_sktSyEemW17DARodPpg" name="addIngreso" specification="_JPPeoNSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JQAToNSyEemW17DARodPpg" name="ingreso" type="_JF1D8NSyEemW17DARodPpg"/>
+          <language>java</language>
+          <body>this.getIngresos().add(ingreso);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JQATodSyEemW17DARodPpg" name="getTotalPercibido" specification="_JGS-ANSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JQATotSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+          <language>java</language>
+          <body>return this.getIngresos().stream().mapToDouble(ingreso -> ingreso.getMontoPercibido()).sum();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JQA6sNSyEemW17DARodPpg" name="getMontoImponible" specification="_JGTlENSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JQA6sdSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+          <language>java</language>
+          <body>return this.getIngresos().stream().mapToDouble(ingreso -> ingreso.getMontoImponible()).sum();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JQBhwNSyEemW17DARodPpg" name="getImpuestoAPagar" specification="_JGUMINSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JQBhwdSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+          <language>java</language>
+          <body>return (this.getMontoImponible() * 0.98);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JGRI0NSyEemW17DARodPpg" name="Trabajador" method="_JP_skNSyEemW17DARodPpg">
+          <eAnnotations xmi:id="_JGRI0dSyEemW17DARodPpg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JGRI0tSyEemW17DARodPpg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JGSW8NSyEemW17DARodPpg" type="_JGPToNSyEemW17DARodPpg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JGS-ANSyEemW17DARodPpg" name="getTotalPercibido" method="_JQATodSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JPjAoNSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JGTlENSyEemW17DARodPpg" name="getMontoImponible" method="_JQA6sNSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JPmrANSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JGUMINSyEemW17DARodPpg" name="getImpuestoAPagar" method="_JQBhwNSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JPnSENSyEemW17DARodPpg" type="_JPYokdSyEemW17DARodPpg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JPPeoNSyEemW17DARodPpg" name="addIngreso" method="_JP_sktSyEemW17DARodPpg">
+          <ownedParameter xmi:id="_JPQFsNSyEemW17DARodPpg" name="ingreso" type="_JF1D8NSyEemW17DARodPpg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_JQElENSyEemW17DARodPpg" name="" memberEnd="_JQElEdSyEemW17DARodPpg _JPsxoNSyEemW17DARodPpg">
+        <ownedEnd xmi:id="_JQElEdSyEemW17DARodPpg" name="" type="_JGPToNSyEemW17DARodPpg" association="_JQElENSyEemW17DARodPpg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_0aTTQNS1EemW17DARodPpg" name="" memberEnd="_0aT6UNS1EemW17DARodPpg _0aT6U9S1EemW17DARodPpg"/>
+    </packagedElement>
+    <profileApplication xmi:id="_I5WHINSyEemW17DARodPpg">
+      <eAnnotations xmi:id="_I5cNwNSyEemW17DARodPpg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_I5jigNSyEemW17DARodPpg" base_Package="_Iwwy4NSyEemW17DARodPpg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_JPBcMNSyEemW17DARodPpg" base_Element="_JPAOENSyEemW17DARodPpg"/>
+  <UMLLabProfile:Reference xmi:id="_JPO3kNSyEemW17DARodPpg" base_Element="_JPNCYNSyEemW17DARodPpg"/>
+  <UMLLabProfile:Reference xmi:id="_JPbE0NSyEemW17DARodPpg" base_Element="_JPYokdSyEemW17DARodPpg"/>
+  <UMLLabProfile:Generics xmi:id="_JPt_wNSyEemW17DARodPpg" genericsValue="Ingreso" base_Element="_JPsxoNSyEemW17DARodPpg"/>
+  <UMLLabProfile:Reference xmi:id="_JQFzMNSyEemW17DARodPpg" base_Element="_JQElENSyEemW17DARodPpg"/>
+</xmi:XMI>
