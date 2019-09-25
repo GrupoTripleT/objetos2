@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_9aS_ANJCEemgTpta_q8W2g">
+  <modelElement href="objetos2.uml#_5oObkNJCEemgTpta_q8W2g"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_99vDQNJCEemgTpta_q8W2g" name="packageCajaMercadoCentral">
+    <modelElement href="objetos2.uml#_8GAsoNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_99w4cNJCEemgTpta_q8W2g" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_9_R7YNJCEemgTpta_q8W2g" name="java">
+    <modelElement href="objetos2.uml#_8GZHINJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_9_R7YdJCEemgTpta_q8W2g" position="311.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_9_UXoNJCEemgTpta_q8W2g" name="packageEmpresas">
+    <modelElement href="objetos2.uml#_8Iy64NJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_9_UXodJCEemgTpta_q8W2g" position="-160.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_9_bsYNJCEemgTpta_q8W2g" name="org">
+    <modelElement href="objetos2.uml#_8JxLQNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_9_bsYdJCEemgTpta_q8W2g" position="476.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_9_fWwNJCEemgTpta_q8W2g" name="packageEquipoYTareas">
+    <modelElement href="objetos2.uml#_8KzGANJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_9_fWwdJCEemgTpta_q8W2g" position="-376.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_9_hL8NJCEemgTpta_q8W2g" name="packageIntroduccionAJava">
+    <modelElement href="objetos2.uml#_8LgQoNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_9_hL8dJCEemgTpta_q8W2g" position="630.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

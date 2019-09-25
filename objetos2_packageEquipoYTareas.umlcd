@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_9e0SoNJCEemgTpta_q8W2g">
+  <modelElement href="objetos2.uml#_8KzGANJCEemgTpta_q8W2g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_BqFZMNJDEemgTpta_q8W2g" sourceAnchor="270.0,45.0" targetAnchor="339.0,66.0" target="_BqUCsNJDEemgTpta_q8W2g" source="_BqGAQNJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8ww50NJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_BqY7MNJDEemgTpta_q8W2g" position="130.0,130.0"/>
+    <bendpoints xmi:id="_CKHkINJDEemgTpta_q8W2g" sourceX="192" targetX="686" targetY="404"/>
+    <bendpoints xmi:id="_CKHkIdJDEemgTpta_q8W2g" sourceX="192" sourceY="-404" targetX="686"/>
+    <stereotypes xmi:id="_BqFZMdJDEemgTpta_q8W2g" name="Reference">
+      <modelElement href="objetos2.uml#_8wyvANJCEemgTpta_q8W2g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_BqFZMtJDEemgTpta_q8W2g" text="">
+      <visualProperties xmi:id="_CKIyQNJDEemgTpta_q8W2g" position="-43.0,146.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_BqFZM9JDEemgTpta_q8W2g" aggregationKind="NONE" name="">
+      <modelElement href="objetos2.uml#_8ww50dJCEemgTpta_q8W2g"/>
+      <visualProperties xmi:id="_CKILMtJDEemgTpta_q8W2g" position="1.5,-43.0"/>
+      <visibility xmi:id="_BqFZNNJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqFZNdJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_BqFZNtJDEemgTpta_q8W2g" aggregationKind="NONE" name="tareas" navigable="true">
+      <modelElement href="objetos2.uml#_8vdSQNJCEemgTpta_q8W2g"/>
+      <visualProperties xmi:id="_CKJZUNJDEemgTpta_q8W2g" position="1.0000000000002274,-43.00000000000017"/>
+      <visibility xmi:id="_BqFZN9JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqFZONJDEemgTpta_q8W2g" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BqMG4NJDEemgTpta_q8W2g" sourceAnchor="0.0,48.0" targetAnchor="339.0,96.0" superClass="_BqUCsNJDEemgTpta_q8W2g" subClass="_BqQ_YNJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8rnUENJCEemgTpta_q8W2g"/>
+    <bendpoints xmi:id="_CKILMNJDEemgTpta_q8W2g" sourceX="-66" targetX="62" targetY="558"/>
+    <bendpoints xmi:id="_CKILMdJDEemgTpta_q8W2g" sourceX="-66" sourceY="-558" targetX="62"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BqN8ENJDEemgTpta_q8W2g" sourceAnchor="0.0,58.0" targetAnchor="339.0,96.0" superClass="_BqUCsNJDEemgTpta_q8W2g" subClass="_Bp-rgNJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8qpDsNJCEemgTpta_q8W2g"/>
+    <bendpoints xmi:id="_CKG9ENJDEemgTpta_q8W2g" sourceX="-30" targetX="62" targetY="209"/>
+    <bendpoints xmi:id="_CKG9EdJDEemgTpta_q8W2g" sourceX="-30" sourceY="-209" targetX="62"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Bp-rgNJDEemgTpta_q8W2g" name="Bugs" generalizations="_BqN8ENJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8ZhegNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_Bp-rgdJDEemgTpta_q8W2g" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Bp-rgtJDEemgTpta_q8W2g" label="+"/>
+    <attributes xmi:id="_Bp-rg9JDEemgTpta_q8W2g" name="personaReport">
+      <modelElement href="objetos2.uml#_8vbdENJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_Bp-rhNJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_Bp-rhdJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <type xmi:id="_Bp-rhtJDEemgTpta_q8W2g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Bp-rh9JDEemgTpta_q8W2g" name="serveridad">
+      <modelElement href="objetos2.uml#_8vcEINJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_Bp-riNJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_Bp-ridJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <type xmi:id="_Bp-ritJDEemgTpta_q8W2g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Bp-ri9JDEemgTpta_q8W2g" name="getCantHoras">
+      <modelElement href="objetos2.uml#_8ZtEsNJCEemgTpta_q8W2g"/>
+      <stereotypes xmi:id="_Bp-rjNJDEemgTpta_q8W2g" name="LegacyStyledElement">
+        <modelElement href="objetos2.uml#_8Zu54NJCEemgTpta_q8W2g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Bp-rjdJDEemgTpta_q8W2g" name="Annotations">
+        <modelElement href="objetos2.uml#_8Zvg8NJCEemgTpta_q8W2g"/>
+      </stereotypes>
+      <visibility xmi:id="_Bp-rjtJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_Bp-rj9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Bp-rkNJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8trwoNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_Bp-rkdJDEemgTpta_q8W2g" name="Double">
+          <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Bp-rktJDEemgTpta_q8W2g" name="Bugs">
+      <modelElement href="objetos2.uml#_8tpUYNJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_Bp-rk9JDEemgTpta_q8W2g" keyword="create"/>
+      <visibility xmi:id="_Bp-rlNJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_Bp-rldJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Bp-rltJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8trJkdJCEemgTpta_q8W2g"/>
+        <type xmi:id="_Bp-rl9JDEemgTpta_q8W2g" name="Bugs">
+          <modelElement href="objetos2.uml#_8ZhegNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Bp-rmNJDEemgTpta_q8W2g" name="nombre">
+        <modelElement href="objetos2.uml#_8tp7cNJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_Bp-rmdJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_Bp-rmtJDEemgTpta_q8W2g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Bp-rm9JDEemgTpta_q8W2g" name="cantHoras">
+        <modelElement href="objetos2.uml#_8tp7cdJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_Bp-rnNJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_Bp-rndJDEemgTpta_q8W2g" name="Double">
+          <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Bp-rntJDEemgTpta_q8W2g" name="personaReport">
+        <modelElement href="objetos2.uml#_8tp7ctJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_Bp-rn9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_Bp-roNJDEemgTpta_q8W2g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Bp-rodJDEemgTpta_q8W2g" name="serveridad">
+        <modelElement href="objetos2.uml#_8tp7c9JCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_Bp-rotJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_Bp-ro9JDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BqGAQNJDEemgTpta_q8W2g" name="Equipo" associationsOut="_BqFZMNJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8ZzyYNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_BqGAQdJDEemgTpta_q8W2g" position="182.0,228.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BqGAQtJDEemgTpta_q8W2g" label="+"/>
+    <attributes xmi:id="_BqGAQ9JDEemgTpta_q8W2g" name="tareas">
+      <modelElement href="objetos2.uml#_8vdSQNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqGARNJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqGARdJDEemgTpta_q8W2g" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_BqGARtJDEemgTpta_q8W2g" name="Tarea">
+        <modelElement href="objetos2.uml#_8afH0NJCEemgTpta_q8W2g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BqGAR9JDEemgTpta_q8W2g" name="addTarea">
+      <modelElement href="objetos2.uml#_8rexMNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqGASNJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqGASdJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BqGAStJDEemgTpta_q8W2g" name="tarea">
+        <modelElement href="objetos2.uml#_8rexMdJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqGAS9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqGATNJDEemgTpta_q8W2g" name="Tarea">
+          <modelElement href="objetos2.uml#_8afH0NJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BqGATdJDEemgTpta_q8W2g" name="getCantHoras">
+      <modelElement href="objetos2.uml#_8rkQwNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqGATtJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqGAT9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BqGAUNJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8t2IsNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_BqGAUdJDEemgTpta_q8W2g" name="Double">
+          <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BqGAUtJDEemgTpta_q8W2g" name="tareas">
+        <modelElement href="objetos2.uml#_8rkQwdJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqGAU9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqGAVNJDEemgTpta_q8W2g" name="Tarea">
+          <modelElement href="objetos2.uml#_8afH0NJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BqGAVdJDEemgTpta_q8W2g" name="Equipo">
+      <modelElement href="objetos2.uml#_8tzFYNJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_BqGAVtJDEemgTpta_q8W2g" keyword="create"/>
+      <visibility xmi:id="_BqGAV9JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqGAWNJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BqGAWdJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8tzsctJCEemgTpta_q8W2g"/>
+        <type xmi:id="_BqGAWtJDEemgTpta_q8W2g" name="Equipo">
+          <modelElement href="objetos2.uml#_8ZzyYNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BqGAW9JDEemgTpta_q8W2g" name="tareas">
+        <modelElement href="objetos2.uml#_8tzFYdJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqGAXNJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqGAXdJDEemgTpta_q8W2g" name="Set">
+          <modelElement href="objetos2.uml#_8qLJodJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BqQ_YNJDEemgTpta_q8W2g" name="Funcional" generalizations="_BqMG4NJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8Z-KcNJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_BqQ_YdJDEemgTpta_q8W2g" position="86.0,409.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BqQ_YtJDEemgTpta_q8W2g" label="+"/>
+    <attributes xmi:id="_BqQ_Y9JDEemgTpta_q8W2g" name="impacto">
+      <modelElement href="objetos2.uml#_8vix0NJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqQ_ZNJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqQ_ZdJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <type xmi:id="_BqQ_ZtJDEemgTpta_q8W2g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BqQ_Z9JDEemgTpta_q8W2g" name="getCantHoras">
+      <modelElement href="objetos2.uml#_8aQeUNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqQ_aNJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqQ_adJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BqQ_atJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8uBH0NJCEemgTpta_q8W2g"/>
+        <type xmi:id="_BqQ_a9JDEemgTpta_q8W2g" name="Double">
+          <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BqQ_bNJDEemgTpta_q8W2g" name="Funcional">
+      <modelElement href="objetos2.uml#_8t3W0NJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_BqQ_bdJDEemgTpta_q8W2g" keyword="create"/>
+      <visibility xmi:id="_BqQ_btJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqQ_b9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BqQ_cNJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8uAgwtJCEemgTpta_q8W2g"/>
+        <type xmi:id="_BqQ_cdJDEemgTpta_q8W2g" name="Funcional">
+          <modelElement href="objetos2.uml#_8Z-KcNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BqQ_ctJDEemgTpta_q8W2g" name="nombre">
+        <modelElement href="objetos2.uml#_8t3W0dJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqQ_c9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqQ_dNJDEemgTpta_q8W2g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BqQ_ddJDEemgTpta_q8W2g" name="cantHoras">
+        <modelElement href="objetos2.uml#_8t394NJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqQ_dtJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqQ_d9JDEemgTpta_q8W2g" name="Double">
+          <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BqQ_eNJDEemgTpta_q8W2g" name="impacto">
+        <modelElement href="objetos2.uml#_8t394dJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqQ_edJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqQ_etJDEemgTpta_q8W2g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BqUCsNJDEemgTpta_q8W2g" name="Tarea" abstractClass="true" associationsIn="_BqFZMNJDEemgTpta_q8W2g" subclassedBy="_BqMG4NJDEemgTpta_q8W2g _BqN8ENJDEemgTpta_q8W2g">
+    <modelElement href="objetos2.uml#_8afH0NJCEemgTpta_q8W2g"/>
+    <visualProperties xmi:id="_BqUCsdJDEemgTpta_q8W2g" position="-381.0,-197.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BqUCstJDEemgTpta_q8W2g" label="+"/>
+    <attributes xmi:id="_BqUCs9JDEemgTpta_q8W2g" name="nombre">
+      <modelElement href="objetos2.uml#_8vjY4NJCEemgTpta_q8W2g"/>
+      <stereotypes xmi:id="_BqUCtNJDEemgTpta_q8W2g" name="LegacyStyledElement">
+        <modelElement href="objetos2.uml#_8vj_8NJCEemgTpta_q8W2g"/>
+      </stereotypes>
+      <visibility xmi:id="_BqUCtdJDEemgTpta_q8W2g" label="#"/>
+      <cardinality xmi:id="_BqUCttJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <type xmi:id="_BqUCt9JDEemgTpta_q8W2g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BqUCuNJDEemgTpta_q8W2g" name="cantHoras">
+      <modelElement href="objetos2.uml#_8vknANJCEemgTpta_q8W2g"/>
+      <stereotypes xmi:id="_BqUCudJDEemgTpta_q8W2g" name="LegacyStyledElement">
+        <modelElement href="objetos2.uml#_8vlOENJCEemgTpta_q8W2g"/>
+      </stereotypes>
+      <visibility xmi:id="_BqUCutJDEemgTpta_q8W2g" label="#"/>
+      <cardinality xmi:id="_BqUCu9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <type xmi:id="_BqUCvNJDEemgTpta_q8W2g" name="Double">
+        <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BqUCvdJDEemgTpta_q8W2g" name="getNombre">
+      <modelElement href="objetos2.uml#_8anDoNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqUCvtJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqUCv9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BqUCwNJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8anqsNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_BqUCwdJDEemgTpta_q8W2g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BqUCwtJDEemgTpta_q8W2g" name="setNombre">
+      <modelElement href="objetos2.uml#_8aoRwNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqUCw9JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqUCxNJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BqUCxdJDEemgTpta_q8W2g" name="nombre">
+        <modelElement href="objetos2.uml#_8aoRwdJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqUCxtJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqUCx9JDEemgTpta_q8W2g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BqUCyNJDEemgTpta_q8W2g" abstractOperation="true" name="getCantHoras">
+      <modelElement href="objetos2.uml#_8ao40NJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqUCydJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqUCytJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BqUCy9JDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8uSNkNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_BqUCzNJDEemgTpta_q8W2g" name="Double">
+          <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BqUCzdJDEemgTpta_q8W2g" name="esCritico">
+      <modelElement href="objetos2.uml#_8bXRkNJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqUCztJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqUCz9JDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BqUC0NJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8bX4oNJCEemgTpta_q8W2g"/>
+        <type xmi:id="_BqUC0dJDEemgTpta_q8W2g" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BqUC0tJDEemgTpta_q8W2g" name="Tarea">
+      <modelElement href="objetos2.uml#_8uIckNJCEemgTpta_q8W2g"/>
+      <keywords xmi:id="_BqUC09JDEemgTpta_q8W2g" keyword="create"/>
+      <visibility xmi:id="_BqUC1NJDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqUC1dJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BqUC1tJDEemgTpta_q8W2g">
+        <modelElement href="objetos2.uml#_8uJqsdJCEemgTpta_q8W2g"/>
+        <type xmi:id="_BqUC19JDEemgTpta_q8W2g" name="Tarea">
+          <modelElement href="objetos2.uml#_8afH0NJCEemgTpta_q8W2g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BqUC2NJDEemgTpta_q8W2g" name="nombre">
+        <modelElement href="objetos2.uml#_8uJDoNJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqUC2dJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqUC2tJDEemgTpta_q8W2g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_BqUC29JDEemgTpta_q8W2g" name="cantHoras">
+        <modelElement href="objetos2.uml#_8uJDodJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqUC3NJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqUC3dJDEemgTpta_q8W2g" name="Double">
+          <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BqUC3tJDEemgTpta_q8W2g" name="setCantHoras">
+      <modelElement href="objetos2.uml#_8uLf4NJCEemgTpta_q8W2g"/>
+      <visibility xmi:id="_BqUC39JDEemgTpta_q8W2g" label="+"/>
+      <cardinality xmi:id="_BqUC4NJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BqUC4dJDEemgTpta_q8W2g" name="cantHoras">
+        <modelElement href="objetos2.uml#_8uLf4dJCEemgTpta_q8W2g"/>
+        <cardinality xmi:id="_BqUC4tJDEemgTpta_q8W2g" label="1" max="1" min="1"/>
+        <type xmi:id="_BqUC49JDEemgTpta_q8W2g" name="Double">
+          <modelElement href="objetos2.uml#_8sbzcNJCEemgTpta_q8W2g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,5 +1,6 @@
 package packageEmpresas;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public abstract class Empleado {
@@ -61,8 +62,9 @@ public abstract class Empleado {
     }
 
     // Protocolos  y Procedimientos
-    public Integer getEdad() {
-        return 0; //todo:calcular edad
+    @SuppressWarnings("deprecation")
+	public Integer getEdad() {
+        return  LocalDate.now().getYear()  - this.getFechaNacimiento().getYear(); //todo:calcular edad
     }
     public abstract Double getSueldoBruto();
     public abstract Double getRetenciones();

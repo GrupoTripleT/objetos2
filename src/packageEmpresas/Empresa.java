@@ -1,6 +1,7 @@
 package packageEmpresas;
 
 import java.util.ArrayList;
+import java.util.Set;
 
 
 
@@ -9,14 +10,14 @@ public class Empresa {
 	// Variables
     private String nombre;
     private Integer cuit;
-    private ArrayList <Empleado> empleados = new ArrayList <Empleado>();
+    private ArrayList <Empleado> empleados;
 
    
     //Constructor
     public Empresa(String nombre, Integer cuit, ArrayList<Empleado> empleados) {
         this.nombre = nombre;
         this.cuit = cuit;
-        this.empleados = empleados;
+        this.empleados =  new ArrayList <Empleado>();
     }
    
     // Getters & Setters
@@ -64,7 +65,10 @@ public class Empresa {
     	return (double) this.empleados.stream().mapToDouble ( empleado -> empleado.getRetenciones()).sum();
     }
     
-    //Liquidacion de Sueldo
+    //Impresion de Recibos de haberes (empleados)
+    //public Set <Recibo> getRecibos(Empleado empleados) {
+    //	return null;
+    //}
     
     
 }
