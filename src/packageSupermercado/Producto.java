@@ -5,6 +5,7 @@ public abstract class Producto {
    protected String nombre;
    protected Double precio;
    protected Boolean esPrecioCuidado;
+   
    public Double getPrecio() {
       return this.precio;
       	}
@@ -25,6 +26,7 @@ public abstract class Producto {
       this.esPrecioCuidado = esPrecioCuidado;
       	}
    
+   //CONSTRUCTORES
    public Producto (String nombre, Double precio) {
       super();
       		this.nombre = nombre;
@@ -38,6 +40,8 @@ public abstract class Producto {
       		this.precio = precio;
       		this.setesPrecioCuidado(esPrecioCuidado);
       	}
+   
+   //METODOS
    
    public void setPrecio(Double precio) {
       this.precio = precio;

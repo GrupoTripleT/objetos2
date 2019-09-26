@@ -1,19 +1,22 @@
 package packageSupermercado.Test;
 
-import packageSupermercado.Producto;
+import packageSupermercado.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ProductoTest {
 	
-	private Producto arroz;
-	private Producto vino;
+	public Producto arroz;
+	public Producto vino;
 	
 	@BeforeEach
 	public void setUp() {
-		arroz = new Producto("Arroz", 18.9d, true);
-		vino = new Producto("Vino", 55d);
+		
+		arroz = new Producto("Arroz", 18.9d, true) {
+		};
+		vino = new Producto("Vino", 55d) {
+		};
 	}
 	
 	@Test

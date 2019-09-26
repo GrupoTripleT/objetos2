@@ -14,8 +14,9 @@ public class SupermercadoTest {
 	
 	@BeforeEach
 	public void setUp() {
-		arroz = new Producto("Arroz", 18.9d, true);
-		detergente = new Producto("Detergente", 75d);
+		arroz = new Producto("Arroz", 18.9d, true) {
+		};
+		detergente = new Producto("Detergente", 75d) {};
 		supermercado = new Supermercado("Lo de Tito", "Av Zubeldia 801");
 		
 	}
