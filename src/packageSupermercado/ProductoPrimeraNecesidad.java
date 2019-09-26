@@ -13,9 +13,10 @@ public class ProductoPrimeraNecesidad extends Producto {
       		this.porcentajeDescuento = 10;
       	}
    
-   public ProductoPrimeraNecesidad (String nombre, Double precio, Boolean esCuidado, Integer porcentajeDescuento) {
-      super(nombre, precio, esCuidado);
-      		this.porcentajeDescuento = porcentajeDescuento;
+   public ProductoPrimeraNecesidad 
+   (String nombre, Double precio, Boolean esCuidado, Integer descuento) {
+	   		super(nombre, precio, esCuidado);
+      		this.porcentajeDescuento =  descuento;
       	}
    
    }

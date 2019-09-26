@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ProductoPrimeraNecesidadTest {
 
-	private ProductoPrimeraNecesidad leche;
+	public ProductoPrimeraNecesidad leche;
 	
 	/*
 	@BeforeEach
@@ -18,7 +18,7 @@ public class ProductoPrimeraNecesidadTest {
 
 	@BeforeEach
 	public void setUp() {
-		leche = new ProductoPrimeraNecesidad("Leche", 8d, false, 20d);
+		leche = new ProductoPrimeraNecesidad("Leche", 8d, false, 20);
 	}
 	
 	
