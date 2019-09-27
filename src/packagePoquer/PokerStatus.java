@@ -2,14 +2,20 @@ package packagePoquer;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class PokerStatus {
 	
+	private int i;
+
 	public PokerStatus() {
 		
 	}
 	
 	public Boolean verificar(String carta1, String carta2, String carta3, String carta4, String carta5) {
+		
 		
 		List <String> cartas = new ArrayList <String>();		
 		cartas.add(carta5);
@@ -18,15 +24,14 @@ public class PokerStatus {
 		cartas.add(carta2);
 		cartas.add(carta1);
 		
-		int cantMatches = 0;
-		for (String unaCarta : cartas) {
-			//if (cantMatches =! 4) {
-				//cantMatches = cartas.stream().filter(carta -> carta == unaCarta).count();
-			//}
-		}
+		Stream <String> cartasSinElpalo = 
+				cartas.stream().map(carta -> carta.substring(0, carta.length() -1));
+				
+		return cartasSinElpalo.collect(Collectors.groupingBy(e -> e, Collectors.counting()))
+				.containsValue(4l);
 		
-		//return cartas.stream().filter(carta1.substring(1,1) == );
-		return cantMatches == 4;
+		
+		
 	}
 
 	

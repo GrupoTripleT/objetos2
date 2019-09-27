@@ -3,7 +3,6 @@ package packageDetectorDeTemperaturaTest;
 import static org.mockito.Mockito.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
 import packageDetectorDeTemparatura.*;
 

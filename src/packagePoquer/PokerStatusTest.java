@@ -1,11 +1,10 @@
-package packagePoquerTest;
+package packagePoquer;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
-
-import packagePoquer.*;
+import org.junit.jupiter.api.Test;
 
 class PokerStatusTest {
 
@@ -22,7 +21,7 @@ class PokerStatusTest {
 	@Test
 	void testPokerStatus_VerificarCasoPoker() {
 		//exercise and verify
-		assertEquals(true, pokerStatus.verificar("4P", "4C", "4T", "4D","QT"));
+		assertTrue( pokerStatus.verificar("8P", "8P", "8T", "8D","QT"));
 	}
 
 	@Test 
@@ -36,4 +35,5 @@ class PokerStatusTest {
 		assertEquals(true, pokerStatus.verificar("3P", "2C", "2T", "2D","2P"));
 
 	}
+
 }
