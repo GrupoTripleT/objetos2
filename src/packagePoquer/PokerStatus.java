@@ -20,9 +20,9 @@ public class PokerStatus {
 		
 		int cantMatches = 0;
 		for (String unaCarta : cartas) {
-			if (cantMatches =! 4) {
-				cantMatches = cartas.stream().filter(carta -> carta == unaCarta).count();
-			}
+			//if (cantMatches =! 4) {
+				//cantMatches = cartas.stream().filter(carta -> carta == unaCarta).count();
+			//}
 		}
 		
 		//return cartas.stream().filter(carta1.substring(1,1) == );
