@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmi:id="_ZePmYNS-EemW17DARodPpg">
+  <eAnnotations xmi:id="_8No9oNS-EemW17DARodPpg" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_8NpksNS-EemW17DARodPpg" source="visual-filters/hideNonPublicElements">
+      <details xmi:id="_8NqLwNS-EemW17DARodPpg" key="isActive" value="false"/>
+    </contents>
+  </eAnnotations>
+  <modelElement href="objetos2.uml#_ZdUZUNS-EemW17DARodPpg"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YX4wYNTAEemW17DARodPpg" name="Banco">
+    <modelElement href="objetos2.uml#_YX4JUNTAEemW17DARodPpg"/>
+    <visualProperties xmi:id="_YX4wYdTAEemW17DARodPpg" position="452.0,36.0" size="220.0,260.0"/>
+    <visibility xmi:id="_YX4wYtTAEemW17DARodPpg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_giUQoNS_EemW17DARodPpg" name="Cliente">
+    <modelElement href="objetos2.uml#_giTpkNS_EemW17DARodPpg"/>
+    <visualProperties xmi:id="_giUQodS_EemW17DARodPpg" position="18.0,39.0" size="397.0,260.0"/>
+    <visibility xmi:id="_giUQotS_EemW17DARodPpg" label="+"/>
+    <attributes xmi:id="_r2xAYNS_EemW17DARodPpg" name="nombre">
+      <modelElement href="objetos2.uml#_r2wZUNS_EemW17DARodPpg"/>
+      <visualProperties xmi:id="_B1ceMNTAEemW17DARodPpg"/>
+      <visibility xmi:id="_r2xAYdS_EemW17DARodPpg" label="-"/>
+      <cardinality xmi:id="_r2xAYtS_EemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_r2xAY9S_EemW17DARodPpg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yP1bQNS_EemW17DARodPpg" name="apellido">
+      <modelElement href="objetos2.uml#_yP00MNS_EemW17DARodPpg"/>
+      <visualProperties xmi:id="_B1ceMdTAEemW17DARodPpg"/>
+      <visibility xmi:id="_yP1bQdS_EemW17DARodPpg" label="-"/>
+      <cardinality xmi:id="_yP1bQtS_EemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_yP1bQ9S_EemW17DARodPpg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zuZrAdS_EemW17DARodPpg" name="direccion">
+      <modelElement href="objetos2.uml#_zuZrANS_EemW17DARodPpg"/>
+      <visualProperties xmi:id="_B1ceMtTAEemW17DARodPpg"/>
+      <visibility xmi:id="_zuZrAtS_EemW17DARodPpg" label="-"/>
+      <cardinality xmi:id="_zuZrA9S_EemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_zuZrBNS_EemW17DARodPpg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1idpoNS_EemW17DARodPpg" name="edad">
+      <modelElement href="objetos2.uml#_1idCkNS_EemW17DARodPpg"/>
+      <visualProperties xmi:id="_B1ceM9TAEemW17DARodPpg"/>
+      <visibility xmi:id="_1idpodS_EemW17DARodPpg" label="-"/>
+      <cardinality xmi:id="_1idpotS_EemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_1idpo9S_EemW17DARodPpg" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_47vSkNS_EemW17DARodPpg" name="sueldoNeto">
+      <modelElement href="objetos2.uml#_47qaENS_EemW17DARodPpg"/>
+      <visualProperties xmi:id="_B1dFQNTAEemW17DARodPpg"/>
+      <visibility xmi:id="_47vSkdS_EemW17DARodPpg" label="-"/>
+      <cardinality xmi:id="_47vSktS_EemW17DARodPpg" label="1" max="1" min="1"/>
+      <type xmi:id="_EQcPENTCEemW17DARodPpg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kU-p8dS_EemW17DARodPpg" name="getNombre">
+      <modelElement href="objetos2.uml#_kU-p8NS_EemW17DARodPpg"/>
+      <visualProperties xmi:id="_pgS4QNS_EemW17DARodPpg"/>
+      <visibility xmi:id="_kU-p8tS_EemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_kU-p89S_EemW17DARodPpg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_OJY8EtTAEemW17DARodPpg" name="getSueldoNetoAnual">
+      <modelElement href="objetos2.uml#_OJY8ENTAEemW17DARodPpg"/>
+      <visibility xmi:id="_OJY8E9TAEemW17DARodPpg" label="+"/>
+      <cardinality xmi:id="_OJY8FNTAEemW17DARodPpg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OJY8FdTAEemW17DARodPpg">
+        <modelElement href="objetos2.uml#_OJY8EdTAEemW17DARodPpg"/>
+        <type xmi:id="_iNMMINTBEemW17DARodPpg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

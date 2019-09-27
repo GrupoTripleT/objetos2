@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ZdUZUNS-EemW17DARodPpg" name="objetos2">
+    <eAnnotations xmi:id="_Zh2UANS-EemW17DARodPpg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Zh2UAdS-EemW17DARodPpg" source="codegen">
+        <details xmi:id="_Zh2UAtS-EemW17DARodPpg" key="codegenDirectory" value="/objetos2/src"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_rhfT8NS_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_rhfT8dS_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_rhf7ANS_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_rhf7AdS_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_rhf7AtS_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_rhf7A9S_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_rhf7BNS_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_rhf7BdS_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_rj_OUNS_EemW17DARodPpg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_giTpkNS_EemW17DARodPpg" name="Cliente">
+      <ownedAttribute xmi:id="_r2wZUNS_EemW17DARodPpg" name="nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yP00MNS_EemW17DARodPpg" name="apellido" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_zuZrANS_EemW17DARodPpg" name="direccion" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1idCkNS_EemW17DARodPpg" name="edad" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_47qaENS_EemW17DARodPpg" name="sueldoNeto" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_kU-p8NS_EemW17DARodPpg" name="getNombre"/>
+      <ownedOperation xmi:id="_OJY8ENTAEemW17DARodPpg" name="getSueldoNetoAnual" visibility="public">
+        <ownedParameter xmi:id="_OJY8EdTAEemW17DARodPpg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_47s2UNS_EemW17DARodPpg" name="Double"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YX4JUNTAEemW17DARodPpg" name="Banco"/>
+    <profileApplication xmi:id="_Zh3iINS-EemW17DARodPpg">
+      <eAnnotations xmi:id="_Zh3iIdS-EemW17DARodPpg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Zh4JMNS-EemW17DARodPpg" base_Package="_ZdUZUNS-EemW17DARodPpg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:UnresolvedElement xmi:id="_47uEcNS_EemW17DARodPpg" base_Element="_47s2UNS_EemW17DARodPpg"/>
+</xmi:XMI>

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_TCnm0NZrEemaLOAPzJ9izA">
+  <modelElement href="objetos22.uml#_TfGugNZrEemaLOAPzJ9izA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ULkL4NZrEemaLOAPzJ9izA" sourceAnchor="201.0,248.0" targetAnchor="102.0,0.0" target="_UNb0INZrEemaLOAPzJ9izA" source="_ULmBENZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TjYKgdZrEemaLOAPzJ9izA"/>
+    <stereotypes xmi:id="_ULky8NZrEemaLOAPzJ9izA" name="Reference">
+      <modelElement href="objetos22.uml#_TjYxkNZrEemaLOAPzJ9izA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ULky8dZrEemaLOAPzJ9izA" text="">
+      <visualProperties xmi:id="_UW1AsNZrEemaLOAPzJ9izA" position="2.0,11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ULky8tZrEemaLOAPzJ9izA" aggregationKind="NONE" name="">
+      <modelElement href="objetos22.uml#_TjYKgtZrEemaLOAPzJ9izA"/>
+      <visualProperties xmi:id="_UWzLgtZrEemaLOAPzJ9izA" position="-19.0,52.0"/>
+      <visibility xmi:id="_ULky89ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_ULky9NZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ULky9dZrEemaLOAPzJ9izA" aggregationKind="NONE" name="propiedad" navigable="true">
+      <modelElement href="objetos22.uml#_Ti4bQNZrEemaLOAPzJ9izA"/>
+      <visualProperties xmi:id="_UW1nwNZrEemaLOAPzJ9izA" position="-102.0,-117.0"/>
+      <visibility xmi:id="_ULky9tZrEemaLOAPzJ9izA" label="-"/>
+      <cardinality xmi:id="_ULky99ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_UM62wNZrEemaLOAPzJ9izA" sourceAnchor="0.0,133.0" targetAnchor="893.0,96.0" target="_UNBkcNZrEemaLOAPzJ9izA" source="_ULmBENZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TjQ1wNZrEemaLOAPzJ9izA"/>
+    <nameVisual xmi:id="_UM8E4NZrEemaLOAPzJ9izA" text="">
+      <visualProperties xmi:id="_UW3c8NZrEemaLOAPzJ9izA" position="-46.0,1.9999999999999147"/>
+    </nameVisual>
+    <sourceRole xmi:id="_UM8r8NZrEemaLOAPzJ9izA" aggregationKind="NONE" name="cliente" navigable="true">
+      <modelElement href="objetos22.uml#_Ti5pYNZrEemaLOAPzJ9izA"/>
+      <visualProperties xmi:id="_UW214NZrEemaLOAPzJ9izA" position="-128.0,2.0"/>
+      <visibility xmi:id="_UNA9YNZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNAWUNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_UM9TANZrEemaLOAPzJ9izA" aggregationKind="NONE" name="">
+      <modelElement href="objetos22.uml#_TjQ1wdZrEemaLOAPzJ9izA"/>
+      <visualProperties xmi:id="_UW4EANZrEemaLOAPzJ9izA" position="27.0,-67.00000000000011"/>
+      <visibility xmi:id="_UNA9YtZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNA9YdZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_UNmMMNZrEemaLOAPzJ9izA" source="_UNoBYNZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TjVuQNZrEemaLOAPzJ9izA"/>
+    <stereotypes xmi:id="_UNmMMdZrEemaLOAPzJ9izA" name="Reference">
+      <modelElement href="objetos22.uml#_TjW8YNZrEemaLOAPzJ9izA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_UNmMMtZrEemaLOAPzJ9izA" text=""/>
+    <sourceRole xmi:id="_UNmMM9ZrEemaLOAPzJ9izA" aggregationKind="NONE" name="">
+      <modelElement href="objetos22.uml#_TjVuQdZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNmMNNZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNmMNdZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_UNmMNtZrEemaLOAPzJ9izA" aggregationKind="NONE" name="clientes" navigable="true">
+      <modelElement href="objetos22.uml#_TitcINZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_qJxdsNZtEemaLOAPzJ9izA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_qJ29QNZtEemaLOAPzJ9izA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_qJ71wNZtEemaLOAPzJ9izA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ryV-ANZtEemaLOAPzJ9izA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ryaPcNZtEemaLOAPzJ9izA" name="Generics"/>
+      <stereotypes xmi:id="_rydSwNZtEemaLOAPzJ9izA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ryfH8NZtEemaLOAPzJ9izA" name="Generics"/>
+      <visibility xmi:id="_UNmMN9ZrEemaLOAPzJ9izA" label="-"/>
+      <cardinality xmi:id="_UNmMONZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_UNnaUNZrEemaLOAPzJ9izA" source="_UNoBYNZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TjW8YdZrEemaLOAPzJ9izA"/>
+    <stereotypes xmi:id="_UNnaUdZrEemaLOAPzJ9izA" name="Reference">
+      <modelElement href="objetos22.uml#_TjYKgNZrEemaLOAPzJ9izA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_UNnaUtZrEemaLOAPzJ9izA" text=""/>
+    <sourceRole xmi:id="_UNnaU9ZrEemaLOAPzJ9izA" aggregationKind="NONE" name="">
+      <modelElement href="objetos22.uml#_TjW8YtZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNnaVNZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNnaVdZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_UNnaVtZrEemaLOAPzJ9izA" aggregationKind="NONE" name="solicitudes" navigable="true">
+      <modelElement href="objetos22.uml#_Tiv4YdZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNnaV9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNnaWNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_UNzAgNZrEemaLOAPzJ9izA" sourceAnchor="539.0,0.0" targetAnchor="447.0,192.0" superClass="_UNBkcNZrEemaLOAPzJ9izA" subClass="_UN3R8NZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TiXd4NZrEemaLOAPzJ9izA"/>
+    <bendpoints xmi:id="_ipKd4NZrEemaLOAPzJ9izA" sourceY="-30" targetX="123" targetY="729"/>
+    <bendpoints xmi:id="_ipLE8NZrEemaLOAPzJ9izA" sourceX="-123" sourceY="-30" targetY="729"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_UOAb4NZrEemaLOAPzJ9izA" sourceAnchor="705.0,0.0" targetAnchor="447.0,192.0" superClass="_UNBkcNZrEemaLOAPzJ9izA" subClass="_UODfMNZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TiZTENZrEemaLOAPzJ9izA"/>
+    <bendpoints xmi:id="_ipJ20NZrEemaLOAPzJ9izA" sourceY="-289" targetX="676" targetY="729"/>
+    <bendpoints xmi:id="_ipJ20dZrEemaLOAPzJ9izA" sourceX="-676" sourceY="-289" targetY="729"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UNBkcNZrEemaLOAPzJ9izA" name="SolicitudPrestamo" abstractClass="true" associationsIn="_UM62wNZrEemaLOAPzJ9izA" subclassedBy="_UNzAgNZrEemaLOAPzJ9izA _UOAb4NZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TgToYNZrEemaLOAPzJ9izA"/>
+    <visualProperties xmi:id="_UNBkcdZrEemaLOAPzJ9izA" position="-874.0,-11.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UNBkctZrEemaLOAPzJ9izA" label="+"/>
+    <attributes xmi:id="_UNBkc9ZrEemaLOAPzJ9izA" name="cliente">
+      <modelElement href="objetos22.uml#_Ti5pYNZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNBkdNZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNBkddZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_UNBkdtZrEemaLOAPzJ9izA" name="Cliente">
+        <modelElement href="objetos22.uml#_TgMToNZrEemaLOAPzJ9izA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_UNBkd9ZrEemaLOAPzJ9izA" name="montoSolicitado">
+      <modelElement href="objetos22.uml#_Ti6QcNZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNBkeNZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNBkedZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_UNCLgNZrEemaLOAPzJ9izA" name="Double">
+        <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_UNCLgdZrEemaLOAPzJ9izA" name="plazoEnMeses">
+      <modelElement href="objetos22.uml#_Ti63gNZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNCLgtZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNCLg9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_UNCLhNZrEemaLOAPzJ9izA" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_UNCLhdZrEemaLOAPzJ9izA" name="getValorCuota">
+      <modelElement href="objetos22.uml#_TgWrsNZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNCLhtZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNCLh9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UNCLiNZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TimHYdZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UNCLidZrEemaLOAPzJ9izA" name="Double">
+          <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UNCLitZrEemaLOAPzJ9izA" abstractOperation="true" name="esAceptada">
+      <modelElement href="objetos22.uml#_TgX50NZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNCLi9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNCLjNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UNCLjdZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TgYg4NZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UNCLjtZrEemaLOAPzJ9izA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UNCLj9ZrEemaLOAPzJ9izA" name="SolicitudPrestamo">
+      <modelElement href="objetos22.uml#_TikSMNZrEemaLOAPzJ9izA"/>
+      <keywords xmi:id="_UNCLkNZrEemaLOAPzJ9izA" keyword="create"/>
+      <visibility xmi:id="_UNCLkdZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNCLktZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UNCLk9ZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TimHYNZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UNCLlNZrEemaLOAPzJ9izA" name="SolicitudPrestamo">
+          <modelElement href="objetos22.uml#_TgToYNZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UNCLldZrEemaLOAPzJ9izA" name="cliente">
+        <modelElement href="objetos22.uml#_TikSMdZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UNCLltZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UNCLl9ZrEemaLOAPzJ9izA" name="Cliente">
+          <modelElement href="objetos22.uml#_TgMToNZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UNCLmNZrEemaLOAPzJ9izA" name="montoSolicitado">
+        <modelElement href="objetos22.uml#_TikSMtZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UNCLmdZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UNCLmtZrEemaLOAPzJ9izA" name="Double">
+          <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UNCLm9ZrEemaLOAPzJ9izA" name="plazoEnMeses">
+        <modelElement href="objetos22.uml#_TilgUNZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UNCLnNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UNCLndZrEemaLOAPzJ9izA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UNb0INZrEemaLOAPzJ9izA" name="PropiedadInmobiliaria" associationsIn="_ULkL4NZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TgJ3YNZrEemaLOAPzJ9izA"/>
+    <visualProperties xmi:id="_UNb0IdZrEemaLOAPzJ9izA" position="959.0,624.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UNb0ItZrEemaLOAPzJ9izA" label="+"/>
+    <attributes xmi:id="_UNb0I9ZrEemaLOAPzJ9izA" name="descripcion">
+      <modelElement href="objetos22.uml#_Tiy7sNZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_UNb0JNZrEemaLOAPzJ9izA" name="LegacyStyledElement">
+        <modelElement href="objetos22.uml#_TiziwNZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_UNb0JdZrEemaLOAPzJ9izA" label="-"/>
+      <cardinality xmi:id="_UNb0JtZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_UNb0J9ZrEemaLOAPzJ9izA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_UNb0KNZrEemaLOAPzJ9izA" name="direccion">
+      <modelElement href="objetos22.uml#_TiziwdZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_UNb0KdZrEemaLOAPzJ9izA" name="LegacyStyledElement">
+        <modelElement href="objetos22.uml#_Ti0J0NZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_UNb0KtZrEemaLOAPzJ9izA" label="-"/>
+      <cardinality xmi:id="_UNb0K9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_UNb0LNZrEemaLOAPzJ9izA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_UNb0LdZrEemaLOAPzJ9izA" name="valorFiscal">
+      <modelElement href="objetos22.uml#_Ti0w4NZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNb0LtZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNb0L9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_UNb0MNZrEemaLOAPzJ9izA" name="Double">
+        <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UODfMNZrEemaLOAPzJ9izA" name="SolicitudPrestamoPersonal" generalizations="_UOAb4NZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TgnxcNZrEemaLOAPzJ9izA"/>
+    <visualProperties xmi:id="_UODfMdZrEemaLOAPzJ9izA" position="-456.0,1199.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UODfMtZrEemaLOAPzJ9izA" label="+"/>
+    <operations xmi:id="_UODfM9ZrEemaLOAPzJ9izA" name="esAceptada">
+      <modelElement href="objetos22.uml#_TgpmoNZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_UODfNNZrEemaLOAPzJ9izA" name="LegacyStyledElement">
+        <modelElement href="objetos22.uml#_TgqNsNZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_UODfNdZrEemaLOAPzJ9izA" name="Annotations">
+        <modelElement href="objetos22.uml#_Tgq0wNZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_UODfNtZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UODfN9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UODfONZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TgpmodZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UODfOdZrEemaLOAPzJ9izA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UODfOtZrEemaLOAPzJ9izA" name="laCuotaNoSuperaDeSusIngresos">
+      <modelElement href="objetos22.uml#_Tgq0wtZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UODfO9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UODfPNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UODfPdZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_Tgsp8dZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UODfPtZrEemaLOAPzJ9izA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UODfP9ZrEemaLOAPzJ9izA" name="porcentaje">
+        <modelElement href="objetos22.uml#_Tgsp8NZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UODfQNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UODfQdZrEemaLOAPzJ9izA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UODfQtZrEemaLOAPzJ9izA" name="SolicitudPrestamoPersonal">
+      <modelElement href="objetos22.uml#_Tirm8NZrEemaLOAPzJ9izA"/>
+      <keywords xmi:id="_UODfQ9ZrEemaLOAPzJ9izA" keyword="create"/>
+      <visibility xmi:id="_UODfRNZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UODfRdZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UODfRtZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TisOAtZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UODfR9ZrEemaLOAPzJ9izA" name="SolicitudPrestamoPersonal">
+          <modelElement href="objetos22.uml#_TgnxcNZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UODfSNZrEemaLOAPzJ9izA" name="cliente">
+        <modelElement href="objetos22.uml#_Tirm8dZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UODfSdZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UODfStZrEemaLOAPzJ9izA" name="Cliente">
+          <modelElement href="objetos22.uml#_TgMToNZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UODfS9ZrEemaLOAPzJ9izA" name="montoSolicitado">
+        <modelElement href="objetos22.uml#_Tirm8tZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UODfTNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UODfTdZrEemaLOAPzJ9izA" name="Double">
+          <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UODfTtZrEemaLOAPzJ9izA" name="plazoEnMeses">
+        <modelElement href="objetos22.uml#_Tirm89ZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UODfT9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UODfUNZrEemaLOAPzJ9izA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ULmBENZrEemaLOAPzJ9izA" name="Cliente" associationsOut="_ULkL4NZrEemaLOAPzJ9izA _UM62wNZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TgMToNZrEemaLOAPzJ9izA"/>
+    <visualProperties xmi:id="_ULmBEdZrEemaLOAPzJ9izA" position="860.0,-48.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ULmBEtZrEemaLOAPzJ9izA" label="+"/>
+    <attributes xmi:id="_ULmBE9ZrEemaLOAPzJ9izA" name="nombre">
+      <modelElement href="objetos22.uml#_Ti0w4dZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_ULmBFNZrEemaLOAPzJ9izA" name="LegacyStyledElement">
+        <modelElement href="objetos22.uml#_Ti1X8NZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_ULmBFdZrEemaLOAPzJ9izA" label="-"/>
+      <cardinality xmi:id="_ULmBFtZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_ULmBF9ZrEemaLOAPzJ9izA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ULmBGNZrEemaLOAPzJ9izA" name="apellido">
+      <modelElement href="objetos22.uml#_Ti1_ANZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_ULmBGdZrEemaLOAPzJ9izA" name="LegacyStyledElement">
+        <modelElement href="objetos22.uml#_Ti2mENZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_ULmBGtZrEemaLOAPzJ9izA" label="-"/>
+      <cardinality xmi:id="_ULmBG9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_ULmBHNZrEemaLOAPzJ9izA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ULmBHdZrEemaLOAPzJ9izA" name="edad">
+      <modelElement href="objetos22.uml#_Ti3NINZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_ULmBHtZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_ULmBH9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_ULmBINZrEemaLOAPzJ9izA" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ULmBIdZrEemaLOAPzJ9izA" name="sueldoNeto">
+      <modelElement href="objetos22.uml#_Ti30MNZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_ULmBItZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_ULmBI9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_ULmBJNZrEemaLOAPzJ9izA" name="Double">
+        <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ULmBJdZrEemaLOAPzJ9izA" name="propiedad">
+      <modelElement href="objetos22.uml#_Ti4bQNZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_ULmBJtZrEemaLOAPzJ9izA" name="LegacyStyledElement">
+        <modelElement href="objetos22.uml#_Ti5CUNZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_ULmBJ9ZrEemaLOAPzJ9izA" label="-"/>
+      <cardinality xmi:id="_ULmBKNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_ULmBKdZrEemaLOAPzJ9izA" name="PropiedadInmobiliaria">
+        <modelElement href="objetos22.uml#_TgJ3YNZrEemaLOAPzJ9izA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ULmBKtZrEemaLOAPzJ9izA" name="sueldoNetoAnual">
+      <modelElement href="objetos22.uml#_TgOI0NZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_ULmBK9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_ULmBLNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ULmBLdZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_Tih18NZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_ULmBLtZrEemaLOAPzJ9izA" name="Double">
+          <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ULmBL9ZrEemaLOAPzJ9izA" name="getPropiedadInmobiliaria">
+      <modelElement href="objetos22.uml#_TgPW8NZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_ULmBMNZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_ULmBMdZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ULmBMtZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TiRXQNZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_ULmBM9ZrEemaLOAPzJ9izA" name="PropiedadInmobiliaria">
+          <modelElement href="objetos22.uml#_TgJ3YNZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ULmBNNZrEemaLOAPzJ9izA" name="getValorFiscarDePropiedad">
+      <modelElement href="objetos22.uml#_TgP-ANZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_ULmBNdZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_ULmBNtZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ULmBN9ZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TiidANZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_ULmBONZrEemaLOAPzJ9izA" name="Double">
+          <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UNoBYNZrEemaLOAPzJ9izA" name="Banco" associationsOut="_UNmMMNZrEemaLOAPzJ9izA _UNnaUNZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_Tfz5INZrEemaLOAPzJ9izA"/>
+    <visualProperties xmi:id="_UNoBYdZrEemaLOAPzJ9izA" position="-54.0,376.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UNoBYtZrEemaLOAPzJ9izA" label="+"/>
+    <attributes xmi:id="_UNoBY9ZrEemaLOAPzJ9izA" name="clientes">
+      <modelElement href="objetos22.uml#_TitcINZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_UNoBZdZrEemaLOAPzJ9izA" name="LegacyStyledElement">
+        <modelElement href="objetos22.uml#_Tiv4YNZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ryVW8NZtEemaLOAPzJ9izA" name="Generics">
+        <modelElement href="objetos22.uml#_ryPQUNZtEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_UNoBZtZrEemaLOAPzJ9izA" label="-"/>
+      <cardinality xmi:id="_UNoBZ9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_UNoBaNZrEemaLOAPzJ9izA" name="ArrayList">
+        <modelElement href="objetos22.uml#_TiEi8NZrEemaLOAPzJ9izA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_UNoBadZrEemaLOAPzJ9izA" name="solicitudes">
+      <modelElement href="objetos22.uml#_Tiv4YdZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_UNoBatZrEemaLOAPzJ9izA" name="Generics">
+        <modelElement href="objetos22.uml#_TiyUoNZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_UNoBa9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNoBbNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <type xmi:id="_UNoBbdZrEemaLOAPzJ9izA" name="ArrayList">
+        <modelElement href="objetos22.uml#_TiEi8NZrEemaLOAPzJ9izA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_UNoBbtZrEemaLOAPzJ9izA" name="getSolicitudesAprobadas">
+      <modelElement href="objetos22.uml#_Tf9qINZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_UNoBb9ZrEemaLOAPzJ9izA" name="Generics">
+        <modelElement href="objetos22.uml#_TgAtcNZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_UNoBcNZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNoBcdZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UNoBctZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TidkgNZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UNoBc9ZrEemaLOAPzJ9izA" name="ArrayList">
+          <modelElement href="objetos22.uml#_TiEi8NZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UNoBdNZrEemaLOAPzJ9izA" name="registrarSolicutud">
+      <modelElement href="objetos22.uml#_TiKCgNZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNoBddZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNoBdtZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_UNoBd9ZrEemaLOAPzJ9izA" name="solicitud">
+        <modelElement href="objetos22.uml#_TiKpkNZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UNoBeNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UNoBedZrEemaLOAPzJ9izA" name="SolicitudPrestamo">
+          <modelElement href="objetos22.uml#_TgToYNZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UNoBetZrEemaLOAPzJ9izA" name="getSolicutudAprobadaDe">
+      <modelElement href="objetos22.uml#_TiL3sNZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNoBe9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNoBfNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UNoBfdZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TiMewNZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UNoBftZrEemaLOAPzJ9izA" name="SolicitudPrestamo">
+          <modelElement href="objetos22.uml#_TgToYNZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UNoBf9ZrEemaLOAPzJ9izA" name="cliente">
+        <modelElement href="objetos22.uml#_TiL3sdZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UNoBgNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UNoBgdZrEemaLOAPzJ9izA" name="Cliente">
+          <modelElement href="objetos22.uml#_TgMToNZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UNoBgtZrEemaLOAPzJ9izA" name="getPrestamoDe">
+      <modelElement href="objetos22.uml#_TiNF0NZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UNoBg9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UNoBhNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UNoBhdZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TigAwNZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UNoBhtZrEemaLOAPzJ9izA" name="Double">
+          <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UNoBh9ZrEemaLOAPzJ9izA" name="cliente">
+        <modelElement href="objetos22.uml#_TiNF0dZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UNoBiNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UNoBidZrEemaLOAPzJ9izA" name="Cliente">
+          <modelElement href="objetos22.uml#_TgMToNZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UN3R8NZrEemaLOAPzJ9izA" name="SolicitudPrestamoHipotecario" generalizations="_UNzAgNZrEemaLOAPzJ9izA">
+    <modelElement href="objetos22.uml#_TgcLQNZrEemaLOAPzJ9izA"/>
+    <visualProperties xmi:id="_UN3R8dZrEemaLOAPzJ9izA" position="-843.0,940.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UN3R8tZrEemaLOAPzJ9izA" label="+"/>
+    <operations xmi:id="_UN3R89ZrEemaLOAPzJ9izA" name="esAceptada">
+      <modelElement href="objetos22.uml#_TgengNZrEemaLOAPzJ9izA"/>
+      <stereotypes xmi:id="_UN3R9NZrEemaLOAPzJ9izA" name="LegacyStyledElement">
+        <modelElement href="objetos22.uml#_TgfOkNZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_UN3R9dZrEemaLOAPzJ9izA" name="Annotations">
+        <modelElement href="objetos22.uml#_Tghq0NZrEemaLOAPzJ9izA"/>
+      </stereotypes>
+      <visibility xmi:id="_UN3R9tZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UN3R99ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UN3R-NZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TgengdZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UN3R-dZrEemaLOAPzJ9izA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UN3R-tZrEemaLOAPzJ9izA" name="laCuotaNoSuperaDeSusIngresos">
+      <modelElement href="objetos22.uml#_TgiR4NZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UN3R-9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UN3R_NZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UN3R_dZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TgiR4tZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UN3R_tZrEemaLOAPzJ9izA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UN3R_9ZrEemaLOAPzJ9izA" name="porcentaje">
+        <modelElement href="objetos22.uml#_TgiR4dZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UN3SANZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UN3SAdZrEemaLOAPzJ9izA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UN3SAtZrEemaLOAPzJ9izA" name="montoSolicitadoNoSuperaValorFiscal">
+      <modelElement href="objetos22.uml#_TgkHENZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UN3SA9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UN3SBNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UN3SBdZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TgkuINZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UN3SBtZrEemaLOAPzJ9izA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UN3SB9ZrEemaLOAPzJ9izA" name="porcentaje">
+        <modelElement href="objetos22.uml#_TgkHEdZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UN3SCNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UN3SCdZrEemaLOAPzJ9izA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UN3SCtZrEemaLOAPzJ9izA" name="laPersonaNoSuperaLaEdadAlTermino">
+      <modelElement href="objetos22.uml#_TiWPwNZrEemaLOAPzJ9izA"/>
+      <visibility xmi:id="_UN3SC9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UN3SDNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UN3SDdZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TiW20dZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UN3SDtZrEemaLOAPzJ9izA" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UN3SD9ZrEemaLOAPzJ9izA" name="cliente">
+        <modelElement href="objetos22.uml#_TiWPwdZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UN3SENZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UN3SEdZrEemaLOAPzJ9izA" name="Cliente">
+          <modelElement href="objetos22.uml#_TgMToNZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UN3SEtZrEemaLOAPzJ9izA" name="edadMaximaPrestamo">
+        <modelElement href="objetos22.uml#_TiW20NZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UN3SE9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UN3SFNZrEemaLOAPzJ9izA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UN3SFdZrEemaLOAPzJ9izA" name="SolicitudPrestamoHipotecario">
+      <modelElement href="objetos22.uml#_TipxwNZrEemaLOAPzJ9izA"/>
+      <keywords xmi:id="_UN3SFtZrEemaLOAPzJ9izA" keyword="create"/>
+      <visibility xmi:id="_UN3SF9ZrEemaLOAPzJ9izA" label="+"/>
+      <cardinality xmi:id="_UN3SGNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UN3SGdZrEemaLOAPzJ9izA">
+        <modelElement href="objetos22.uml#_TiqY0tZrEemaLOAPzJ9izA"/>
+        <type xmi:id="_UN3SGtZrEemaLOAPzJ9izA" name="SolicitudPrestamoHipotecario">
+          <modelElement href="objetos22.uml#_TgcLQNZrEemaLOAPzJ9izA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UN3SG9ZrEemaLOAPzJ9izA" name="cliente">
+        <modelElement href="objetos22.uml#_TipxwdZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UN3SHNZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UN3SHdZrEemaLOAPzJ9izA" name="Cliente">
+          <modelElement href="objetos22.uml#_TgMToNZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UN3SHtZrEemaLOAPzJ9izA" name="montoSolicitado">
+        <modelElement href="objetos22.uml#_TipxwtZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UN3SH9ZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UN3SINZrEemaLOAPzJ9izA" name="Double">
+          <modelElement href="objetos22.uml#_TieLkdZrEemaLOAPzJ9izA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UN3SIdZrEemaLOAPzJ9izA" name="plazoEnMeses">
+        <modelElement href="objetos22.uml#_Tipxw9ZrEemaLOAPzJ9izA"/>
+        <cardinality xmi:id="_UN3SItZrEemaLOAPzJ9izA" label="1" max="1" min="1"/>
+        <type xmi:id="_UN3SI9ZrEemaLOAPzJ9izA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
