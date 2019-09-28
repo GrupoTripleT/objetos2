@@ -11,7 +11,6 @@ import packagePoquer.PokerStatus;
 class PokerStatusTest {
 
 	public PokerStatus pokerStatus;
-
 	
 	@BeforeEach
 	void setUp() throws Exception {
@@ -33,9 +32,28 @@ class PokerStatusTest {
 	}
 	
 	@Test 
-	void testPokerStatus_VerificarCasoNegrativo2(){
+	void testPokerStatus_VerificarCasoPoker4CartasUltomasDe2(){
 		assertEquals(true, pokerStatus.verificar("3P", "2C", "2T", "2D","2P"));
 
 	}
+	
 
+	@Test 
+	void testPokerStatus_VerificarCasoPositivoConNumerosDe2Cifras(){
+	assertEquals(true, pokerStatus.verificar("10P", "10C", "10T", "10D","2P"));
+
+	}
+
+	@Test 
+	void testPokerStatus_VerificarCasoPositivoPokerConQYUltimos(){
+	assertEquals(true, pokerStatus.verificar("3P", "QC", "QT", "QD","QP"));
+
+	}
+	
+	@Test 
+	void testPokerStatus_VerificarCasoNegativo4ConNumerosQ(){
+	assertEquals(false, pokerStatus.verificar("3P", "QC", "2T", "4D","7P"));
+
+	}
+	
 }
