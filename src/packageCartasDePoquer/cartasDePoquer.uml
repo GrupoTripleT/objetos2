@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_g8PakOIHEemuzKw77IM04g" name="cartasDePoquer">
+    <eAnnotations xmi:id="_hLnTUOIHEemuzKw77IM04g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_hLnTUeIHEemuzKw77IM04g" source="codegen">
+        <details xmi:id="_hLnTUuIHEemuzKw77IM04g" key="codegenDirectory" value="/Objetos2/src"/>
+        <details xmi:id="_h2_LkOIHEemuzKw77IM04g" key="AssociatedSourceCode" value="/Objetos2/src/packageCartasDePoquer/Carta.java;327904618/1;/Objetos2/src/packageCartasDePoquer/PokerStatus.java;1281425215/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_hYNk4OIHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_hYNk4eIHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_hYNk4uIHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_hYNk4-IHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_hYNk5OIHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_hYOL8OIHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_hYOL8eIHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_hYOL8uIHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_hYOzAOIHEemuzKw77IM04g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hYeqoOIHEemuzKw77IM04g" name="packageCartasDePoquer">
+      <packagedElement xmi:type="uml:Class" xmi:id="_hY3sMOIHEemuzKw77IM04g" name="Carta">
+        <ownedAttribute xmi:id="_haigIOIHEemuzKw77IM04g" name="valor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_hajHMeIHEemuzKw77IM04g" name="palo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RUaW0eIXEemuzKw77IM04g" name="cartaStatus" type="_1XPpsOIIEemuzKw77IM04g" association="_RUaW0OIXEemuzKw77IM04g">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RUaW0uIXEemuzKw77IM04g" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RUczEOIXEemuzKw77IM04g" value="1"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hautYOIHEemuzKw77IM04g" name="Carta" specification="_hZA2IOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_hautYeIHEemuzKw77IM04g" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hautYuIHEemuzKw77IM04g" name="palo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hautY-IHEemuzKw77IM04g" type="_hY3sMOIHEemuzKw77IM04g" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.valor = valor;&#xD;
+		this.palo = palo;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hayXwOIHEemuzKw77IM04g" name="getPalo" specification="_hZEggOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_hayXweIHEemuzKw77IM04g" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.palo;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hay-0OIHEemuzKw77IM04g" name="getValor" specification="_hZFuoOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_A3JJkuILEemuzKw77IM04g" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.valor;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_A3JJk-ILEemuzKw77IM04g" name="dameValor" specification="_A3JJkOILEemuzKw77IM04g">
+          <ownedParameter xmi:id="_A3JJlOILEemuzKw77IM04g" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Integer valorNumerico = null;&#xD;
+		&#xD;
+		if(this.getValor() == &quot;J&quot;) {&#xD;
+			valorNumerico = 11;&#xD;
+		} else if(this.getValor() == &quot;Q&quot;) {&#xD;
+			valorNumerico = 12;&#xD;
+			} else if(this.getValor() == &quot;K&quot;) {&#xD;
+				valorNumerico = 13;&#xD;
+			} else if(this.getValor() == &quot;A&quot;) {&#xD;
+				valorNumerico = 14;&#xD;
+			}&#xD;
+			else {&#xD;
+				valorNumerico = Integer.parseInt(this.getValor());&#xD;
+			}&#xD;
+&#xD;
+		return valorNumerico;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hZA2IOIHEemuzKw77IM04g" name="Carta" method="_hautYOIHEemuzKw77IM04g">
+          <eAnnotations xmi:id="_hZCrUOIHEemuzKw77IM04g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hZDSYOIHEemuzKw77IM04g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hZA2IeIHEemuzKw77IM04g" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hZA2IuIHEemuzKw77IM04g" name="palo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hZDSYeIHEemuzKw77IM04g" type="_hY3sMOIHEemuzKw77IM04g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZEggOIHEemuzKw77IM04g" name="getPalo" method="_hayXwOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_hZFHkOIHEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hZFuoOIHEemuzKw77IM04g" name="getValor" method="_hay-0OIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_hZGVsOIHEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_A3JJkOILEemuzKw77IM04g" name="dameValor" method="_A3JJk-ILEemuzKw77IM04g">
+          <ownedParameter xmi:id="_A3JJkeILEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hZKAEOIHEemuzKw77IM04g" name="PokerStatus">
+        <ownedAttribute xmi:id="_z4rPYOIHEemuzKw77IM04g" name="carta" type="_hY3sMOIHEemuzKw77IM04g" aggregation="composite" association="_z4ozIOIHEemuzKw77IM04g">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z4rPYeIHEemuzKw77IM04g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z4rPYuIHEemuzKw77IM04g" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ha0M8OIHEemuzKw77IM04g" name="getCartasSinPalo" specification="_haJekOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_ha0M8eIHEemuzKw77IM04g" name="cartas" type="_hZ61EOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha0M8uIHEemuzKw77IM04g" type="_hZ_GgeIHEemuzKw77IM04g" direction="return"/>
+          <language>java</language>
+          <body>return cartas.stream().map(carta -> carta.getValor());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ha0M8-IHEemuzKw77IM04g" name="getCartasSoloLosPalos" specification="_haNwAOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_ha0M9OIHEemuzKw77IM04g" name="cartas" type="_hZ61EOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha0M9eIHEemuzKw77IM04g" type="_hZ_GgeIHEemuzKw77IM04g" direction="return"/>
+          <language>java</language>
+          <body>return cartas.stream().map(carta -> carta.getPalo());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ha00AOIHEemuzKw77IM04g" name="hayXNumerosIguales" specification="_haTPkeIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_ha00AeIHEemuzKw77IM04g" name="cartasSinPalo" type="_hZ_GgeIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha00AuIHEemuzKw77IM04g" name="cantidad" type="_haRaYeIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha00A-IHEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return cartasSinPalo.collect(Collectors.groupingBy(e->e, Collectors.counting())).containsValue(cantidad);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ha1bEOIHEemuzKw77IM04g" name="hayXPalosIguales" specification="_hafc0OIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_ha1bEeIHEemuzKw77IM04g" name="cartasSoloLosPalos" type="_hZ_GgeIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha1bEuIHEemuzKw77IM04g" name="cantidad" type="_haRaYeIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha1bE-IHEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return cartasSoloLosPalos.collect(Collectors.groupingBy(e->e,Collectors.counting())).containsValue(cantidad);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ha1bFOIHEemuzKw77IM04g" name="verificar" specification="_haCJ0OIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_ha1bFeIHEemuzKw77IM04g" name="carta1" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha1bFuIHEemuzKw77IM04g" name="carta2" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha1bF-IHEemuzKw77IM04g" name="carta3" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha1bGOIHEemuzKw77IM04g" name="carta4" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha1bGeIHEemuzKw77IM04g" name="carta5" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_ha1bGuIHEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>List &lt;Carta> cartas = new ArrayList &lt;Carta>();		&#xD;
+		cartas.add(carta5);&#xD;
+		cartas.add(carta4);&#xD;
+		cartas.add(carta3);&#xD;
+		cartas.add(carta2);&#xD;
+		cartas.add(carta1);&#xD;
+		&#xD;
+		String status = null;&#xD;
+		&#xD;
+		if(this.hayXNumerosIguales(this.getCartasSinPalo(cartas), 4l)) {&#xD;
+			 status = &quot;Poker&quot;;&#xD;
+		}&#xD;
+		&#xD;
+		if(this.hayXNumerosIguales(this.getCartasSinPalo(cartas), 3l)) {&#xD;
+			status = &quot;Trio&quot;;&#xD;
+		}&#xD;
+		&#xD;
+		if(this.hayXPalosIguales(this.getCartasSoloLosPalos(cartas), 5l)) {&#xD;
+			status = &quot;Color&quot;;&#xD;
+		}&#xD;
+		&#xD;
+		if ( status == null) {&#xD;
+			status = &quot;Nada&quot;;&#xD;
+		}&#xD;
+&#xD;
+		return status;&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hZLOMOIHEemuzKw77IM04g" name="PokerStatus">
+          <eAnnotations xmi:id="_hZL1QOIHEemuzKw77IM04g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hZL1QeIHEemuzKw77IM04g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hZMcUeIHEemuzKw77IM04g" type="_hZKAEOIHEemuzKw77IM04g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_haCJ0OIHEemuzKw77IM04g" name="verificar" method="_ha1bFOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_haCJ0eIHEemuzKw77IM04g" name="carta1" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haCJ0uIHEemuzKw77IM04g" name="carta2" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haCw4OIHEemuzKw77IM04g" name="carta3" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haCw4eIHEemuzKw77IM04g" name="carta4" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haCw4uIHEemuzKw77IM04g" name="carta5" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haCw4-IHEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_haJekOIHEemuzKw77IM04g" name="getCartasSinPalo" method="_ha0M8OIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_haJekeIHEemuzKw77IM04g" name="cartas" type="_hZ61EOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haL60OIHEemuzKw77IM04g" type="_hZ_GgeIHEemuzKw77IM04g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_haNwAOIHEemuzKw77IM04g" name="getCartasSoloLosPalos" method="_ha0M8-IHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_haNwAeIHEemuzKw77IM04g" name="cartas" type="_hZ61EOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haO-IeIHEemuzKw77IM04g" type="_hZ_GgeIHEemuzKw77IM04g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_haTPkeIHEemuzKw77IM04g" name="hayXNumerosIguales" method="_ha00AOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_haTPkuIHEemuzKw77IM04g" name="cartasSinPalo" type="_hZ_GgeIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haTPk-IHEemuzKw77IM04g" name="cantidad" type="_haRaYeIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_haT2oOIHEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hafc0OIHEemuzKw77IM04g" name="hayXPalosIguales" method="_ha1bEOIHEemuzKw77IM04g">
+          <ownedParameter xmi:id="_hagD4OIHEemuzKw77IM04g" name="cartasSoloLosPalos" type="_hZ_GgeIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_hagD4eIHEemuzKw77IM04g" name="cantidad" type="_haRaYeIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_hagD4uIHEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_z4ozIOIHEemuzKw77IM04g" name="" memberEnd="_z4paMOIHEemuzKw77IM04g _z4rPYOIHEemuzKw77IM04g">
+        <ownedEnd xmi:id="_z4paMOIHEemuzKw77IM04g" name="" type="_hZKAEOIHEemuzKw77IM04g" association="_z4ozIOIHEemuzKw77IM04g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1XPpsOIIEemuzKw77IM04g" name="CartaStatus">
+        <ownedAttribute xmi:id="_RUczEeIXEemuzKw77IM04g" name="carta" type="_hY3sMOIHEemuzKw77IM04g" aggregation="composite" association="_RUaW0OIXEemuzKw77IM04g">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RUczEuIXEemuzKw77IM04g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RUczE-IXEemuzKw77IM04g" value="*"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="__03fIOIIEemuzKw77IM04g" name="esDelMismoPalo" visibility="public">
+          <ownedParameter xmi:id="_FWxBcOIJEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="__03fIeIIEemuzKw77IM04g" name="unaCarta" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="__03fIuIIEemuzKw77IM04g" name="otraCarta" type="_hY3sMOIHEemuzKw77IM04g"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XEK3UOIJEemuzKw77IM04g" name="esUnaCartaMayorAOtraCarta" visibility="public">
+          <ownedParameter xmi:id="_XEK3UeIJEemuzKw77IM04g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XEK3UuIJEemuzKw77IM04g" name="unaCarta" type="_hY3sMOIHEemuzKw77IM04g"/>
+          <ownedParameter xmi:id="_XEK3U-IJEemuzKw77IM04g" name="otraCarta" type="_hY3sMOIHEemuzKw77IM04g"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RUaW0OIXEemuzKw77IM04g" name="" memberEnd="_RUaW0eIXEemuzKw77IM04g _RUczEeIXEemuzKw77IM04g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hYjjIOIHEemuzKw77IM04g" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hYjjIeIHEemuzKw77IM04g" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hYkxQOIHEemuzKw77IM04g" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_hZ94YeIHEemuzKw77IM04g" name="Collectors"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_hZ_GgeIHEemuzKw77IM04g" name="Stream"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hZ4Y0OIHEemuzKw77IM04g" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hZ61EOIHEemuzKw77IM04g" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hZ8qQOIHEemuzKw77IM04g" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_haRaYOIHEemuzKw77IM04g" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_haRaYeIHEemuzKw77IM04g" name="Long"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_hLqWoOIHEemuzKw77IM04g">
+      <eAnnotations xmi:id="_hLvPIOIHEemuzKw77IM04g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_hL7cYOIHEemuzKw77IM04g" base_Package="_g8PakOIHEemuzKw77IM04g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hZMcUOIHEemuzKw77IM04g" base_Element="_hZLOMOIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Reference xmi:id="_hZ5m8OIHEemuzKw77IM04g" base_Element="_hZ4Y0OIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Reference xmi:id="_hZ8DMOIHEemuzKw77IM04g" base_Element="_hZ61EOIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Reference xmi:id="_hZ94YOIHEemuzKw77IM04g" base_Element="_hZ8qQOIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Reference xmi:id="_hZ_GgOIHEemuzKw77IM04g" base_Element="_hZ94YeIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Reference xmi:id="_haA7sOIHEemuzKw77IM04g" base_Element="_hZ_GgeIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Generics xmi:id="_haLTwOIHEemuzKw77IM04g" genericsValue="String" base_Element="_haJekOIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Generics xmi:id="_haNI8OIHEemuzKw77IM04g" genericsValue="Carta" base_Element="_haJekeIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Generics xmi:id="_haO-IOIHEemuzKw77IM04g" genericsValue="String" base_Element="_haNwAOIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Generics xmi:id="_haQzUOIHEemuzKw77IM04g" genericsValue="Carta" base_Element="_haNwAeIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Reference xmi:id="_haTPkOIHEemuzKw77IM04g" base_Element="_haRaYeIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Generics xmi:id="_hae1wOIHEemuzKw77IM04g" genericsValue="String" base_Element="_haTPkuIHEemuzKw77IM04g"/>
+  <UMLLabProfile:Generics xmi:id="_hahSAOIHEemuzKw77IM04g" genericsValue="String" base_Element="_hagD4OIHEemuzKw77IM04g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hajHMOIHEemuzKw77IM04g" base_Element="_haigIOIHEemuzKw77IM04g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hajuQOIHEemuzKw77IM04g" base_Element="_hajHMeIHEemuzKw77IM04g"/>
+</xmi:XMI>

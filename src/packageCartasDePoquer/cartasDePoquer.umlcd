@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_g_EsIOIHEemuzKw77IM04g">
+  <modelElement href="cartasDePoquer.uml#_hYeqoOIHEemuzKw77IM04g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_z5AmkOIHEemuzKw77IM04g" sourceAnchor="253.0,0.0" targetAnchor="266.0,248.0" target="_h3jMQOIHEemuzKw77IM04g" source="_h46eMOIHEemuzKw77IM04g">
+    <modelElement href="cartasDePoquer.uml#_z4ozIOIHEemuzKw77IM04g"/>
+    <visualProperties xmi:id="_z5BNoOIHEemuzKw77IM04g"/>
+    <nameVisual xmi:id="_z5BNoeIHEemuzKw77IM04g" text="">
+      <visualProperties xmi:id="_z7NmAOIHEemuzKw77IM04g" position="2.0,-14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_z5BNouIHEemuzKw77IM04g" aggregationKind="NONE" name="">
+      <modelElement href="cartasDePoquer.uml#_z4paMOIHEemuzKw77IM04g"/>
+      <visualProperties xmi:id="_z7M-8OIHEemuzKw77IM04g" position="2.0,-113.0"/>
+      <visibility xmi:id="_z5BNo-IHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_z5BNpOIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_z5BNpeIHEemuzKw77IM04g" name="carta" navigable="true">
+      <modelElement href="cartasDePoquer.uml#_z4rPYOIHEemuzKw77IM04g"/>
+      <visualProperties xmi:id="_z7NmAeIHEemuzKw77IM04g" position="2.0,47.0"/>
+      <visibility xmi:id="_z5BNpuIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_z5BNp-IHEemuzKw77IM04g" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RUfPUOIXEemuzKw77IM04g" sourceAnchor="15.0,0.0" targetAnchor="515.0,248.0" target="_h3jMQOIHEemuzKw77IM04g" source="_1XQ30OIIEemuzKw77IM04g">
+    <modelElement href="cartasDePoquer.uml#_RUaW0OIXEemuzKw77IM04g"/>
+    <visualProperties xmi:id="_RUfPUeIXEemuzKw77IM04g"/>
+    <nameVisual xmi:id="_RUfPUuIXEemuzKw77IM04g" text="">
+      <visualProperties xmi:id="_RWrnseIXEemuzKw77IM04g" position="-18.0,-13.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RUfPU-IXEemuzKw77IM04g" aggregationKind="NONE" name="cartaStatus" navigable="true">
+      <modelElement href="cartasDePoquer.uml#_RUaW0eIXEemuzKw77IM04g"/>
+      <visualProperties xmi:id="_RWrnsOIXEemuzKw77IM04g" position="2.0,-77.0"/>
+      <visibility xmi:id="_RUfPVOIXEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_RUfPVeIXEemuzKw77IM04g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RUfPVuIXEemuzKw77IM04g" name="carta" navigable="true">
+      <modelElement href="cartasDePoquer.uml#_RUczEeIXEemuzKw77IM04g"/>
+      <visualProperties xmi:id="_RWuD8OIXEemuzKw77IM04g" position="-96.0,1.0"/>
+      <visibility xmi:id="_RUfPV-IXEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_RUfPWOIXEemuzKw77IM04g" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h46eMOIHEemuzKw77IM04g" name="PokerStatus" associationsOut="_z5AmkOIHEemuzKw77IM04g">
+    <modelElement href="cartasDePoquer.uml#_hZKAEOIHEemuzKw77IM04g"/>
+    <visualProperties xmi:id="_h46eMeIHEemuzKw77IM04g" position="44.0,564.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h46eMuIHEemuzKw77IM04g" label="+"/>
+    <attributes xmi:id="_z5Dp4OIHEemuzKw77IM04g" name="carta">
+      <modelElement href="cartasDePoquer.uml#_z4rPYOIHEemuzKw77IM04g"/>
+      <visibility xmi:id="_z5Dp4eIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_z5Dp4uIHEemuzKw77IM04g" label="*" max="-1"/>
+      <type xmi:id="_z5Dp4-IHEemuzKw77IM04g" name="Carta">
+        <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h46eM-IHEemuzKw77IM04g" name="PokerStatus">
+      <modelElement href="cartasDePoquer.uml#_hZLOMOIHEemuzKw77IM04g"/>
+      <keywords xmi:id="_h46eNOIHEemuzKw77IM04g" keyword="create"/>
+      <stereotypes xmi:id="_h46eNeIHEemuzKw77IM04g" name="LegacyStyledElement">
+        <modelElement href="cartasDePoquer.uml#_hZMcUOIHEemuzKw77IM04g"/>
+      </stereotypes>
+      <visibility xmi:id="_h46eNuIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h46eN-IHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h46eOOIHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_hZMcUeIHEemuzKw77IM04g"/>
+        <type xmi:id="_h46eOeIHEemuzKw77IM04g" name="PokerStatus">
+          <modelElement href="cartasDePoquer.uml#_hZKAEOIHEemuzKw77IM04g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h46eOuIHEemuzKw77IM04g" name="verificar">
+      <modelElement href="cartasDePoquer.uml#_haCJ0OIHEemuzKw77IM04g"/>
+      <visibility xmi:id="_h46eO-IHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h46ePOIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h46ePeIHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_haCw4-IHEemuzKw77IM04g"/>
+        <type xmi:id="_h46ePuIHEemuzKw77IM04g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h46eP-IHEemuzKw77IM04g" name="carta1">
+        <modelElement href="cartasDePoquer.uml#_haCJ0eIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h46eQOIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h46eQeIHEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h46eQuIHEemuzKw77IM04g" name="carta2">
+        <modelElement href="cartasDePoquer.uml#_haCJ0uIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h46eQ-IHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h46eROIHEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h46eReIHEemuzKw77IM04g" name="carta3">
+        <modelElement href="cartasDePoquer.uml#_haCw4OIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h46eRuIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h46eR-IHEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h46eSOIHEemuzKw77IM04g" name="carta4">
+        <modelElement href="cartasDePoquer.uml#_haCw4eIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h46eSeIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h46eSuIHEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h46eS-IHEemuzKw77IM04g" name="carta5">
+        <modelElement href="cartasDePoquer.uml#_haCw4uIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h46eTOIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h46eTeIHEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h46eTuIHEemuzKw77IM04g" name="getCartasSinPalo">
+      <modelElement href="cartasDePoquer.uml#_haJekOIHEemuzKw77IM04g"/>
+      <stereotypes xmi:id="_h46eT-IHEemuzKw77IM04g" name="Generics">
+        <modelElement href="cartasDePoquer.uml#_haLTwOIHEemuzKw77IM04g"/>
+      </stereotypes>
+      <visibility xmi:id="_h46eUOIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h46eUeIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h46eUuIHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_haL60OIHEemuzKw77IM04g"/>
+        <type xmi:id="_h46eU-IHEemuzKw77IM04g" name="Stream">
+          <modelElement href="cartasDePoquer.uml#_hZ_GgeIHEemuzKw77IM04g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h46eVOIHEemuzKw77IM04g" name="cartas">
+        <modelElement href="cartasDePoquer.uml#_haJekeIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h46eVeIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h46eVuIHEemuzKw77IM04g" name="List">
+          <modelElement href="cartasDePoquer.uml#_hZ61EOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h46eV-IHEemuzKw77IM04g" name="getCartasSoloLosPalos">
+      <modelElement href="cartasDePoquer.uml#_haNwAOIHEemuzKw77IM04g"/>
+      <stereotypes xmi:id="_h46eWOIHEemuzKw77IM04g" name="Generics">
+        <modelElement href="cartasDePoquer.uml#_haO-IOIHEemuzKw77IM04g"/>
+      </stereotypes>
+      <visibility xmi:id="_h46eWeIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h46eWuIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h46eW-IHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_haO-IeIHEemuzKw77IM04g"/>
+        <type xmi:id="_h46eXOIHEemuzKw77IM04g" name="Stream">
+          <modelElement href="cartasDePoquer.uml#_hZ_GgeIHEemuzKw77IM04g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h46eXeIHEemuzKw77IM04g" name="cartas">
+        <modelElement href="cartasDePoquer.uml#_haNwAeIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h46eXuIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h46eX-IHEemuzKw77IM04g" name="List">
+          <modelElement href="cartasDePoquer.uml#_hZ61EOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h46eYOIHEemuzKw77IM04g" name="hayXNumerosIguales">
+      <modelElement href="cartasDePoquer.uml#_haTPkeIHEemuzKw77IM04g"/>
+      <visibility xmi:id="_h46eYeIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h46eYuIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h46eY-IHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_haT2oOIHEemuzKw77IM04g"/>
+        <type xmi:id="_h46eZOIHEemuzKw77IM04g" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h46eZeIHEemuzKw77IM04g" name="cartasSinPalo">
+        <modelElement href="cartasDePoquer.uml#_haTPkuIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h46eZuIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h46eZ-IHEemuzKw77IM04g" name="Stream">
+          <modelElement href="cartasDePoquer.uml#_hZ_GgeIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h46eaOIHEemuzKw77IM04g" name="cantidad">
+        <modelElement href="cartasDePoquer.uml#_haTPk-IHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h47FQOIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h47FQeIHEemuzKw77IM04g" name="Long">
+          <modelElement href="cartasDePoquer.uml#_haRaYeIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h47FQuIHEemuzKw77IM04g" name="hayXPalosIguales">
+      <modelElement href="cartasDePoquer.uml#_hafc0OIHEemuzKw77IM04g"/>
+      <visibility xmi:id="_h47FQ-IHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h47FROIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h47FReIHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_hagD4uIHEemuzKw77IM04g"/>
+        <type xmi:id="_h47FRuIHEemuzKw77IM04g" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h47FR-IHEemuzKw77IM04g" name="cartasSoloLosPalos">
+        <modelElement href="cartasDePoquer.uml#_hagD4OIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h47FSOIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h47FSeIHEemuzKw77IM04g" name="Stream">
+          <modelElement href="cartasDePoquer.uml#_hZ_GgeIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h47FSuIHEemuzKw77IM04g" name="cantidad">
+        <modelElement href="cartasDePoquer.uml#_hagD4eIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h47FS-IHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h47FTOIHEemuzKw77IM04g" name="Long">
+          <modelElement href="cartasDePoquer.uml#_haRaYeIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h3jMQOIHEemuzKw77IM04g" name="Carta" associationsIn="_z5AmkOIHEemuzKw77IM04g _RUfPUOIXEemuzKw77IM04g">
+    <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+    <visualProperties xmi:id="_h3jzUOIHEemuzKw77IM04g" position="31.0,18.0" size="533.0,248.0"/>
+    <visibility xmi:id="_h3jzUeIHEemuzKw77IM04g" label="+"/>
+    <attributes xmi:id="_h3jzUuIHEemuzKw77IM04g" name="valor">
+      <modelElement href="cartasDePoquer.uml#_haigIOIHEemuzKw77IM04g"/>
+      <stereotypes xmi:id="_h3jzU-IHEemuzKw77IM04g" name="LegacyStyledElement">
+        <modelElement href="cartasDePoquer.uml#_hajHMOIHEemuzKw77IM04g"/>
+      </stereotypes>
+      <visibility xmi:id="_h3jzVOIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h3jzVeIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <type xmi:id="_A3cEgOILEemuzKw77IM04g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_h3jzV-IHEemuzKw77IM04g" name="palo">
+      <modelElement href="cartasDePoquer.uml#_hajHMeIHEemuzKw77IM04g"/>
+      <stereotypes xmi:id="_h3jzWOIHEemuzKw77IM04g" name="LegacyStyledElement">
+        <modelElement href="cartasDePoquer.uml#_hajuQOIHEemuzKw77IM04g"/>
+      </stereotypes>
+      <visibility xmi:id="_h3jzWeIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h3jzWuIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <type xmi:id="_h3jzW-IHEemuzKw77IM04g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RUfPWeIXEemuzKw77IM04g" name="cartaStatus">
+      <modelElement href="cartasDePoquer.uml#_RUaW0eIXEemuzKw77IM04g"/>
+      <visibility xmi:id="_RUfPWuIXEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_RUfPW-IXEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <type xmi:id="_RUfPXOIXEemuzKw77IM04g" name="CartaStatus">
+        <modelElement href="cartasDePoquer.uml#_1XPpsOIIEemuzKw77IM04g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h3jzXOIHEemuzKw77IM04g" name="Carta">
+      <modelElement href="cartasDePoquer.uml#_hZA2IOIHEemuzKw77IM04g"/>
+      <keywords xmi:id="_h3jzXeIHEemuzKw77IM04g" keyword="create"/>
+      <visibility xmi:id="_h3jzXuIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h3jzX-IHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h3jzYOIHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_hZDSYeIHEemuzKw77IM04g"/>
+        <type xmi:id="_h3jzYeIHEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h3jzYuIHEemuzKw77IM04g" name="valor">
+        <modelElement href="cartasDePoquer.uml#_hZA2IeIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h3jzY-IHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h3jzZOIHEemuzKw77IM04g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_h3jzZeIHEemuzKw77IM04g" name="palo">
+        <modelElement href="cartasDePoquer.uml#_hZA2IuIHEemuzKw77IM04g"/>
+        <cardinality xmi:id="_h3jzZuIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_h3jzZ-IHEemuzKw77IM04g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_h3jzaOIHEemuzKw77IM04g" name="getPalo">
+      <modelElement href="cartasDePoquer.uml#_hZEggOIHEemuzKw77IM04g"/>
+      <visibility xmi:id="_h3jzaeIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h3jzauIHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h3jza-IHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_hZFHkOIHEemuzKw77IM04g"/>
+        <type xmi:id="_h3jzbOIHEemuzKw77IM04g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h3jzbeIHEemuzKw77IM04g" name="getValor">
+      <modelElement href="cartasDePoquer.uml#_hZFuoOIHEemuzKw77IM04g"/>
+      <visibility xmi:id="_h3jzbuIHEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_h3jzb-IHEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h3jzcOIHEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_hZGVsOIHEemuzKw77IM04g"/>
+        <type xmi:id="_h3jzceIHEemuzKw77IM04g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_A3S6kOILEemuzKw77IM04g" name="dameValor">
+      <modelElement href="cartasDePoquer.uml#_A3JJkOILEemuzKw77IM04g"/>
+      <visibility xmi:id="_A3S6keILEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_A3S6kuILEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_A3S6k-ILEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_A3JJkeILEemuzKw77IM04g"/>
+        <type xmi:id="_A3S6lOILEemuzKw77IM04g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1XQ30OIIEemuzKw77IM04g" name="CartaStatus" associationsOut="_RUfPUOIXEemuzKw77IM04g">
+    <modelElement href="cartasDePoquer.uml#_1XPpsOIIEemuzKw77IM04g"/>
+    <visualProperties xmi:id="_1XQ30eIIEemuzKw77IM04g" position="531.0,366.0" size="705.0,171.0"/>
+    <visibility xmi:id="_1XQ30uIIEemuzKw77IM04g" label="+"/>
+    <attributes xmi:id="_RUhrkOIXEemuzKw77IM04g" name="carta">
+      <modelElement href="cartasDePoquer.uml#_RUczEeIXEemuzKw77IM04g"/>
+      <visibility xmi:id="_RUhrkeIXEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_RUhrkuIXEemuzKw77IM04g" label="*" max="-1"/>
+      <type xmi:id="_RUhrk-IXEemuzKw77IM04g" name="Carta">
+        <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__03fI-IIEemuzKw77IM04g" name="esDelMismoPalo">
+      <modelElement href="cartasDePoquer.uml#__03fIOIIEemuzKw77IM04g"/>
+      <visibility xmi:id="__03fJOIIEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="__03fJeIIEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FWxBceIJEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_FWxBcOIJEemuzKw77IM04g"/>
+        <type xmi:id="_FWxBcuIJEemuzKw77IM04g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__03fJuIIEemuzKw77IM04g" name="unaCarta">
+        <modelElement href="cartasDePoquer.uml#__03fIeIIEemuzKw77IM04g"/>
+        <cardinality xmi:id="__03fJ-IIEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_FWxBc-IJEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__03fKOIIEemuzKw77IM04g" name="otraCarta">
+        <modelElement href="cartasDePoquer.uml#__03fIuIIEemuzKw77IM04g"/>
+        <cardinality xmi:id="__03fKeIIEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_FWxBdOIJEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_XEK3VOIJEemuzKw77IM04g" name="esUnaCartaMayorAOtraCarta">
+      <modelElement href="cartasDePoquer.uml#_XEK3UOIJEemuzKw77IM04g"/>
+      <visibility xmi:id="_XEK3VeIJEemuzKw77IM04g" label="+"/>
+      <cardinality xmi:id="_XEK3VuIJEemuzKw77IM04g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_XEK3V-IJEemuzKw77IM04g">
+        <modelElement href="cartasDePoquer.uml#_XEK3UeIJEemuzKw77IM04g"/>
+        <type xmi:id="_XEK3WOIJEemuzKw77IM04g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_XEK3WeIJEemuzKw77IM04g" name="unaCarta">
+        <modelElement href="cartasDePoquer.uml#_XEK3UuIJEemuzKw77IM04g"/>
+        <cardinality xmi:id="_XEK3WuIJEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_XEK3W-IJEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_XEK3XOIJEemuzKw77IM04g" name="otraCarta">
+        <modelElement href="cartasDePoquer.uml#_XEK3U-IJEemuzKw77IM04g"/>
+        <cardinality xmi:id="_XEK3XeIJEemuzKw77IM04g" label="1" max="1" min="1"/>
+        <type xmi:id="_XEK3XuIJEemuzKw77IM04g" name="Carta">
+          <modelElement href="cartasDePoquer.uml#_hY3sMOIHEemuzKw77IM04g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

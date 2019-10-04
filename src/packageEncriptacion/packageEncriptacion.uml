@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LaIN4ObyEem1i8eE3rho3A" name="packageEncriptacion">
+  <elementImport xmi:id="_vbeVMObyEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_vbe8QObyEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_vbe8QebyEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_vbe8QubyEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_vbe8Q-byEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_vbe8RObyEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_vbe8RebyEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_vbe8RubyEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_veAEwObyEemmesOGVSykzA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pfoo4ObyEemmesOGVSykzA" name="EncriptacionNaive">
+    <ownedAttribute xmi:id="_v2oxwubzEemmesOGVSykzA" name="tipoDeEncriptador" type="_TeMVgObzEemmesOGVSykzA" aggregation="shared" association="_v2m8kObzEemmesOGVSykzA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v2pY0ObzEemmesOGVSykzA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v2pY0ebzEemmesOGVSykzA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_wPRwsObyEemmesOGVSykzA" name="encriptar" visibility="public">
+      <ownedParameter xmi:id="_wPRwsebyEemmesOGVSykzA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_4ogsgObyEemmesOGVSykzA" name="texto">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_2phQQObyEemmesOGVSykzA" name="desencriptar" visibility="public">
+      <ownedParameter xmi:id="_2phQQebyEemmesOGVSykzA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_2ph3UObyEemmesOGVSykzA" name="texto">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TeMVgObzEemmesOGVSykzA" name="TipoDeEncriptador">
+    <ownedAttribute xmi:id="_v2njoObzEemmesOGVSykzA" name="" type="_pfoo4ObyEemmesOGVSykzA" association="_v2m8kObzEemmesOGVSykzA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v2oxwObzEemmesOGVSykzA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v2oxwebzEemmesOGVSykzA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_vt2XQOb1EemmesOGVSykzA" name="encriptar" visibility="protected">
+      <ownedParameter xmi:id="_vt2XQeb1EemmesOGVSykzA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_vt2-UOb1EemmesOGVSykzA" name="texto">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_7QYmUOb1EemmesOGVSykzA" name="desencriptar" visibility="protected">
+      <ownedParameter xmi:id="_7QYmUeb1EemmesOGVSykzA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_7QYmUub1EemmesOGVSykzA" name="texto">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YZvpgObzEemmesOGVSykzA" name="PorNumero">
+    <generalization xmi:id="_anUUUObzEemmesOGVSykzA" general="_TeMVgObzEemmesOGVSykzA"/>
+    <ownedOperation xmi:id="_ydDvgOb1EemmesOGVSykzA" name="encriptar" visibility="public">
+      <ownedParameter xmi:id="_ydDvgeb1EemmesOGVSykzA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ydEWkOb1EemmesOGVSykzA" name="texto">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8WddkOb1EemmesOGVSykzA" name="desencriptar" visibility="public">
+      <ownedParameter xmi:id="_8Wddkeb1EemmesOGVSykzA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_8WeEoOb1EemmesOGVSykzA" name="texto">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YyQQIObzEemmesOGVSykzA" name="PorVocal">
+    <generalization xmi:id="_a3KuMObzEemmesOGVSykzA" general="_TeMVgObzEemmesOGVSykzA"/>
+    <ownedOperation xmi:id="_y4l08Ob1EemmesOGVSykzA" name="encriptar" visibility="public">
+      <ownedParameter xmi:id="_y4l08eb1EemmesOGVSykzA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_y4mcAOb1EemmesOGVSykzA" name="texto">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8ox8oOb1EemmesOGVSykzA" name="desencriptar" visibility="public">
+      <ownedParameter xmi:id="_8ox8oeb1EemmesOGVSykzA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_8oyjsOb1EemmesOGVSykzA" name="texto">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_v2m8kObzEemmesOGVSykzA" name="" memberEnd="_v2njoObzEemmesOGVSykzA _v2oxwubzEemmesOGVSykzA"/>
+</uml:Model>

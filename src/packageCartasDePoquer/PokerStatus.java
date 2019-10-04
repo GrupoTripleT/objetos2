@@ -1,4 +1,4 @@
-package packagePoquerContinuacion;
+package packageCartasDePoquer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,12 +11,12 @@ public class PokerStatus {
 	public PokerStatus() {
 	}
 	
-	public Stream <String> getCartasSinPalo(List <String> cartas){
-		return cartas.stream().map(carta -> carta.substring(0, carta.length() -1));
+	public Stream <String> getCartasSinPalo(List <Carta> cartas){
+		return cartas.stream().map(carta -> carta.getValor());
 	}
 	
-	public Stream <String> getCartasSoloLosPalos(List <String> cartas){
-		return cartas.stream().map(carta -> carta.substring( carta.length() -1));
+	public Stream <String> getCartasSoloLosPalos(List <Carta> cartas){
+		return cartas.stream().map(carta -> carta.getPalo());
 	}
 	
 	public Boolean hayXNumerosIguales(Stream <String> cartasSinPalo,  Long cantidad) {
@@ -27,19 +27,20 @@ public class PokerStatus {
 		return cartasSoloLosPalos.collect(Collectors.groupingBy(e->e,Collectors.counting())).containsValue(cantidad);
 	}
 	
-	public String verificar(String carta1, String carta2, String carta3, String carta4, String carta5) {
-		List <String> cartas = new ArrayList <String>();		
+	public String verificar(Carta carta1, Carta carta2, Carta carta3, Carta carta4, Carta carta5) {
+		List <Carta> cartas = new ArrayList <Carta>();		
 		cartas.add(carta5);
 		cartas.add(carta4);
 		cartas.add(carta3);
 		cartas.add(carta2);
 		cartas.add(carta1);
 		
-		String status = "Nada";
+		String status = null;
 		
 		if(this.hayXNumerosIguales(this.getCartasSinPalo(cartas), 4l)) {
 			 status = "Poker";
 		}
+		
 		if(this.hayXNumerosIguales(this.getCartasSinPalo(cartas), 3l)) {
 			status = "Trio";
 		}
@@ -48,7 +49,9 @@ public class PokerStatus {
 			status = "Color";
 		}
 		
-		
+		if ( status == null) {
+			status = "Nada";
+		}
 
 		return status;
 		

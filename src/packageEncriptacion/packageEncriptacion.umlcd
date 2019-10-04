@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LctAwObyEem1i8eE3rho3A">
+  <modelElement href="packageEncriptacion.uml#_LaIN4ObyEem1i8eE3rho3A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_annPQObzEemmesOGVSykzA" sourceAnchor="156.0,0.0" targetAnchor="234.0,294.0" superClass="_TeM8kObzEemmesOGVSykzA" subClass="_YZwQkObzEemmesOGVSykzA">
+    <modelElement href="packageEncriptacion.uml#_anUUUObzEemmesOGVSykzA"/>
+    <visualProperties xmi:id="_annPQebzEemmesOGVSykzA" position="971.0,240.0"/>
+    <bendpoints xmi:id="_yNnQMObzEemmesOGVSykzA" sourceY="-41" targetX="-607" targetY="126"/>
+    <bendpoints xmi:id="_yNn3QObzEemmesOGVSykzA" sourceX="607" sourceY="-41" targetY="126"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_a3NKcObzEemmesOGVSykzA" sourceAnchor="127.0,0.0" targetAnchor="234.0,294.0" superClass="_TeM8kObzEemmesOGVSykzA" subClass="_YyQ3MObzEemmesOGVSykzA">
+    <modelElement href="packageEncriptacion.uml#_a3KuMObzEemmesOGVSykzA"/>
+    <visualProperties xmi:id="_a3NKcebzEemmesOGVSykzA" position="971.0,240.0"/>
+    <bendpoints xmi:id="_yNn3QebzEemmesOGVSykzA" sourceY="-30" targetX="-30" targetY="126"/>
+    <bendpoints xmi:id="_yNn3QubzEemmesOGVSykzA" sourceX="30" sourceY="-30" targetY="126"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_v27FoObzEemmesOGVSykzA" sourceAnchor="378.0,175.0" targetAnchor="0.0,147.0" target="_TeM8kObzEemmesOGVSykzA" source="_pfzA8ObyEemmesOGVSykzA">
+    <modelElement href="packageEncriptacion.uml#_v2m8kObzEemmesOGVSykzA"/>
+    <visualProperties xmi:id="_v27FoebzEemmesOGVSykzA" position="971.0,240.0"/>
+    <nameVisual xmi:id="_v27FoubzEemmesOGVSykzA" text="">
+      <visualProperties xmi:id="_v4730ObzEemmesOGVSykzA" position="60.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_v27Fo-bzEemmesOGVSykzA" aggregationKind="NONE" name="" navigable="true">
+      <modelElement href="packageEncriptacion.uml#_v2njoObzEemmesOGVSykzA"/>
+      <visualProperties xmi:id="_v46psebzEemmesOGVSykzA" position="37.0,2.0"/>
+      <visibility xmi:id="_v27FpObzEemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_v27FpebzEemmesOGVSykzA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_v27FpubzEemmesOGVSykzA" aggregationKind="SHARED" name="tipoDeEncriptador" navigable="true">
+      <modelElement href="packageEncriptacion.uml#_v2oxwubzEemmesOGVSykzA"/>
+      <visualProperties xmi:id="_v4730ebzEemmesOGVSykzA" position="-198.0,-67.0"/>
+      <visibility xmi:id="_v27Fp-bzEemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_v27FqObzEemmesOGVSykzA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pfzA8ObyEemmesOGVSykzA" name="EncriptacionNaive" associationsOut="_v27FoObzEemmesOGVSykzA">
+    <modelElement href="packageEncriptacion.uml#_pfoo4ObyEemmesOGVSykzA"/>
+    <visualProperties xmi:id="_pfzA8ebyEemmesOGVSykzA" position="91.0,65.0" size="378.0,345.0"/>
+    <visibility xmi:id="_pfzA8ubyEemmesOGVSykzA" label="+"/>
+    <attributes xmi:id="_v3AlMObzEemmesOGVSykzA" name="tipoDeEncriptador">
+      <modelElement href="packageEncriptacion.uml#_v2oxwubzEemmesOGVSykzA"/>
+      <visibility xmi:id="_v3AlMebzEemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_v3AlMubzEemmesOGVSykzA" label="1" max="1" min="1"/>
+      <type xmi:id="_v3AlM-bzEemmesOGVSykzA" name="TipoDeEncriptador">
+        <modelElement href="packageEncriptacion.uml#_TeMVgObzEemmesOGVSykzA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wPZsgObyEemmesOGVSykzA" name="encriptar">
+      <modelElement href="packageEncriptacion.uml#_wPRwsObyEemmesOGVSykzA"/>
+      <visibility xmi:id="_wPZsgebyEemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_wPZsgubyEemmesOGVSykzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wPZsg-byEemmesOGVSykzA">
+        <modelElement href="packageEncriptacion.uml#_wPRwsebyEemmesOGVSykzA"/>
+        <type xmi:id="_wPZshObyEemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4ojIwObyEemmesOGVSykzA" name="texto">
+        <modelElement href="packageEncriptacion.uml#_4ogsgObyEemmesOGVSykzA"/>
+        <cardinality xmi:id="_4ojIwebyEemmesOGVSykzA" label="1" max="1" min="1"/>
+        <type xmi:id="_4ojv0ObyEemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2pjFcObyEemmesOGVSykzA" name="desencriptar">
+      <modelElement href="packageEncriptacion.uml#_2phQQObyEemmesOGVSykzA"/>
+      <visibility xmi:id="_2pjFcebyEemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_2pjFcubyEemmesOGVSykzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2pjFc-byEemmesOGVSykzA">
+        <modelElement href="packageEncriptacion.uml#_2phQQebyEemmesOGVSykzA"/>
+        <type xmi:id="_2pjFdObyEemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2pjFdebyEemmesOGVSykzA" name="texto">
+        <modelElement href="packageEncriptacion.uml#_2ph3UObyEemmesOGVSykzA"/>
+        <cardinality xmi:id="_2pjFdubyEemmesOGVSykzA" label="1" max="1" min="1"/>
+        <type xmi:id="_2pjFd-byEemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TeM8kObzEemmesOGVSykzA" name="TipoDeEncriptador" associationsIn="_v27FoObzEemmesOGVSykzA" subclassedBy="_annPQObzEemmesOGVSykzA _a3NKcObzEemmesOGVSykzA">
+    <modelElement href="packageEncriptacion.uml#_TeMVgObzEemmesOGVSykzA"/>
+    <visualProperties xmi:id="_TeNjoObzEemmesOGVSykzA" position="737.0,93.0" size="469.0,294.0"/>
+    <visibility xmi:id="_TeNjoebzEemmesOGVSykzA" label="+"/>
+    <attributes xmi:id="_v29h4ObzEemmesOGVSykzA" name="">
+      <modelElement href="packageEncriptacion.uml#_v2njoObzEemmesOGVSykzA"/>
+      <visibility xmi:id="_v29h4ebzEemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_v29h4ubzEemmesOGVSykzA" label="0..1" max="1"/>
+      <type xmi:id="_v29h4-bzEemmesOGVSykzA" name="EncriptacionNaive">
+        <modelElement href="packageEncriptacion.uml#_pfoo4ObyEemmesOGVSykzA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vt4McOb1EemmesOGVSykzA" name="encriptar">
+      <modelElement href="packageEncriptacion.uml#_vt2XQOb1EemmesOGVSykzA"/>
+      <visibility xmi:id="_vt4Mceb1EemmesOGVSykzA" label="#"/>
+      <cardinality xmi:id="_vt4Mcub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vt4Mc-b1EemmesOGVSykzA">
+        <modelElement href="packageEncriptacion.uml#_vt2XQeb1EemmesOGVSykzA"/>
+        <type xmi:id="_vt4MdOb1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vt4Mdeb1EemmesOGVSykzA" name="texto">
+        <modelElement href="packageEncriptacion.uml#_vt2-UOb1EemmesOGVSykzA"/>
+        <cardinality xmi:id="_vt4Mdub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+        <type xmi:id="_vt4Md-b1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_7QZ0cOb1EemmesOGVSykzA" name="desencriptar">
+      <modelElement href="packageEncriptacion.uml#_7QYmUOb1EemmesOGVSykzA"/>
+      <visibility xmi:id="_7QZ0ceb1EemmesOGVSykzA" label="#"/>
+      <cardinality xmi:id="_7QZ0cub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_7QZ0c-b1EemmesOGVSykzA">
+        <modelElement href="packageEncriptacion.uml#_7QYmUeb1EemmesOGVSykzA"/>
+        <type xmi:id="_7QZ0dOb1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_7QZ0deb1EemmesOGVSykzA" name="texto">
+        <modelElement href="packageEncriptacion.uml#_7QYmUub1EemmesOGVSykzA"/>
+        <cardinality xmi:id="_7QZ0dub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+        <type xmi:id="_7QZ0d-b1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YZwQkObzEemmesOGVSykzA" name="PorNumero" generalizations="_annPQObzEemmesOGVSykzA">
+    <modelElement href="packageEncriptacion.uml#_YZvpgObzEemmesOGVSykzA"/>
+    <visualProperties xmi:id="_YZwQkebzEemmesOGVSykzA" position="208.0,554.0" size="313.0,210.0"/>
+    <visibility xmi:id="_YZwQkubzEemmesOGVSykzA" label="+"/>
+    <operations xmi:id="_ydGLwOb1EemmesOGVSykzA" name="encriptar">
+      <modelElement href="packageEncriptacion.uml#_ydDvgOb1EemmesOGVSykzA"/>
+      <visibility xmi:id="_ydGLweb1EemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_ydGLwub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ydGLw-b1EemmesOGVSykzA">
+        <modelElement href="packageEncriptacion.uml#_ydDvgeb1EemmesOGVSykzA"/>
+        <type xmi:id="_ydGLxOb1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ydGLxeb1EemmesOGVSykzA" name="texto">
+        <modelElement href="packageEncriptacion.uml#_ydEWkOb1EemmesOGVSykzA"/>
+        <cardinality xmi:id="_ydGLxub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+        <type xmi:id="_ydGLx-b1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8WersOb1EemmesOGVSykzA" name="desencriptar">
+      <modelElement href="packageEncriptacion.uml#_8WddkOb1EemmesOGVSykzA"/>
+      <visibility xmi:id="_8Werseb1EemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_8Wersub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8Wers-b1EemmesOGVSykzA">
+        <modelElement href="packageEncriptacion.uml#_8Wddkeb1EemmesOGVSykzA"/>
+        <type xmi:id="_8WertOb1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8Werteb1EemmesOGVSykzA" name="texto">
+        <modelElement href="packageEncriptacion.uml#_8WeEoOb1EemmesOGVSykzA"/>
+        <cardinality xmi:id="_8Wertub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+        <type xmi:id="_8Wert-b1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YyQ3MObzEemmesOGVSykzA" name="PorVocal" generalizations="_a3NKcObzEemmesOGVSykzA">
+    <modelElement href="packageEncriptacion.uml#_YyQQIObzEemmesOGVSykzA"/>
+    <visualProperties xmi:id="_YyQ3MebzEemmesOGVSykzA" position="814.0,543.0" size="266.0,226.0"/>
+    <visibility xmi:id="_YyQ3MubzEemmesOGVSykzA" label="+"/>
+    <operations xmi:id="_y4nDEOb1EemmesOGVSykzA" name="encriptar">
+      <modelElement href="packageEncriptacion.uml#_y4l08Ob1EemmesOGVSykzA"/>
+      <visibility xmi:id="_y4nDEeb1EemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_y4nDEub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_y4nDE-b1EemmesOGVSykzA">
+        <modelElement href="packageEncriptacion.uml#_y4l08eb1EemmesOGVSykzA"/>
+        <type xmi:id="_y4nDFOb1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_y4nDFeb1EemmesOGVSykzA" name="texto">
+        <modelElement href="packageEncriptacion.uml#_y4mcAOb1EemmesOGVSykzA"/>
+        <cardinality xmi:id="_y4nDFub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+        <type xmi:id="_y4nDF-b1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_8ozx0Ob1EemmesOGVSykzA" name="desencriptar">
+      <modelElement href="packageEncriptacion.uml#_8ox8oOb1EemmesOGVSykzA"/>
+      <visibility xmi:id="_8ozx0eb1EemmesOGVSykzA" label="+"/>
+      <cardinality xmi:id="_8ozx0ub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_8ozx0-b1EemmesOGVSykzA">
+        <modelElement href="packageEncriptacion.uml#_8ox8oeb1EemmesOGVSykzA"/>
+        <type xmi:id="_8ozx1Ob1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_8ozx1eb1EemmesOGVSykzA" name="texto">
+        <modelElement href="packageEncriptacion.uml#_8oyjsOb1EemmesOGVSykzA"/>
+        <cardinality xmi:id="_8ozx1ub1EemmesOGVSykzA" label="1" max="1" min="1"/>
+        <type xmi:id="_8ozx1-b1EemmesOGVSykzA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
