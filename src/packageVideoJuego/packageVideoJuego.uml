@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_omG7sOb5EemmesOGVSykzA" name="packageVideoJuego">
+    <eAnnotations xmi:id="_or_hQOb5EemmesOGVSykzA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_or_hQeb5EemmesOGVSykzA" source="codegen">
+        <details xmi:id="_or_hQub5EemmesOGVSykzA" key="codegenDirectory" value="/Objetos2/src"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_vH490OsDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_vH490esDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_vH490usDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_vH490-sDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_vH491OsDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_vH491esDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_vH491usDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_vH491-sDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_vKe-0OsDEem-FbyVKfpiNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lkyP4OsDEem-FbyVKfpiNw" name="MaquinaJuego">
+      <ownedAttribute xmi:id="_35q8hOsDEem-FbyVKfpiNw" name="estadoDeLaMaquina" type="_101-AOsDEem-FbyVKfpiNw" aggregation="shared" association="_35q8gOsDEem-FbyVKfpiNw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_35q8hesDEem-FbyVKfpiNw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_35q8husDEem-FbyVKfpiNw" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_vwDKAOsDEem-FbyVKfpiNw" name="encender" visibility="public"/>
+      <ownedOperation xmi:id="_lBVIEOsEEem-FbyVKfpiNw" name="comenzarElJuegoDeA1" visibility="public"/>
+      <ownedOperation xmi:id="_ougkcOsEEem-FbyVKfpiNw" name="comenzarElJuegoDe2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_101-AOsDEem-FbyVKfpiNw" name="EstadoDeLaMaquina">
+      <ownedAttribute xmi:id="_35q8gesDEem-FbyVKfpiNw" name="maquinaJuego" type="_lkyP4OsDEem-FbyVKfpiNw" association="_35q8gOsDEem-FbyVKfpiNw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_35q8gusDEem-FbyVKfpiNw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_35q8g-sDEem-FbyVKfpiNw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_U6Q94OsEEem-FbyVKfpiNw" name="ejecutarElEncendido" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_35q8gOsDEem-FbyVKfpiNw" name="" memberEnd="_35q8gesDEem-FbyVKfpiNw _35q8hOsDEem-FbyVKfpiNw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7yaIoOsDEem-FbyVKfpiNw" name="UnaFicha">
+      <generalization xmi:id="_TDkiAOsEEem-FbyVKfpiNw" general="_101-AOsDEem-FbyVKfpiNw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9NAeYOsDEem-FbyVKfpiNw" name="SinFicha" visibility="public">
+      <generalization xmi:id="_SzZ_EOsEEem-FbyVKfpiNw" general="_101-AOsDEem-FbyVKfpiNw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AwoWIOsEEem-FbyVKfpiNw" name="DosFicha">
+      <generalization xmi:id="_TV0voOsEEem-FbyVKfpiNw" general="_101-AOsDEem-FbyVKfpiNw"/>
+    </packagedElement>
+    <profileApplication xmi:id="_osIrMOb5EemmesOGVSykzA">
+      <eAnnotations xmi:id="_osIrMeb5EemmesOGVSykzA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_osIrMub5EemmesOGVSykzA" base_Package="_omG7sOb5EemmesOGVSykzA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>

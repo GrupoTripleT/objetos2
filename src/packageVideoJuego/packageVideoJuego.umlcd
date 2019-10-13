@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ooKxMOb5EemmesOGVSykzA">
+  <modelElement href="packageVideoJuego.uml#_omG7sOb5EemmesOGVSykzA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_35v1AOsDEem-FbyVKfpiNw" sourceAnchor="308.0,72.0" targetAnchor="0.0,56.0" target="_101-AesDEem-FbyVKfpiNw" source="_lky28OsDEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_35q8gOsDEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_35v1AesDEem-FbyVKfpiNw"/>
+    <nameVisual xmi:id="_35v1AusDEem-FbyVKfpiNw" text="">
+      <visualProperties xmi:id="_37wnMesDEem-FbyVKfpiNw" position="62.3125,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_35v1A-sDEem-FbyVKfpiNw" aggregationKind="NONE" name="maquinaJuego" navigable="true">
+      <modelElement href="packageVideoJuego.uml#_35q8gesDEem-FbyVKfpiNw"/>
+      <visualProperties xmi:id="_37wnMOsDEem-FbyVKfpiNw" position="12.0,-67.0"/>
+      <visibility xmi:id="_35v1BOsDEem-FbyVKfpiNw" label="+"/>
+      <cardinality xmi:id="_35v1BesDEem-FbyVKfpiNw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_35v1BusDEem-FbyVKfpiNw" aggregationKind="SHARED" name="estadoDeLaMaquina" navigable="true">
+      <modelElement href="packageVideoJuego.uml#_35q8hOsDEem-FbyVKfpiNw"/>
+      <visualProperties xmi:id="_37wnMusDEem-FbyVKfpiNw" position="-168.5,7.0"/>
+      <visibility xmi:id="_35v1B-sDEem-FbyVKfpiNw" label="+"/>
+      <cardinality xmi:id="_35v1COsDEem-FbyVKfpiNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SzamIOsEEem-FbyVKfpiNw" sourceAnchor="75.0,0.0" targetAnchor="162.0,112.0" superClass="_101-AesDEem-FbyVKfpiNw" subClass="_9NOg0OsDEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_SzZ_EOsEEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_SzamIesEEem-FbyVKfpiNw"/>
+    <bendpoints xmi:id="_nn2eYOsEEem-FbyVKfpiNw" sourceY="-35" targetX="-298" targetY="129"/>
+    <bendpoints xmi:id="_nn2eYesEEem-FbyVKfpiNw" sourceX="298" sourceY="-35" targetY="129"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TDkiAesEEem-FbyVKfpiNw" sourceAnchor="93.0,0.0" targetAnchor="162.0,112.0" superClass="_101-AesDEem-FbyVKfpiNw" subClass="_7yck4OsDEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_TDkiAOsEEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_TDkiAusEEem-FbyVKfpiNw"/>
+    <bendpoints xmi:id="_nn4TkusEEem-FbyVKfpiNw" sourceY="-32" targetX="-106" targetY="128"/>
+    <bendpoints xmi:id="_nn46oOsEEem-FbyVKfpiNw" sourceX="106" sourceY="-31" targetY="129"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TV0voesEEem-FbyVKfpiNw" sourceAnchor="66.0,0.0" targetAnchor="162.0,112.0" superClass="_101-AesDEem-FbyVKfpiNw" subClass="_AwoWIesEEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_TV0voOsEEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_TV0vousEEem-FbyVKfpiNw"/>
+    <bendpoints xmi:id="_nn4TkOsEEem-FbyVKfpiNw" sourceY="-30" targetX="96" targetY="128"/>
+    <bendpoints xmi:id="_nn4TkesEEem-FbyVKfpiNw" sourceX="-96" sourceY="-29" targetY="129"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9NOg0OsDEem-FbyVKfpiNw" name="SinFicha" generalizations="_SzamIOsEEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_9NAeYOsDEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_9NOg0esDEem-FbyVKfpiNw" position="347.0,370.0" size="150.0,107.0"/>
+    <visibility xmi:id="_9NOg0usDEem-FbyVKfpiNw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AwoWIesEEem-FbyVKfpiNw" name="DosFicha" generalizations="_TV0voesEEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_AwoWIOsEEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_AwoWIusEEem-FbyVKfpiNw" position="750.0,365.0" size="134.0,114.0"/>
+    <visibility xmi:id="_AwqyYOsEEem-FbyVKfpiNw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7yck4OsDEem-FbyVKfpiNw" name="UnaFicha" generalizations="_TDkiAesEEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_7yaIoOsDEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_7yck4esDEem-FbyVKfpiNw" position="521.0,367.0" size="188.0,112.0"/>
+    <visibility xmi:id="_7yck4usDEem-FbyVKfpiNw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_101-AesDEem-FbyVKfpiNw" name="EstadoDeLaMaquina" associationsIn="_35v1AOsDEem-FbyVKfpiNw" subclassedBy="_SzamIOsEEem-FbyVKfpiNw _TDkiAesEEem-FbyVKfpiNw _TV0voesEEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_101-AOsDEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_101-AusDEem-FbyVKfpiNw" position="558.0,94.0" size="324.0,112.0"/>
+    <visibility xmi:id="_101-A-sDEem-FbyVKfpiNw" label="+"/>
+    <attributes xmi:id="_35xqMOsDEem-FbyVKfpiNw" name="maquinaJuego">
+      <modelElement href="packageVideoJuego.uml#_35q8gesDEem-FbyVKfpiNw"/>
+      <visibility xmi:id="_35xqMesDEem-FbyVKfpiNw" label="+"/>
+      <cardinality xmi:id="_35xqMusDEem-FbyVKfpiNw" label="0..1" max="1"/>
+      <type xmi:id="_35xqM-sDEem-FbyVKfpiNw" name="MaquinaJuego">
+        <modelElement href="packageVideoJuego.uml#_lkyP4OsDEem-FbyVKfpiNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_U6Q94esEEem-FbyVKfpiNw" name="ejecutarElEncendido">
+      <modelElement href="packageVideoJuego.uml#_U6Q94OsEEem-FbyVKfpiNw"/>
+      <visibility xmi:id="_U6Q94usEEem-FbyVKfpiNw" label="#"/>
+      <cardinality xmi:id="_U6Q94-sEEem-FbyVKfpiNw" label="1" max="1" min="1"/>
+      <type xmi:id="_U6Q95OsEEem-FbyVKfpiNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lky28OsDEem-FbyVKfpiNw" name="MaquinaJuego" associationsOut="_35v1AOsDEem-FbyVKfpiNw">
+    <modelElement href="packageVideoJuego.uml#_lkyP4OsDEem-FbyVKfpiNw"/>
+    <visualProperties xmi:id="_lky28esDEem-FbyVKfpiNw" position="82.0,78.0" size="308.0,168.0"/>
+    <visibility xmi:id="_lky28usDEem-FbyVKfpiNw" label="+"/>
+    <attributes xmi:id="_35xqNOsDEem-FbyVKfpiNw" name="estadoDeLaMaquina">
+      <modelElement href="packageVideoJuego.uml#_35q8hOsDEem-FbyVKfpiNw"/>
+      <visibility xmi:id="_35xqNesDEem-FbyVKfpiNw" label="+"/>
+      <cardinality xmi:id="_35xqNusDEem-FbyVKfpiNw" label="1" max="1" min="1"/>
+      <type xmi:id="_35xqN-sDEem-FbyVKfpiNw" name="EstadoDeLaMaquina">
+        <modelElement href="packageVideoJuego.uml#_101-AOsDEem-FbyVKfpiNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vwFmQOsDEem-FbyVKfpiNw" name="encender">
+      <modelElement href="packageVideoJuego.uml#_vwDKAOsDEem-FbyVKfpiNw"/>
+      <visibility xmi:id="_vwFmQesDEem-FbyVKfpiNw" label="+"/>
+      <cardinality xmi:id="_vwFmQusDEem-FbyVKfpiNw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lBVIEesEEem-FbyVKfpiNw" name="comenzarElJuegoDeA1">
+      <modelElement href="packageVideoJuego.uml#_lBVIEOsEEem-FbyVKfpiNw"/>
+      <visibility xmi:id="_lBVIEusEEem-FbyVKfpiNw" label="+"/>
+      <cardinality xmi:id="_lBVIE-sEEem-FbyVKfpiNw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ougkcesEEem-FbyVKfpiNw" name="comenzarElJuegoDe2">
+      <modelElement href="packageVideoJuego.uml#_ougkcOsEEem-FbyVKfpiNw"/>
+      <visibility xmi:id="_ougkcusEEem-FbyVKfpiNw" label="+"/>
+      <cardinality xmi:id="_ougkc-sEEem-FbyVKfpiNw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

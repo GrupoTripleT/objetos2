@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_TE0twO1KEemTPeIXaQzxMQ">
+  <modelElement href="packageCultivoUML.uml#_TBaNYO1KEemTPeIXaQzxMQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_e1PAwO1KEemTPeIXaQzxMQ" sourceAnchor="81.0,0.0" targetAnchor="84.0,164.0" superClass="_Z5nbUO1KEemTPeIXaQzxMQ" subClass="_brj6EO1KEemTPeIXaQzxMQ">
+    <modelElement href="packageCultivoUML.uml#_e1NLkO1KEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_e1PAwe1KEemTPeIXaQzxMQ"/>
+    <bendpoints xmi:id="_lT2eA-3OEemTPeIXaQzxMQ" sourceY="-30" targetX="-69" targetY="63"/>
+    <bendpoints xmi:id="_lT2eBO3OEemTPeIXaQzxMQ" sourceX="69" sourceY="-30" targetY="63"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_fBHgoO1KEemTPeIXaQzxMQ" sourceAnchor="80.0,0.0" targetAnchor="84.0,164.0" superClass="_Z5nbUO1KEemTPeIXaQzxMQ" subClass="_cB-2AO1KEemTPeIXaQzxMQ">
+    <modelElement href="packageCultivoUML.uml#_fBGSgO1KEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_fBHgoe1KEemTPeIXaQzxMQ"/>
+    <bendpoints xmi:id="_lT2eAO3OEemTPeIXaQzxMQ" sourceY="-34" targetX="167" targetY="63"/>
+    <bendpoints xmi:id="_lT2eAe3OEemTPeIXaQzxMQ" sourceX="-167" sourceY="-34" targetY="63"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mplt4O1KEemTPeIXaQzxMQ" sourceAnchor="110.0,0.0" targetAnchor="169.0,109.0" target="_Z5nbUO1KEemTPeIXaQzxMQ" source="_cB-2AO1KEemTPeIXaQzxMQ">
+    <modelElement href="packageCultivoUML.uml#_mpiqkO1KEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_mplt4e1KEemTPeIXaQzxMQ"/>
+    <bendpoints xmi:id="_lT128O3OEemTPeIXaQzxMQ" sourceY="-152" targetX="112"/>
+    <nameVisual xmi:id="_mplt4u1KEemTPeIXaQzxMQ" text="">
+      <visualProperties xmi:id="_mrJNEO1KEemTPeIXaQzxMQ" position="-89.00000000000006,2.0000000000000284"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mplt4-1KEemTPeIXaQzxMQ" aggregationKind="NONE" name="dividida">
+      <modelElement href="packageCultivoUML.uml#_mpiqke1KEemTPeIXaQzxMQ"/>
+      <visualProperties xmi:id="_mrH-8O1KEemTPeIXaQzxMQ" position="2.0,-73.0"/>
+      <visibility xmi:id="_mplt5O1KEemTPeIXaQzxMQ" label="+"/>
+      <cardinality xmi:id="_mplt5e1KEemTPeIXaQzxMQ" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mplt5u1KEemTPeIXaQzxMQ" aggregationKind="NONE" name="porciones" navigable="true">
+      <modelElement href="packageCultivoUML.uml#_mpiqlO1KEemTPeIXaQzxMQ"/>
+      <visualProperties xmi:id="_mrJNEe1KEemTPeIXaQzxMQ" position="55.0,41.0"/>
+      <visibility xmi:id="_mplt5-1KEemTPeIXaQzxMQ" label="+"/>
+      <cardinality xmi:id="_mplt6O1KEemTPeIXaQzxMQ" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jKdIkO3OEemTPeIXaQzxMQ" sourceAnchor="0.0,74.0" targetAnchor="74.0,137.0" target="_gLUC4e1KEemTPeIXaQzxMQ" source="_brj6EO1KEemTPeIXaQzxMQ">
+    <modelElement href="packageCultivoUML.uml#_jKaFQO3OEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_jKdIke3OEemTPeIXaQzxMQ"/>
+    <bendpoints xmi:id="_lT2eAu3OEemTPeIXaQzxMQ" sourceX="-152" targetY="181"/>
+    <nameVisual xmi:id="_jKdIku3OEemTPeIXaQzxMQ" text="">
+      <visualProperties xmi:id="_jL-LgO3OEemTPeIXaQzxMQ" position="0.9999999999999716,-57.99999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_jKdIk-3OEemTPeIXaQzxMQ" aggregationKind="NONE" name="completa">
+      <modelElement href="packageCultivoUML.uml#_jKasUO3OEemTPeIXaQzxMQ"/>
+      <visualProperties xmi:id="_jL9kcu3OEemTPeIXaQzxMQ" position="-111.00000000000001,-45.99999999999994"/>
+      <visibility xmi:id="_jKdIlO3OEemTPeIXaQzxMQ" label="+"/>
+      <cardinality xmi:id="_jKdIle3OEemTPeIXaQzxMQ" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jKdIlu3OEemTPeIXaQzxMQ" aggregationKind="NONE" name="cultivo" navigable="true">
+      <modelElement href="packageCultivoUML.uml#_jKasU-3OEemTPeIXaQzxMQ"/>
+      <visualProperties xmi:id="_jL-Lge3OEemTPeIXaQzxMQ" position="2.0,27.80000000000001"/>
+      <visibility xmi:id="_jKdIl-3OEemTPeIXaQzxMQ" label="+"/>
+      <cardinality xmi:id="_jKdImO3OEemTPeIXaQzxMQ" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cB-2AO1KEemTPeIXaQzxMQ" name="Dividida" associationsOut="_mplt4O1KEemTPeIXaQzxMQ" generalizations="_fBHgoO1KEemTPeIXaQzxMQ">
+    <modelElement href="packageCultivoUML.uml#_cB-O8O1KEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_cB-2Ae1KEemTPeIXaQzxMQ" position="314.0,316.0" size="161.0,141.0"/>
+    <visibility xmi:id="_cB-2Au1KEemTPeIXaQzxMQ" label="+"/>
+    <attributes xmi:id="_mpm8AO1KEemTPeIXaQzxMQ" name="porciones">
+      <modelElement href="packageCultivoUML.uml#_mpiqlO1KEemTPeIXaQzxMQ"/>
+      <visibility xmi:id="_mpm8Ae1KEemTPeIXaQzxMQ" label="+"/>
+      <cardinality xmi:id="_mpm8Au1KEemTPeIXaQzxMQ" label="*" max="-1"/>
+      <type xmi:id="_mpm8A-1KEemTPeIXaQzxMQ" name="Porcion">
+        <modelElement href="packageCultivoUML.uml#_Z5k_EO1KEemTPeIXaQzxMQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_brj6EO1KEemTPeIXaQzxMQ" name="Completa" associationsOut="_jKdIkO3OEemTPeIXaQzxMQ" generalizations="_e1PAwO1KEemTPeIXaQzxMQ">
+    <modelElement href="packageCultivoUML.uml#_brjTAO1KEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_brj6Ee1KEemTPeIXaQzxMQ" position="77.0,312.0" size="149.0,148.0"/>
+    <visibility xmi:id="_brj6Eu1KEemTPeIXaQzxMQ" label="+"/>
+    <attributes xmi:id="_jKdvoO3OEemTPeIXaQzxMQ" name="cultivo">
+      <modelElement href="packageCultivoUML.uml#_jKasU-3OEemTPeIXaQzxMQ"/>
+      <visibility xmi:id="_jKdvoe3OEemTPeIXaQzxMQ" label="+"/>
+      <cardinality xmi:id="_jKdvou3OEemTPeIXaQzxMQ" label="*" max="-1"/>
+      <type xmi:id="_jKdvo-3OEemTPeIXaQzxMQ" name="Cultivo">
+        <modelElement href="packageCultivoUML.uml#_gLUC4O1KEemTPeIXaQzxMQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Z5nbUO1KEemTPeIXaQzxMQ" name="Porcion" associationsIn="_mplt4O1KEemTPeIXaQzxMQ" subclassedBy="_e1PAwO1KEemTPeIXaQzxMQ _fBHgoO1KEemTPeIXaQzxMQ">
+    <modelElement href="packageCultivoUML.uml#_Z5k_EO1KEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_Z5nbUe1KEemTPeIXaQzxMQ" position="143.0,55.0" size="169.0,164.0"/>
+    <visibility xmi:id="_Z5nbUu1KEemTPeIXaQzxMQ" label="+"/>
+    <operations xmi:id="_q-X80O1KEemTPeIXaQzxMQ" name="gananciaAnual">
+      <modelElement href="packageCultivoUML.uml#_q-XVwO1KEemTPeIXaQzxMQ"/>
+      <visibility xmi:id="_q-X80e1KEemTPeIXaQzxMQ" label="#"/>
+      <cardinality xmi:id="_q-X80u1KEemTPeIXaQzxMQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q-X80-1KEemTPeIXaQzxMQ">
+        <modelElement href="packageCultivoUML.uml#_q-XVwe1KEemTPeIXaQzxMQ"/>
+        <type xmi:id="_q-X81O1KEemTPeIXaQzxMQ" name="Double">
+          <modelElement href="packageCultivoUML.uml#_VNzzgO1KEemTPeIXaQzxMQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gLUC4e1KEemTPeIXaQzxMQ" name="Cultivo" associationsIn="_jKdIkO3OEemTPeIXaQzxMQ">
+    <modelElement href="packageCultivoUML.uml#_gLUC4O1KEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_gLUC4u1KEemTPeIXaQzxMQ" position="-149.0,68.0" size="148.0,137.0"/>
+    <visibility xmi:id="_gLUC4-1KEemTPeIXaQzxMQ" label="+"/>
+    <attributes xmi:id="_jLkH0O1KEemTPeIXaQzxMQ" name="precioAnual">
+      <modelElement href="packageCultivoUML.uml#_jLjgwO1KEemTPeIXaQzxMQ"/>
+      <visibility xmi:id="_jLkH0e1KEemTPeIXaQzxMQ" label="-"/>
+      <cardinality xmi:id="_jLkH0u1KEemTPeIXaQzxMQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jLkH0-1KEemTPeIXaQzxMQ" name="Double">
+        <modelElement href="packageCultivoUML.uml#_VNzzgO1KEemTPeIXaQzxMQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uiP58e1PEemTPeIXaQzxMQ" name="tipo">
+      <modelElement href="packageCultivoUML.uml#_uiP58O1PEemTPeIXaQzxMQ"/>
+      <visibility xmi:id="_uiP58u1PEemTPeIXaQzxMQ" label="-"/>
+      <cardinality xmi:id="_uiP58-1PEemTPeIXaQzxMQ" label="1" max="1" min="1"/>
+      <type xmi:id="_uiP59O1PEemTPeIXaQzxMQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

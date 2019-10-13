@@ -24,11 +24,10 @@ public class EncriptacionNaive {
 	
 	
 	public String  encriptar(String  texto ) {
-		return null;
+		return this.getEncriptador().encriptar(texto);
 	}
 	
 	public String  desencriptar(String texto) {
-		return null;
+		return this.getEncriptador().desencriptar(texto);
 	}
-
 }
