@@ -8,10 +8,7 @@ public class ObjetoSSSimple implements IShapeShifter {
 	public IShapeShifter compose(IShapeShifter iShapeShifter) {
 		// TODO Auto-generated method stub
 		
-		ObjetoSSCompuesto a = new ObjetoSSCompuesto(iShapeShifter);
-		a.agregarObjeto(this);
-		
-		return a;
+	 		return new ObjetoSSCompuesto(this, iShapeShifter) ;
 	}
 
 	@Override

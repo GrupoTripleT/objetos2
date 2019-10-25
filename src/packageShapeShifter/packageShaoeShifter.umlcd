@@ -1,48 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_v7PUoO3oEemTPeIXaQzxMQ">
   <modelElement href="packageShaoeShifter.uml#_v6ftwO3oEemTPeIXaQzxMQ"/>
-  <edges xsi:type="com.yattasolutions.diagrams:UsageVisual" xmi:id="_lJCkEO3tEemTPeIXaQzxMQ" sourceAnchor="85.0,0.0" targetAnchor="161.0,134.0" client="_yheXEe3oEemTPeIXaQzxMQ" supplier="_A5nhUe3pEemTPeIXaQzxMQ">
+  <edges xsi:type="com.yattasolutions.diagrams:UsageVisual" xmi:id="_lJCkEO3tEemTPeIXaQzxMQ" sourceAnchor="85.0,0.0" targetAnchor="243.0,325.0" client="_yheXEe3oEemTPeIXaQzxMQ" supplier="_A5nhUe3pEemTPeIXaQzxMQ">
     <modelElement href="packageShaoeShifter.uml#_lJBV8O3tEemTPeIXaQzxMQ"/>
     <visualProperties xmi:id="_lJCkEe3tEemTPeIXaQzxMQ"/>
-    <bendpoints xmi:id="_nWjkgO3tEemTPeIXaQzxMQ" sourceY="-38" targetX="-132" targetY="70"/>
-    <bendpoints xmi:id="_nWjkge3tEemTPeIXaQzxMQ" sourceX="132" sourceY="-38" targetY="70"/>
+    <bendpoints xmi:id="_-IaZEPdsEemfFrQZjboyUg" sourceY="-54" targetX="-228" targetY="61"/>
+    <bendpoints xmi:id="_-IaZEfdsEemfFrQZjboyUg" sourceX="228" sourceY="-54" targetY="61"/>
     <nameVisual xmi:id="_lJCkEu3tEemTPeIXaQzxMQ" text=""/>
   </edges>
-  <edges xsi:type="com.yattasolutions.diagrams:UsageVisual" xmi:id="_mki4wO3tEemTPeIXaQzxMQ" sourceAnchor="103.0,0.0" targetAnchor="161.0,134.0" client="_yx28ce3oEemTPeIXaQzxMQ" supplier="_A5nhUe3pEemTPeIXaQzxMQ">
+  <edges xsi:type="com.yattasolutions.diagrams:UsageVisual" xmi:id="_mki4wO3tEemTPeIXaQzxMQ" sourceAnchor="103.0,0.0" targetAnchor="243.0,325.0" client="_yx28ce3oEemTPeIXaQzxMQ" supplier="_A5nhUe3pEemTPeIXaQzxMQ">
     <modelElement href="packageShaoeShifter.uml#_mkiRsO3tEemTPeIXaQzxMQ"/>
     <visualProperties xmi:id="_mki4we3tEemTPeIXaQzxMQ"/>
-    <bendpoints xmi:id="_nWjkgu3tEemTPeIXaQzxMQ" sourceY="-30" targetX="304" targetY="70"/>
-    <bendpoints xmi:id="_nWjkg-3tEemTPeIXaQzxMQ" sourceX="-304" sourceY="-30" targetY="70"/>
+    <bendpoints xmi:id="_-IZK8PdsEemfFrQZjboyUg" sourceY="-30" targetX="357" targetY="61"/>
+    <bendpoints xmi:id="_-IZK8fdsEemfFrQZjboyUg" sourceX="-357" sourceY="-30" targetY="61"/>
     <nameVisual xmi:id="_mki4wu3tEemTPeIXaQzxMQ" text=""/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_nVOu0O3tEemTPeIXaQzxMQ" sourceAnchor="133.0,0.0" targetAnchor="322.0,67.0" target="_A5nhUe3pEemTPeIXaQzxMQ" source="_yx28ce3oEemTPeIXaQzxMQ">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_nVOu0O3tEemTPeIXaQzxMQ" sourceAnchor="133.0,0.0" targetAnchor="487.0,162.0" target="_A5nhUe3pEemTPeIXaQzxMQ" source="_yx28ce3oEemTPeIXaQzxMQ">
     <modelElement href="packageShaoeShifter.uml#_nVMSkO3tEemTPeIXaQzxMQ"/>
     <visualProperties xmi:id="_nVOu0e3tEemTPeIXaQzxMQ"/>
-    <bendpoints xmi:id="_nWjkhO3tEemTPeIXaQzxMQ" sourceY="-167" targetX="173"/>
+    <bendpoints xmi:id="_-IZyAPdsEemfFrQZjboyUg" sourceY="-254" targetX="143"/>
     <nameVisual xmi:id="_nVOu0u3tEemTPeIXaQzxMQ" text="">
-      <visualProperties xmi:id="_nWkLkO3tEemTPeIXaQzxMQ" position="-92.0,-18.99999999999997"/>
+      <visualProperties xmi:id="_nWkLkO3tEemTPeIXaQzxMQ" position="-68.0,-29.0"/>
     </nameVisual>
     <sourceRole xmi:id="_nVOu0-3tEemTPeIXaQzxMQ" aggregationKind="NONE" name="">
       <modelElement href="packageShaoeShifter.uml#_nVMSke3tEemTPeIXaQzxMQ"/>
-      <visualProperties xmi:id="_nWjkhe3tEemTPeIXaQzxMQ" position="2.0,-76.0"/>
+      <visualProperties xmi:id="_nWjkhe3tEemTPeIXaQzxMQ" position="-19.0,-113.0"/>
       <visibility xmi:id="_nVOu1O3tEemTPeIXaQzxMQ" label="+"/>
       <cardinality xmi:id="_nVOu1e3tEemTPeIXaQzxMQ" label="*" max="-1"/>
     </sourceRole>
     <targetRole xmi:id="_nVOu1u3tEemTPeIXaQzxMQ" aggregationKind="NONE" name="iShapeShifter" navigable="true">
       <modelElement href="packageShaoeShifter.uml#_nVMSlO3tEemTPeIXaQzxMQ"/>
-      <visualProperties xmi:id="_nWkLke3tEemTPeIXaQzxMQ" position="48.0,0.9999999999999716"/>
+      <visualProperties xmi:id="_nWkLke3tEemTPeIXaQzxMQ" position="7.0,2.0"/>
       <visibility xmi:id="_nVOu1-3tEemTPeIXaQzxMQ" label="+"/>
       <cardinality xmi:id="_nVOu2O3tEemTPeIXaQzxMQ" label="*" max="-1"/>
     </targetRole>
   </edges>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yheXEe3oEemTPeIXaQzxMQ" using="_lJCkEO3tEemTPeIXaQzxMQ" name="ObjetoSSSimple">
-    <modelElement href="packageShaoeShifter.uml#_yheXEO3oEemTPeIXaQzxMQ"/>
-    <visualProperties xmi:id="_yheXEu3oEemTPeIXaQzxMQ" position="91.0,315.0" size="170.0,147.0"/>
-    <visibility xmi:id="_yheXE-3oEemTPeIXaQzxMQ" label="+"/>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_A5nhUe3pEemTPeIXaQzxMQ" supplying="_lJCkEO3tEemTPeIXaQzxMQ _mki4wO3tEemTPeIXaQzxMQ" name="IShapeShifter" associationsIn="_nVOu0O3tEemTPeIXaQzxMQ">
     <modelElement href="packageShaoeShifter.uml#_A5nhUO3pEemTPeIXaQzxMQ"/>
-    <visualProperties xmi:id="_A5nhUu3pEemTPeIXaQzxMQ" position="147.0,73.0" size="322.0,134.0"/>
+    <visualProperties xmi:id="_A5nhUu3pEemTPeIXaQzxMQ" position="147.0,73.0" size="487.0,325.0"/>
     <visibility xmi:id="_A5nhU-3pEemTPeIXaQzxMQ" label="+"/>
     <operations xmi:id="_HKUqY-3pEemTPeIXaQzxMQ" name="compose">
       <modelElement href="packageShaoeShifter.uml#_HKUqYO3pEemTPeIXaQzxMQ"/>
@@ -96,7 +91,7 @@
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yx28ce3oEemTPeIXaQzxMQ" using="_mki4wO3tEemTPeIXaQzxMQ" name="ObjetoSSCompuesto" associationsOut="_nVOu0O3tEemTPeIXaQzxMQ">
     <modelElement href="packageShaoeShifter.uml#_yx28cO3oEemTPeIXaQzxMQ"/>
-    <visualProperties xmi:id="_yx28cu3oEemTPeIXaQzxMQ" position="509.0,307.0" size="206.0,148.0"/>
+    <visualProperties xmi:id="_yx28cu3oEemTPeIXaQzxMQ" position="644.0,489.0" size="206.0,148.0"/>
     <visibility xmi:id="_yx28c-3oEemTPeIXaQzxMQ" label="+"/>
     <attributes xmi:id="_nVPV4O3tEemTPeIXaQzxMQ" name="iShapeShifter">
       <modelElement href="packageShaoeShifter.uml#_nVMSlO3tEemTPeIXaQzxMQ"/>
@@ -106,5 +101,10 @@
         <modelElement href="packageShaoeShifter.uml#_A5nhUO3pEemTPeIXaQzxMQ"/>
       </type>
     </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yheXEe3oEemTPeIXaQzxMQ" using="_lJCkEO3tEemTPeIXaQzxMQ" name="ObjetoSSSimple">
+    <modelElement href="packageShaoeShifter.uml#_yheXEO3oEemTPeIXaQzxMQ"/>
+    <visualProperties xmi:id="_yheXEu3oEemTPeIXaQzxMQ" position="77.0,513.0" size="170.0,147.0"/>
+    <visibility xmi:id="_yheXE-3oEemTPeIXaQzxMQ" label="+"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
